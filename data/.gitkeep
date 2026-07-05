@@ -1,0 +1,2 @@
+# WordPress WXR export lives here as quantbuffet.WordPress.xml (~30 MB).
+# Large XML is gitignored; copy your export from Tools → Export in WP admin.

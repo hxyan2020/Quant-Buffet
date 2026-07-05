@@ -1,0 +1,265 @@
+/** QuantConnect LEAN Python patterns — layman tooltips (EN + ZH). */
+
+import { PYTHON_TIPS_EXTRA } from "./python-tooltips-extra";
+import type { PythonTip } from "./python-tip-types";
+
+export type { PythonTip } from "./python-tip-types";
+
+export const PYTHON_TIPS: PythonTip[] = [
+  {
+    syntax: "class … QCAlgorithm",
+    pattern: /\bclass\s+\w+\s*\(\s*QCAlgorithm\s*\)/,
+    en: "Your strategy is a custom class built on QuantConnect’s QCAlgorithm base. That base class supplies the clock, portfolio, data feeds, and order helpers so you only write the rules—when to buy, sell, or rebalance—instead of rebuilding a backtest engine from scratch.",
+    zh: "策略类继承 QuantConnect 的 QCAlgorithm 基类。基类提供时间、组合、行情订阅和下单接口，你只需编写买卖与调仓规则，而不必从零搭建回测引擎。",
+    className: "qb-py-tip-class",
+  },
+  {
+    syntax: "def Initialize(…)",
+    pattern: /\bdef\s+Initialize\s*\(/,
+    en: "Initialize runs once at the very start of the backtest. Here you set the date range, starting cash, benchmark, brokerage assumptions, which assets to subscribe to, and any indicators—like wiring the power before the trading day begins.",
+    zh: "Initialize 在回测开始时只运行一次，用于设置起止日期、初始资金、基准、经纪商假设、订阅标的和指标，相当于正式交易前的总开关。",
+    className: "qb-py-tip-init",
+  },
+  {
+    syntax: "def OnData(…)",
+    pattern: /\bdef\s+OnData\s*\(/,
+    en: "OnData fires whenever new market data arrives for your subscribed securities—often every bar or tick. Many strategies read the latest price here, update signals, and place orders. Think of it as the algorithm’s real-time reaction to the market.",
+    zh: "OnData 在订阅标的收到新行情时触发（每根 K 线或 tick）。策略常在此读取最新价格、更新信号并下单，相当于算法对市场的实时反应。",
+    className: "qb-py-tip-ondata",
+  },
+  {
+    syntax: "self.SetStartDate / SetEndDate",
+    pattern: /\bself\.Set(?:Start|End)Date\s*\(/,
+    en: "These set the backtest window. The engine will only simulate trades between start and end dates, which keeps results comparable to a fixed research sample and stops the test from running forever.",
+    zh: "设定回测区间。引擎只在该日期范围内模拟交易，便于在固定样本上比较结果，并避免无限延伸的回测。",
+    className: "qb-py-tip-dates",
+  },
+  {
+    syntax: "self.SetCash(…)",
+    pattern: /\bself\.SetCash\s*\(/,
+    en: "SetCash defines how much money the simulated account starts with. All position sizes and returns are scaled from this number, so changing cash does not change the strategy logic—only the dollar amounts.",
+    zh: "SetCash 设定模拟账户的初始资金。仓位和收益都据此缩放；改资金不会改变策略逻辑，只改变金额规模。",
+    className: "qb-py-tip-cash",
+  },
+  {
+    syntax: "self.AddEquity(…)",
+    pattern: /\bself\.Add(?:Equity|ETF)\s*\(/,
+    en: "AddEquity subscribes to a stock or ETF price stream. After this call, OnData can see that symbol’s bars and you can trade it. Resolution (daily, hourly, minute) controls how granular the data is.",
+    zh: "AddEquity 订阅股票或 ETF 行情，之后 OnData 能收到该标的 K 线并可交易。Resolution 决定数据粒度（日、小时、分钟等）。",
+    className: "qb-py-tip-equity",
+  },
+  {
+    syntax: "self.AddForex(…)",
+    pattern: /\bself\.AddForex\s*\(/,
+    en: "AddForex adds a currency pair such as EURUSD to the algorithm. FX strategies use these feeds for carry, momentum, or macro signals across foreign exchange markets.",
+    zh: "AddForex 添加外汇对（如 EURUSD）。外汇策略用这些行情做利差、动量或宏观类信号。",
+    className: "qb-py-tip-forex",
+  },
+  {
+    syntax: "self.AddCrypto(…)",
+    pattern: /\bself\.AddCrypto\s*\(/,
+    en: "AddCrypto subscribes to digital asset markets (for example BTCUSD). Crypto trades 24/7 on many venues, so date rules and data resolution matter more than for equities.",
+    zh: "AddCrypto 订阅加密货币市场（如 BTCUSD）。加密市场常 24 小时交易，调度规则与数据粒度比股票更重要。",
+    className: "qb-py-tip-crypto",
+  },
+  {
+    syntax: "self.AddFuture(…)",
+    pattern: /\bself\.AddFuture\s*\(/,
+    en: "AddFuture connects the algorithm to futures contracts (indices, commodities, rates). You often map a continuous symbol or roll contracts so the backtest does not break when one expiry ends.",
+    zh: "AddFuture 接入期货（指数、商品、利率等）。通常映射连续合约或处理展期，避免到期导致回测中断。",
+    className: "qb-py-tip-future",
+  },
+  {
+    syntax: "Resolution.",
+    pattern: /\bResolution\.\w+/,
+    en: "Resolution tells QuantConnect how fine each data bar is—Daily, Hour, Minute, etc. Coarser data is faster to backtest; finer data captures intraday timing but costs more compute.",
+    zh: "Resolution 指定 K 线粒度（Daily、Hour、Minute 等）。粗粒度回测更快；细粒度能刻画日内时点但计算更重。",
+    className: "qb-py-tip-resolution",
+  },
+  {
+    syntax: "self.SetHoldings(…)",
+    pattern: /\bself\.SetHoldings\s*\(/,
+    en: "SetHoldings targets a portfolio weight—for example 0.5 means half of equity in that asset. The engine converts weights into orders and handles rounding. It is the usual way to express allocation rules in QuantConnect.",
+    zh: "SetHoldings 设定目标仓位比例，如 0.5 表示一半资金配置该资产。引擎会换算为订单并处理取整，是 QC 中最常见的配置方式。",
+    className: "qb-py-tip-holdings",
+  },
+  {
+    syntax: "self.Liquidate(…)",
+    pattern: /\bself\.Liquidate\s*\(/,
+    en: "Liquidate closes open positions—one symbol or the whole book. Strategies use it at period end, on stop signals, or before switching regimes so old trades do not linger.",
+    zh: "Liquidate 平仓（单标的或全部）。常用于期末、止损或切换 regime 前，避免旧仓位残留。",
+    className: "qb-py-tip-liquidate",
+  },
+  {
+    syntax: "MarketOrder / LimitOrder",
+    pattern: /\b(?:Market|Limit|StopMarket)Order\s*\(/,
+    en: "These place explicit orders: market fills at the current price, limit waits for your price, stops trigger risk exits. SetHoldings is simpler; manual orders give precise control over timing and size.",
+    zh: "显式下单：市价按当前价成交，限价等待指定价，止损用于风控。SetHoldings 更简单；手动订单可精确控制时机与数量。",
+    className: "qb-py-tip-order",
+  },
+  {
+    syntax: "self.History(…)",
+    pattern: /\bself\.History\s*\(/,
+    en: "History pulls past bars in one batch—useful for computing signals at Initialize or on rebalance days without waiting bar-by-bar in OnData. It returns a pandas-friendly table of OHLCV data.",
+    zh: "History 批量拉取历史 K 线，适合在 Initialize 或调仓日一次性算信号，而不必在 OnData 里逐根等待。返回便于 pandas 处理的 OHLCV 表。",
+    className: "qb-py-tip-history",
+  },
+  {
+    syntax: "self.Download(…)",
+    pattern: /\bself\.Download\s*\(/,
+    en: "Download fetches external files (CSV, JSON, custom signals) from a URL into the backtest environment. Academic strategies often merge paper data with prices this way.",
+    zh: "Download 从网址拉取外部文件（CSV、JSON、自定义信号）到回测环境。学术论文策略常用此法合并作者数据与价格。",
+    className: "qb-py-tip-download",
+  },
+  {
+    syntax: "Schedule.On(…)",
+    pattern: /\bSchedule\.On\s*\(/,
+    en: "Schedule.On runs a function at calendar times—month-end rebalance, week open, etc.—instead of on every tick. Pair it with date_rules and time_rules so code fires when you intend, not on every price update.",
+    zh: "Schedule.On 在日历时点执行函数（如月末调仓），而非每个 tick。配合 date_rules 与 time_rules，在预期时刻运行而非每次价格更新。",
+    className: "qb-py-tip-schedule",
+  },
+  {
+    syntax: "date_rules.",
+    pattern: /\bdate_rules\.\w+/,
+    en: "date_rules choose which days trigger a scheduled event—every day, start of month, specific dates, etc. It is the calendar half of QuantConnect’s scheduler.",
+    zh: "date_rules 决定哪些日期触发计划任务（每天、月初、指定日等），是 QC 调度器的“日期”部分。",
+    className: "qb-py-tip-daterules",
+  },
+  {
+    syntax: "time_rules.",
+    pattern: /\btime_rules\.\w+/,
+    en: "time_rules pick the clock time—market open, close, noon, or N minutes after open. Combined with date_rules you get precise event timing without cluttering OnData.",
+    zh: "time_rules 选择时刻（开盘、收盘、盘中或开盘后 N 分钟）。与 date_rules 组合即可精确定时，而不必堆在 OnData 里。",
+    className: "qb-py-tip-timerules",
+  },
+  {
+    syntax: "self.SetWarmup(…)",
+    pattern: /\bself\.SetWarmup\s*\(/,
+    en: "Warmup feeds historical bars before the official start so indicators (moving averages, volatility) are ready on day one. Without warmup, early signals can be distorted by empty windows.",
+    zh: "Warmup 在正式开始前预灌历史 K 线，使均线、波动率等指标首日即可用。无 warmup 时初期信号可能因窗口为空而失真。",
+    className: "qb-py-tip-warmup",
+  },
+  {
+    syntax: "self.SetBenchmark(…)",
+    pattern: /\bself\.SetBenchmark\s*\(/,
+    en: "The benchmark is the yardstick for performance charts—often SPY or an index. Alpha and comparison stats in reports are measured relative to this series.",
+    zh: "基准用于业绩对比曲线（常为 SPY 或指数）。报告中的超额收益等相对该序列衡量。",
+    className: "qb-py-tip-benchmark",
+  },
+  {
+    syntax: "self.SetBrokerageModel(…)",
+    pattern: /\bself\.SetBrokerageModel\s*\(/,
+    en: "Brokerage model approximates fees, slippage, margin, and fill rules for a broker type. More realistic models reduce the gap between backtest and live trading, especially for futures and FX.",
+    zh: "经纪商模型模拟手续费、滑点、保证金与成交规则。越贴近实盘，回测与实盘差距越小，期货/外汇尤其明显。",
+    className: "qb-py-tip-broker",
+  },
+  {
+    syntax: "RollingWindow",
+    pattern: /\bRollingWindow\s*[<(]/,
+    en: "RollingWindow keeps the last N values of a series in a fixed-length queue—handy for rank, momentum, or custom stats that only need recent history without full pandas overhead.",
+    zh: "RollingWindow 用定长队列保存最近 N 个值，适合排名、动量等只需近期历史的计算，无需完整 pandas 开销。",
+    className: "qb-py-tip-window",
+  },
+  {
+    syntax: "SMA / EMA / RSI / MACD",
+    pattern: /\b(?:SMA|EMA|RSI|MACD|BB|BollingerBands)\s*\(/,
+    en: "Built-in indicators smooth or transform price series—trend (SMA/EMA), momentum (RSI/MACD), volatility bands (Bollinger). Register them in Initialize and read .Current.Value in OnData or scheduled events.",
+    zh: "内置指标平滑或变换价格：趋势（SMA/EMA）、动量（RSI/MACD）、波动带（Bollinger）。在 Initialize 注册，在 OnData 或定时任务中读 .Current.Value。",
+    className: "qb-py-tip-indicator",
+  },
+  {
+    syntax: "self.Indicator",
+    pattern: /\bself\.(?:RegisterIndicator|Indicators?)\b/,
+    en: "Indicators must be registered and updated with price data. QuantConnect can auto-update them when you pass a security, or you update manually—either way they expose a current value for trading rules.",
+    zh: "指标需注册并用价格更新。QC 可随证券自动更新，也可手动更新；最终通过当前值驱动交易规则。",
+    className: "qb-py-tip-indreg",
+  },
+  {
+    syntax: "Symbol / Symbol.Create",
+    pattern: /\bSymbol\.(?:Create|CreateOption)|\bself\.Symbol\s*\(/,
+    en: "Symbol objects uniquely identify tradable instruments in LEAN. Create them from tickers plus market and security type so orders and data subscriptions refer to the same asset.",
+    zh: "Symbol 在 LEAN 中唯一标识可交易标的。由代码、市场与证券类型创建，保证下单与订阅指向同一资产。",
+    className: "qb-py-tip-symbol",
+  },
+  {
+    syntax: "self.Securities",
+    pattern: /\bself\.Securities\s*\[/,
+    en: "self.Securities[symbol] exposes live price, holdings, and fee models for one subscribed asset. Useful for reading last price, invested flag, or lot size without a separate data slice.",
+    zh: "self.Securities[symbol] 提供该标的的最新价、持仓与费用模型，便于读取价格、是否持仓等，无需单独切片。",
+    className: "qb-py-tip-securities",
+  },
+  {
+    syntax: "self.Portfolio",
+    pattern: /\bself\.Portfolio\b/,
+    en: "Portfolio aggregates cash, total value, margin used, and per-symbol holdings. Risk checks—leverage caps, cash buffers—usually read from here before placing orders.",
+    zh: "Portfolio 汇总现金、总资产、保证金与各标的持仓。杠杆上限、现金缓冲等风控常在此读取后再下单。",
+    className: "qb-py-tip-portfolio",
+  },
+  {
+    syntax: "self.Time / UtcTime",
+    pattern: /\bself\.(?:Time|UtcTime)\b/,
+    en: "self.Time is the simulated clock in exchange timezone; UtcTime is UTC. Use them to avoid trading on weekends, to align with publication dates, or to match paper methodology.",
+    zh: "self.Time 为交易所时区的模拟时钟，UtcTime 为 UTC。用于避开周末交易、对齐发布日或复现论文时点。",
+    className: "qb-py-tip-time",
+  },
+  {
+    syntax: "Coarse/Fine Universe",
+    pattern: /\b(?:Coarse|Fine)SelectionFunction|AddUniverse\s*\(/,
+    en: "Universe selection dynamically picks which stocks enter the pool each day—classic in cross-sectional factors. Coarse filters liquidity and price; fine adds fundamentals before your alpha model ranks names.",
+    zh: "Universe 动态决定每日股票池，常见于截面因子。Coarse 筛流动性与价格；Fine 加入基本面，再由 alpha 模型排序选股。",
+    className: "qb-py-tip-universe",
+  },
+  {
+    syntax: "QCAlgorithmFramework",
+    pattern: /\b(?:QCAlgorithmFramework|AlphaModel|PortfolioConstructionModel)\b/,
+    en: "The framework splits research into alpha (signals), portfolio construction (weights), execution, and risk modules. Teams reuse pieces across strategies instead of one monolithic OnData block.",
+    zh: "框架将研究拆为 alpha（信号）、组合构建、执行与风控模块，便于团队复用组件，而非单一巨大 OnData。",
+    className: "qb-py-tip-framework",
+  },
+  {
+    syntax: "Consolidator",
+    pattern: /\bConsolidator\b|\bRegisterConsolidator\b/,
+    en: "Consolidators build larger bars from smaller ones—e.g. 5-minute bars from minute data. They let you run logic on custom timeframes without changing the base subscription resolution.",
+    zh: "Consolidator 由小周期合成大周期 K 线（如用分钟合成 5 分钟）。可在不改变基础订阅粒度的情况下按自定义周期运行逻辑。",
+    className: "qb-py-tip-consolidator",
+  },
+  {
+    syntax: "import pandas",
+    pattern: /\bimport\s+pandas\b|\bpd\./,
+    en: "pandas is the standard table tool for loading, cleaning, merging, and reshaping data—ranking cross-sections, pivoting signals, or aligning external CSV columns with QuantConnect price bars.",
+    zh: "pandas 用于加载、清洗、合并与整理表格数据——截面排名、透视信号或将外部 CSV 与 QC 价格对齐。",
+    className: "qb-py-tip-pandas",
+  },
+  {
+    syntax: "import numpy",
+    pattern: /\bimport\s+numpy\b|\bnp\./,
+    en: "numpy provides fast vector math on arrays—returns, logs, ranks, and linear algebra across thousands of symbols at once, which is essential for quantitative signal pipelines.",
+    zh: "numpy 提供快速向量运算——收益、对数、排名与线性代数，可一次处理数千标的，是量化信号流水线的基础。",
+    className: "qb-py-tip-numpy",
+  },
+  {
+    syntax: "from AlgorithmImports import *",
+    pattern: /\bfrom\s+AlgorithmImports\s+import\b/,
+    en: "AlgorithmImports pulls in QuantConnect types—QCAlgorithm, Resolution, indicators, brokerage models—in one line so notebook-style scripts stay short and match QuantConnect cloud templates.",
+    zh: "AlgorithmImports 一行导入 QCAlgorithm、Resolution、指标、经纪商模型等，使脚本简短并与 QuantConnect 云端模板一致。",
+    className: "qb-py-tip-imports",
+  },
+];
+
+export const PYTHON_TIPS_ALL: PythonTip[] = [...PYTHON_TIPS, ...PYTHON_TIPS_EXTRA];
+
+export const PYTHON_TIP_COUNT = PYTHON_TIPS_ALL.length;
+
+export function getPythonTooltipCatalog() {
+  return PYTHON_TIPS_ALL.map((tip, index) => ({
+    id: index + 1,
+    syntax: tip.syntax,
+    pattern: tip.pattern.source,
+    flags: tip.pattern.flags,
+    en: tip.en,
+    zh: tip.zh,
+    className: tip.className,
+    enWordCount: tip.en.split(/\s+/).length,
+    zhCharCount: tip.zh.length,
+  }));
+}

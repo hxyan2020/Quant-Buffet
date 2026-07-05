@@ -1,0 +1,56 @@
+{
+  "name": "quant-buffet-local",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3088",
+    "build": "next build",
+    "start": "next start -p 3088",
+    "lint": "eslint",
+    "db:seed": "prisma db seed",
+    "import:wxr": "tsx scripts/import-wxr.ts --replace",
+    "import:wxr:dry": "tsx scripts/import-wxr.ts --dry-run",
+    "import:library": "tsx scripts/import-library-sheets.ts",
+    "admin:scan-python": "tsx scripts/scan-python-code.ts",
+    "admin:enrich": "tsx scripts/enrich-from-content.ts",
+    "admin:restructure": "tsx scripts/restructure-all-strategies.ts",
+    "admin:backfill-dates": "tsx scripts/backfill-wp-dates.ts",
+    "admin:set-half-free": "tsx scripts/set-half-free.ts",
+    "postinstall": "prisma generate"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.11.2",
+    "@formatjs/intl-localematcher": "^0.8.8",
+    "@prisma/client": "5.22.0",
+    "bcryptjs": "^3.0.3",
+    "highlight.js": "^11.11.1",
+    "negotiator": "^1.0.0",
+    "next": "16.2.6",
+    "next-auth": "^5.0.0-beta.31",
+    "next-intl": "^4.12.0",
+    "openai": "^6.38.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "stripe": "^22.1.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@swc/helpers": "^0.5.21",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/negotiator": "^0.6.4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "prisma": "5.22.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.3",
+    "typescript": "^5"
+  }
+}
