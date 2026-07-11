@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 
 type Labels = {
   profile: string;
+  profileShort: string;
   collected: string;
   plan: string;
   billing: string;
@@ -61,9 +62,11 @@ export default function ProfileMenu({
         className="qb-profile-btn"
         aria-expanded={open}
         aria-haspopup="menu"
+        aria-label={labels.profile}
         onClick={() => setOpen((value) => !value)}
       >
-        {labels.profile}
+        <span className="qb-profile-label-full">{labels.profile}</span>
+        <span className="qb-profile-label-short">{labels.profileShort}</span>
       </button>
       {open ?
         <div className="qb-profile-menu" role="menu">

@@ -1,3 +1,4 @@
+import type { Metadata, Viewport } from "next";
 import type { PropsWithChildren } from "react";
 import { IBM_Plex_Mono, Inter } from "next/font/google";
 
@@ -13,6 +14,16 @@ const mono = IBM_Plex_Mono({
   variable: "--font-qb-mono",
   weight: ["400", "600"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
+export const metadata: Metadata = {
+  title: "Quant Buffet",
+};
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (

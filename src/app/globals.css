@@ -12,6 +12,16 @@
   --qb-max: 1400px;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: clip;
+}
+
 html,
 body {
   min-height: 100%;
@@ -59,8 +69,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.25rem;
-  padding: 0.65rem 1.25rem;
+  gap: 0.75rem;
+  padding: 0.55rem 0.85rem;
   border-radius: 999px;
   background: #f3f4f6;
   color: #111827;
@@ -70,12 +80,15 @@ a {
 .qb-brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
   min-width: 0;
+  flex: 1 1 auto;
 }
 
 .qb-brand-logo {
   flex-shrink: 0;
+  width: 28px;
+  height: 28px;
 }
 
 .qb-brand-text {
@@ -84,10 +97,12 @@ a {
 
 .qb-brand-name {
   display: block;
-  font-size: 1.15rem;
+  overflow: hidden;
+  font-size: 1rem;
   font-weight: 700;
   color: #111827;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .qb-brand-tagline {
@@ -124,16 +139,30 @@ a {
 
 .qb-nav-mobile {
   display: flex;
-  gap: 1rem;
+  gap: 0.35rem;
   overflow-x: auto;
-  margin-top: 0.5rem;
-  padding: 0.5rem 0.25rem;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+  margin-top: 0.35rem;
+  padding: 0.15rem 0.15rem 0.35rem;
   pointer-events: auto;
+  scrollbar-width: none;
+}
+
+.qb-nav-mobile::-webkit-scrollbar {
+  display: none;
 }
 
 .qb-nav-mobile .qb-nav-link {
-  font-size: 0.9rem;
-  color: #d1d5db;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  color: #e5e7eb;
+  background: rgba(255, 255, 255, 0.06);
+  scroll-snap-align: start;
 }
 
 .qb-locale-wrap,
@@ -145,14 +174,24 @@ a {
 .qb-profile-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 40px;
   border: none;
   border-radius: 999px;
-  padding: 0.5rem 0.9rem;
-  font-size: 0.9rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
+}
+
+.qb-profile-label-full {
+  display: none;
+}
+
+.qb-profile-label-short {
+  display: inline;
 }
 
 .qb-locale-btn {
@@ -166,6 +205,7 @@ a {
 }
 
 .qb-locale-label {
+  display: none;
   font-size: 0.85rem;
   font-weight: 600;
   color: #374151;
@@ -232,6 +272,38 @@ a {
 @media (min-width: 640px) {
   .qb-brand-tagline {
     display: block;
+  }
+
+  .qb-brand-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .qb-brand-name {
+    font-size: 1.15rem;
+  }
+
+  .qb-header-pill {
+    gap: 1.25rem;
+    padding: 0.65rem 1.25rem;
+  }
+
+  .qb-locale-label {
+    display: inline;
+  }
+
+  .qb-profile-label-full {
+    display: inline;
+  }
+
+  .qb-profile-label-short {
+    display: none;
+  }
+
+  .qb-locale-btn,
+  .qb-profile-btn {
+    padding: 0.5rem 0.9rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -363,26 +435,31 @@ a {
 /* ========== Floating footer pills ========== */
 .qb-footer-float-bar {
   position: fixed;
-  bottom: 1.25rem;
+  bottom: max(1rem, env(safe-area-inset-bottom, 0px));
   left: 50%;
   z-index: 40;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: max-content;
+  max-width: calc(100vw - 1.5rem);
   transform: translateX(-50%);
-  gap: 0.75rem;
+  gap: 0.5rem;
   pointer-events: none;
 }
 
 .qb-footer-pill {
   pointer-events: auto;
-  padding: 0.7rem 1.35rem;
+  min-height: 44px;
+  padding: 0.65rem 1.1rem;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
   background: rgba(28, 28, 30, 0.78);
   backdrop-filter: blur(14px);
   color: #fff;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   cursor: pointer;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
 }
@@ -481,7 +558,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
+  padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
   background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(8px);
   pointer-events: auto;
@@ -491,6 +568,8 @@ a {
   position: relative;
   width: 100%;
   max-width: 26rem;
+  max-height: min(90dvh, 640px);
+  overflow-y: auto;
   padding: 2rem 1.75rem 1.5rem;
   border-radius: 1.25rem;
   background: #fff;
@@ -620,7 +699,7 @@ a {
   border-radius: 0.5rem;
   background: #fafafa;
   color: #111827;
-  font-size: 0.95rem;
+  font-size: 16px;
 }
 
 .qb-auth-submit {
@@ -653,17 +732,31 @@ a {
 /* ========== Account ========== */
 .qb-account-nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.25rem;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  scrollbar-width: none;
+}
+
+.qb-account-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .qb-account-nav-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 44px;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
   font-size: 0.85rem;
   font-weight: 600;
   color: #8caacf;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .qb-account-nav-link.is-active,
@@ -792,11 +885,12 @@ a.qb-secondary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  min-height: 44px;
   background: transparent;
   color: #fff;
   border: 1px solid #294152;
   border-radius: 999px;
-  padding: 0.5rem 1.2rem;
+  padding: 0.55rem 1.2rem;
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
@@ -853,9 +947,77 @@ table.qb-grid tbody tr:hover {
 
 .qb-table-wrap {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(5, 8, 12, 0.9);
+  min-width: 0;
+}
+
+.qb-strategy-title-cell {
+  font-weight: 500;
+  color: #fff;
+  max-width: 14rem;
+}
+
+@media (max-width: 767px) {
+  table.qb-library-grid th:nth-child(5),
+  table.qb-library-grid td:nth-child(5),
+  table.qb-library-grid th:nth-child(6),
+  table.qb-library-grid td:nth-child(6),
+  table.qb-library-grid th:nth-child(7),
+  table.qb-library-grid td:nth-child(7),
+  table.qb-library-grid th:nth-child(8),
+  table.qb-library-grid td:nth-child(8),
+  table.qb-library-grid th:nth-child(10),
+  table.qb-library-grid td:nth-child(10) {
+    display: none;
+  }
+
+  .qb-strategy-title-cell {
+    max-width: 9.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .qb-search-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .qb-search-actions .qb-pill-primary,
+  .qb-search-actions .qb-secondary {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .qb-hero-cta {
+    margin-top: 2rem;
+  }
+
+  .qb-pricing-cta .qb-pill-primary {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .qb-pricing-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .qb-article-title {
+    font-size: clamp(1.5rem, 6vw, 2.25rem);
+  }
+
+  .qb-article-meta {
+    letter-spacing: 0.2em;
+  }
+
+  .qb-legal-modal {
+    padding: 1.25rem;
+  }
 }
 
 .qb-search-row {
@@ -863,6 +1025,13 @@ table.qb-grid tbody tr:hover {
   grid-template-columns: 1fr;
   gap: 1rem 1.25rem;
   margin-bottom: 1.5rem;
+}
+
+.qb-search-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: end;
 }
 
 .qb-filter-field {
@@ -972,11 +1141,15 @@ table.qb-grid tbody tr:hover {
 
 @media (min-width: 1024px) {
   .qb-search-row {
-    grid-template-columns: 2fr minmax(9rem, 1fr) minmax(9rem, 1fr) minmax(9rem, 1fr) auto auto;
+    grid-template-columns: 2fr minmax(9rem, 1fr) minmax(9rem, 1fr) minmax(9rem, 1fr) auto;
   }
 
   .qb-filter-field-grow {
     grid-column: auto;
+  }
+
+  .qb-search-actions {
+    width: auto;
   }
 }
 
@@ -1268,7 +1441,7 @@ table.qb-grid tbody tr:hover {
 
 .qb-article-title {
   margin: 1rem 0 0;
-  font-size: 2.25rem;
+  font-size: clamp(1.5rem, 6vw, 2.25rem);
   font-weight: 600;
 }
 
@@ -1935,13 +2108,16 @@ table.qb-grid tbody tr:hover {
 }
 
 .qb-collect-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   border: none;
   background: transparent;
   color: var(--qb-accent);
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
-  padding: 0;
+  padding: 0.35rem 0.5rem;
 }
 
 .qb-collect-link.is-active {
@@ -2116,8 +2292,8 @@ table.qb-grid tbody tr:hover {
 
 .qb-ai-fab {
   position: fixed;
-  right: 1.25rem;
-  bottom: 1.25rem;
+  right: 1rem;
+  bottom: max(5.5rem, calc(env(safe-area-inset-bottom, 0px) + 5rem));
   z-index: 40;
   display: flex;
   align-items: center;

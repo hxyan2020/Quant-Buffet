@@ -229,28 +229,29 @@ export default function StrategyLibraryTable({
             ))}
           </select>
         </div>
-        <button type="submit" className="qb-pill-primary" disabled={pending} style={{ flexShrink: 0 }}>
-          {labels.apply}
-        </button>
-        <button
-          type="button"
-          className="qb-secondary"
-          disabled={pending}
-          style={{ flexShrink: 0 }}
-          onClick={() =>
-            pushParams({
-              page: 1,
-              q: "",
-              market: "",
-              region: "",
-              assetClass: "",
-              plan: "",
-              collection: "",
-            })
-          }
-        >
-          {labels.clear}
-        </button>
+        <div className="qb-search-actions">
+          <button type="submit" className="qb-pill-primary" disabled={pending}>
+            {labels.apply}
+          </button>
+          <button
+            type="button"
+            className="qb-secondary"
+            disabled={pending}
+            onClick={() =>
+              pushParams({
+                page: 1,
+                q: "",
+                market: "",
+                region: "",
+                assetClass: "",
+                plan: "",
+                collection: "",
+              })
+            }
+          >
+            {labels.clear}
+          </button>
+        </div>
       </form>
 
       <p className="qb-muted" style={{ fontSize: "0.75rem", letterSpacing: "0.2em", textTransform: "uppercase" }}>
@@ -258,7 +259,7 @@ export default function StrategyLibraryTable({
       </p>
 
       <div className="qb-table-wrap" style={{ marginTop: "1rem" }}>
-        <table className="qb-grid">
+        <table className="qb-grid qb-library-grid">
           <thead>
             <tr>
               <th>{labels.colNo}</th>
@@ -284,7 +285,7 @@ export default function StrategyLibraryTable({
             : rows.map((strategy, index) => (
                 <tr key={strategy.id}>
                   <td style={{ color: "#8ca0b8", whiteSpace: "nowrap" }}>{startNo + index}</td>
-                  <td style={{ fontWeight: 500, color: "#fff", minWidth: "220px" }}>{strategy.title}</td>
+                  <td className="qb-strategy-title-cell">{strategy.title}</td>
                   <td style={{ whiteSpace: "nowrap" }}>{strategy.annualisedReturn ?? "—"}</td>
                   <td style={{ whiteSpace: "nowrap" }}>{strategy.sharpeRatio ?? "—"}</td>
                   <td>{formatTokenList(strategy.region)}</td>

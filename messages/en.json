@@ -15,6 +15,7 @@
   },
   "profile": {
     "title": "My Profile",
+    "titleShort": "Profile",
     "collected": "Collected Strategies",
     "plan": "My Plan",
     "billing": "Billing History",

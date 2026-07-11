@@ -15,6 +15,7 @@
   },
   "profile": {
     "title": "我的资料",
+    "titleShort": "我的",
     "collected": "收藏策略",
     "plan": "我的方案",
     "billing": "账单记录",

@@ -36,6 +36,7 @@ export async function SiteHeader({ locale }: Props) {
       navLinks={navLinks}
       profileLabels={{
         profile: profile("title"),
+        profileShort: profile("titleShort"),
         collected: profile("collected"),
         plan: profile("plan"),
         billing: profile("billing"),

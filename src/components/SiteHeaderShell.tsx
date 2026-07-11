@@ -16,6 +16,7 @@ type Props = {
   navLinks: NavLink[];
   profileLabels: {
     profile: string;
+    profileShort: string;
     collected: string;
     plan: string;
     billing: string;

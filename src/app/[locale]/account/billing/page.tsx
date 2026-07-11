@@ -20,26 +20,28 @@ export default async function BillingHistoryPage({ params }: PageProps) {
       {rows.length === 0 ?
         <p className="qb-muted">{dictionary("billingEmpty")}</p>
       : (
-        <table className="qb-grid">
-          <thead>
-            <tr>
-              <th>{dictionary("billingStatus")}</th>
-              <th>{dictionary("billingTier")}</th>
-              <th>Stripe</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((row) => (
-              <tr key={row.id}>
-                <td>{row.status}</td>
-                <td>{row.tier}</td>
-                <td style={{ fontSize: "0.75rem", color: "#8caacf" }}>
-                  {row.stripePaymentIntentId ?? row.stripeCheckoutSession ?? "—"}
-                </td>
+        <div className="qb-table-wrap">
+          <table className="qb-grid">
+            <thead>
+              <tr>
+                <th>{dictionary("billingStatus")}</th>
+                <th>{dictionary("billingTier")}</th>
+                <th>Stripe</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {rows.map((row) => (
+                <tr key={row.id}>
+                  <td>{row.status}</td>
+                  <td>{row.tier}</td>
+                  <td style={{ fontSize: "0.75rem", color: "#8caacf", wordBreak: "break-all" }}>
+                    {row.stripePaymentIntentId ?? row.stripeCheckoutSession ?? "—"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       )}
     </div>
   );
