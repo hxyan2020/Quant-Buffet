@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=国际贸易动量策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i28i00j5xlb0t7tyahif.py
+Fidelity: no_qc_theme_proxy

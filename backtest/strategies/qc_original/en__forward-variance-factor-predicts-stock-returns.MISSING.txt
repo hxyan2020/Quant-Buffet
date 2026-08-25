@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=forward-variance-factor-predicts-stock-returns
+In-house reconstruction: backtest/strategies/generated/en__forward-variance-factor-predicts-stock-returns.py
+Fidelity: no_qc_theme_proxy

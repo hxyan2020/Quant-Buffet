@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=离岸销售网络
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ilo5019fxlb0ebkj7e39.py
+Fidelity: no_qc_theme_proxy

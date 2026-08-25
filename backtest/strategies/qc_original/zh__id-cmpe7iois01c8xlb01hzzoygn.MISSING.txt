@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=跨境并购与货币收益
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iois01c8xlb01hzzoygn.py
+Fidelity: no_qc_theme_proxy

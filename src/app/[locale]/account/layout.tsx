@@ -1,11 +1,29 @@
+import type { Metadata } from "next";
 import type { PropsWithChildren } from "react";
 import { redirect } from "next/navigation";
 
 import { auth } from "@/auth";
 import AccountNav from "@/components/AccountNav";
+import { pageMetadata } from "@/lib/seo";
 import { getTranslations } from "next-intl/server";
 
 type Props = PropsWithChildren<{ params: Promise<{ locale: string }> }>;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const seo = await getTranslations({ locale, namespace: "seo" });
+  return pageMetadata({
+    locale,
+    path: "/account",
+    title: seo("accountTitle"),
+    description: seo("accountDescription"),
+    noIndex: true,
+  });
+}
 
 export default async function AccountLayout({ children, params }: Props) {
   const { locale } = await params;

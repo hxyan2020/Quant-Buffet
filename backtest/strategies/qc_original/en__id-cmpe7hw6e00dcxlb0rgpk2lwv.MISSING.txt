@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=总动量溢出因子预测股票收益策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hw6e00dcxlb0rgpk2lwv.py
+Fidelity: no_qc_theme_proxy

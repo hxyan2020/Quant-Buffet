@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predicting-bond-returns-with-a-combined-model
+In-house reconstruction: backtest/strategies/generated/en__predicting-bond-returns-with-a-combined-model.py
+Fidelity: no_qc_theme_proxy

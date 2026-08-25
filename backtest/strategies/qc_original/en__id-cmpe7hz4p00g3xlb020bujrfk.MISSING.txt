@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=总统财政新闻与股票回报的跨类别分析
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hz4p00g3xlb020bujrfk.py
+Fidelity: no_qc_theme_proxy

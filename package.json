@@ -15,7 +15,10 @@
     "admin:enrich": "tsx scripts/enrich-from-content.ts",
     "admin:restructure": "tsx scripts/restructure-all-strategies.ts",
     "admin:backfill-dates": "tsx scripts/backfill-wp-dates.ts",
-    "admin:set-half-free": "tsx scripts/set-half-free.ts",
+    "admin:apply-paywall-mix": "tsx scripts/apply-paywall-mix.ts",
+    "admin:restore-screenshots": "tsx scripts/restore-paper-screenshots.ts",
+    "admin:audit-execution": "python scripts/audit-execution.py",
+    "admin:promote-lab": "tsx scripts/promote-lab-to-production.ts",
     "postinstall": "prisma generate"
   },
   "prisma": {

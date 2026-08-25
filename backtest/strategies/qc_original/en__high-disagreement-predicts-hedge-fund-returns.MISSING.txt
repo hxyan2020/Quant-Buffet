@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=high-disagreement-predicts-hedge-fund-returns
+In-house reconstruction: backtest/strategies/generated/en__high-disagreement-predicts-hedge-fund-returns.py
+Fidelity: no_qc_theme_proxy

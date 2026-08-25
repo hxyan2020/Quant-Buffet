@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=美元-欧元货币对中的利率差异与动态非对称性策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iech00zgxlb0u4oie6os.py
+Fidelity: no_qc_theme_proxy

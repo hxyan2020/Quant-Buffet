@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=timing-sp500-using-full-vs-partial-employment
+In-house reconstruction: backtest/strategies/generated/en__timing-sp500-using-full-vs-partial-employment.py
+Fidelity: no_qc_theme_proxy

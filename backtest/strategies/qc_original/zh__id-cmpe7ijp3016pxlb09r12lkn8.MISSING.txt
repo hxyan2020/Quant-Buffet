@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=交易原油期限结构
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ijp3016pxlb09r12lkn8.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=隔夜反转现象与新闻非对称反应策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hz7k00g7xlb0d4fttuzl.py
+Fidelity: no_qc_theme_proxy

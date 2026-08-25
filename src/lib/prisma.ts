@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client";
 
 /** Bump when Prisma schema changes so dev HMR does not reuse a stale client. */
-const PRISMA_CLIENT_GENERATION = 7;
+const PRISMA_CLIENT_GENERATION = 8;
 
 type GlobalPrisma = {
   prismaClient?: PrismaClient;

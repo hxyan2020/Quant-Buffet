@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=when-hedge-and-non-hedge-funds-disagree
+In-house reconstruction: backtest/strategies/generated/en__when-hedge-and-non-hedge-funds-disagree.py
+Fidelity: no_qc_theme_proxy

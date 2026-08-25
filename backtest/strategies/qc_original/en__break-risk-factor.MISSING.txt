@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=break-risk-factor
+In-house reconstruction: backtest/strategies/generated/en__break-risk-factor.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=大型美国公司债券短期反转
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ilw6019pxlb05gtluzfc.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=非专业分析师能力的横截面分析
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7inyu01brxlb068ex8ssb.py
+Fidelity: no_qc_theme_proxy

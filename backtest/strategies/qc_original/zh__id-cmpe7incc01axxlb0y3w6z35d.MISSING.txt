@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=公司债券价值策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7incc01axxlb0y3w6z35d.py
+Fidelity: no_qc_theme_proxy

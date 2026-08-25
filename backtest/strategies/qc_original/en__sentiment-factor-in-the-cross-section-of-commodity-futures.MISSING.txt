@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=sentiment-factor-in-the-cross-section-of-commodity-futures
+In-house reconstruction: backtest/strategies/generated/en__sentiment-factor-in-the-cross-section-of-commodity-futures.py
+Fidelity: signal_unavailable_etf_proxy

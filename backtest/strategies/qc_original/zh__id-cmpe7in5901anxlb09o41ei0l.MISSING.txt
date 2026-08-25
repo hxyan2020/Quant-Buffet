@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=股票因子与公司债券
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7in5901anxlb09o41ei0l.py
+Fidelity: no_qc_theme_proxy

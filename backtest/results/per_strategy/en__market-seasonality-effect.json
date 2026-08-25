@@ -1,0 +1,40 @@
+{
+  "slug": "market-seasonality-effect",
+  "title": "Global Equity Rotation Strategy Based on Seasonal Market Timing",
+  "template": "sma_trend",
+  "fidelity": "reconstructed_etf_rules",
+  "data_source": {
+    "provider": "Yahoo Finance",
+    "library": "yfinance",
+    "field": "adjusted close (auto_adjust=True)",
+    "loader": "backtest.data.load_daily_prices",
+    "cache_dir": "backtest/data_cache",
+    "symbols": [
+      "SPY",
+      "SHY"
+    ],
+    "history_start": "2000-01-01"
+  },
+  "metrics": {
+    "start": "2000-10-16",
+    "end": "2026-07-31",
+    "years": 25.79,
+    "start_equity": 100000.0,
+    "end_equity": 342278.05,
+    "total_return": 2.42278,
+    "cagr": 0.048871,
+    "volatility": 0.074001,
+    "sharpe": 0.682,
+    "sortino": 1.0106,
+    "max_drawdown": -0.267603,
+    "calmar": 0.1826,
+    "daily_win_rate": 0.4833,
+    "trades": 474,
+    "benchmark_total_return": 7.563631,
+    "benchmark_cagr": 0.086842,
+    "alpha": 0.026179,
+    "beta": 0.2391
+  },
+  "trades": 474,
+  "qc_original": "backtest/strategies/qc_original/en__market-seasonality-effect.qc.py"
+}

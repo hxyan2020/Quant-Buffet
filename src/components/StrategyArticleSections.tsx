@@ -5,14 +5,17 @@ import {
   parseBacktestMetricsJson,
   type BacktestMetrics,
 } from "@/lib/parse-strategy-content";
+import { parsePaperImagesJson } from "@/lib/paper-images";
 import { parseAffiliationsJson } from "@/components/InstituteList";
 import { hasMeaningfulContent, naOr } from "@/lib/sanitize-text";
 
 import InstituteList from "./InstituteList";
+import PlatformCodeExport from "./PlatformCodeExport";
 import PythonCodeExplainer from "./PythonCodeExplainer";
 
 type Props = {
   locale: string;
+  strategyTitle?: string;
   labels: {
     teaser: string;
     summary: string;
@@ -23,18 +26,36 @@ type Props = {
     paperAuthors: string;
     paperInstitute: string;
     paperLink: string;
+    paperScreenshot?: string;
     metrics: Record<string, string>;
+    platformExport?: {
+      title: string;
+      subtitle: string;
+      platform: string;
+      copy: string;
+      copied: string;
+      pattern: string;
+      assets: string;
+      ide: string;
+      warning: string;
+    };
   };
   teaser: string;
   summary: string;
   economicRationale: string;
   backtestMetricsJson: string;
   pythonCodeHtml: string;
+  /** Quant Buffet native lab source (ASSETS + make_on_day) when available. */
+  labPythonSource?: string;
   paperTitle: string | null;
   paperAuthors: string | null;
   paperInstitute: string;
   paperAffiliationsJson: string;
   academicLink: string | null;
+  paperImagesJson?: string | null;
+  improvements?: string[];
+  /** Set false when a parent (e.g. live lab) already renders the export panel. */
+  showPlatformExport?: boolean;
 };
 
 const METRIC_ORDER: { key: keyof BacktestMetrics; labelKey: string }[] = [
@@ -78,30 +99,38 @@ function hasInstituteContent(affiliationsJson: string, fallbackText: string): bo
 
 export default function StrategyArticleSections({
   locale,
+  strategyTitle = "Quant Buffet strategy",
   labels,
   teaser,
   summary,
   economicRationale,
   backtestMetricsJson,
   pythonCodeHtml,
+  labPythonSource = "",
   paperTitle,
   paperAuthors,
   paperInstitute,
   paperAffiliationsJson,
   academicLink,
+  paperImagesJson,
+  improvements,
+  showPlatformExport = true,
 }: Props) {
   const metrics = parseBacktestMetricsJson(backtestMetricsJson);
+  const paperImages = parsePaperImagesJson(paperImagesJson);
   const hasBacktest = METRIC_ORDER.some(
     ({ key }) => metricDisplay(metrics[key]) !== "N/A",
   );
   const hasPython = Boolean(pythonCodeHtml?.trim());
+  const hasExportSource = Boolean(labPythonSource?.trim() || pythonCodeHtml?.trim());
   const paperTitleText = naOr(paperTitle);
   const paperAuthorsText = naOr(paperAuthors);
   const showPaperBlock =
     hasMeaningfulContent(paperTitle) ||
     hasMeaningfulContent(paperAuthors) ||
     hasInstituteContent(paperAffiliationsJson, paperInstitute) ||
-    Boolean(academicLink?.trim());
+    Boolean(academicLink?.trim()) ||
+    paperImages.length > 0;
 
   return (
     <>
@@ -147,6 +176,19 @@ export default function StrategyArticleSections({
               </a>
             </p>
           : null}
+          {paperImages.length > 0 ?
+            <div className="qb-paper-screenshots">
+              <p className="qb-paper-meta-label">
+                {labels.paperScreenshot ??
+                  (locale === "zh" ? "论文截图" : "Paper screenshot")}
+              </p>
+              {paperImages.map((img) => (
+                <figure key={img.src} className="qb-paper-figure">
+                  <img src={img.src} alt={img.alt} loading="lazy" decoding="async" />
+                </figure>
+              ))}
+            </div>
+          : null}
         </SectionBox>
       : null}
 
@@ -176,14 +218,47 @@ export default function StrategyArticleSections({
               );
             })}
           </div>
+          {improvements?.length ? (
+            <div className="qb-improve">
+              <h3 className="qb-improve-title">
+                {locale === "zh" ? "如何改进本策略" : "How to improve this strategy"}
+              </h3>
+              <ul className="qb-improve-list">
+                {improvements.map((b, i) => (
+                  <li key={i}>{b}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </section>
-      : null}
+      : improvements?.length ? (
+        <section className="qb-strategy-section">
+          <h2 className="qb-strategy-section-title">
+            {locale === "zh" ? "如何改进本策略" : "How to improve this strategy"}
+          </h2>
+          <ul className="qb-improve-list">
+            {improvements.map((b, i) => (
+              <li key={i}>{b}</li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       {hasPython ?
         <section className="qb-strategy-section qb-strategy-python">
           <h2 className="qb-strategy-section-title">{labels.pythonCode}</h2>
           <PythonCodeExplainer codeHtml={pythonCodeHtml} locale={locale} />
         </section>
+      : null}
+
+      {hasExportSource && showPlatformExport ?
+        <PlatformCodeExport
+          locale={locale}
+          title={strategyTitle}
+          labPythonSource={labPythonSource}
+          pythonCodeHtml={pythonCodeHtml}
+          labels={labels.platformExport}
+        />
       : null}
     </>
   );

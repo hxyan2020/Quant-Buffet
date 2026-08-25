@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=quant-connect-api-request-step-by-step
+In-house reconstruction: backtest/strategies/generated/zh__quant-connect-api-request-step-by-step.py
+Fidelity: no_qc_theme_proxy

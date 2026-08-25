@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=利用市场机构的分歧预测对冲基金回报策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hx9q00e9xlb0pcbp3foq.py
+Fidelity: no_qc_theme_proxy

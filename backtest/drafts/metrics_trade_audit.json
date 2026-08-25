@@ -1,0 +1,1902 @@
+{
+  "new100": {
+    "n": 100,
+    "ok": 100,
+    "errors": 0,
+    "zero_trades": 0,
+    "flag_count": 7,
+    "flagged_slugs": 7,
+    "dist": {
+      "cagr_p10": 1.44,
+      "cagr_p50": 6.06,
+      "cagr_p90": 65.79,
+      "sharpe_p10": 0.17,
+      "sharpe_p50": 0.52,
+      "sharpe_p90": 1.14,
+      "dd_p10": -83.26,
+      "dd_p50": -49.56,
+      "dd_p90": -18.15,
+      "trades_p50": 992,
+      "vol_p50": 16.56,
+      "daily_win_p50": 41.75
+    },
+    "clone_clusters": [
+      {
+        "fingerprint": "abs_momentum|BTC-USD,ETH-USD|0.65793|1.137|133",
+        "n": 11,
+        "examples": [
+          "optimizing-cryptocurrency-returns-a-quantitative-study-on-factor-based-investing",
+          "cryptocurrency-momentum-effect-dfa-and-mf-dfa-analysis",
+          "navigating-risk-in-crypto-markets-connectedness-and-strategic-allocation",
+          "factor-models-of-cryptocurrency-returns-financial-theory-approach",
+          "high-frequency-momentum-trading-with-cryptocurrencies",
+          "cryptocurrencies-and-momentum",
+          "investor-psychology-and-sentiment-analysis-in-cryptocurrency-markets-a-behaviora",
+          "optimizing-bitcoin-anomaly-detection-a-comparative-analysis-of-feature-selection"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|BIL,SPY|0.06767|0.742|268",
+        "n": 7,
+        "examples": [
+          "continuous-timing-signals-for-growth-defensive-style-allocation-factor-attributi",
+          "few-shot-learning-patterns-in-financial-time-series-for-trend-following-strategi",
+          "refining-and-robust-backtesting-of-a-century-of-profitable-industry-trends",
+          "a-six-factor-asset-pricing-model",
+          "domain-adapted-learning-and-interpretability-drl-for-gas-trading",
+          "beyond-trend-following-deep-learning-for-market-trend-prediction",
+          "dynamics-of-periodic-bubbles-and-crashes-modeling-market-overheating-and-panic-s"
+        ]
+      },
+      {
+        "fingerprint": "momentum_rotation|XLB,XLC,XLE,XLF,XLI,XLK,XLP,XLRE,XLU,XLV,XLY|0.06746|0.45|1155",
+        "n": 7,
+        "examples": [
+          "risk-adjusted-momentum-strategy-construction-and-industry-heterogeneity-analysis",
+          "research-on-etf-sector-rotation-strategy-based-on-dual-perspectives-of-momentum-",
+          "factor-models-and-investment-strategies-in-the-renewable-energy-sector",
+          "stock-investment-the-p-index-approach",
+          "when-alpha-breaks-two-level-uncertainty-for-safe-deployment-of-cross-sectional-s",
+          "on-industry-momentum-strategies",
+          "comparative-analysis-of-ai-driven-versus-human-managed-equity-funds-across-marke"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|BTC-USD,ETH-USD|0.55462|1.04|123",
+        "n": 7,
+        "examples": [
+          "analysis-of-different-trading-strategy-applicability-to-cryptocurrency-market",
+          "momentum-trading-in-cryptocurrencies-a-comparative-study-of-time-series-and-cros",
+          "bitcoin-intraday-time-series-momentum",
+          "technical-trading-rules-profitability-and-dynamic-risk-premiums-of-cryptocurrenc",
+          "deterministic-modelling-of-implied-volatility-in-cryptocurrency-options-with-und",
+          "systematic-trend-following-with-adaptive-portfolio-construction-enhancing-risk-a",
+          "cryptocurrency-price-prediction-using-regression-models-on-momentum-indicators"
+        ]
+      },
+      {
+        "fingerprint": "risk_parity|DBC,EEM,EFA,GLD,HYG,IEF,SPY,TLT,VNQ|0.04434|0.467|2435",
+        "n": 5,
+        "examples": [
+          "optimal-trend-following-portfolios",
+          "end-to-end-parametric-portfolio-policies-for-cross-asset-futures-timing-when-do-",
+          "a-machine-learning-approach-in-regime-switching-risk-parity-portfolios",
+          "mad-risk-parity-portfolios",
+          "agnostic-risk-parity-taming-known-and-unknown-unknowns"
+        ]
+      },
+      {
+        "fingerprint": "vol_target|BIL,SPY|0.04462|0.585|538",
+        "n": 4,
+        "examples": [
+          "volatilitymanaged-portfolios",
+          "the-analysis-of-investment-into-industries-based-on-portfolio-managers",
+          "deep-hedging-with-reinforcement-learning-a-practical-framework-for-option-risk-m",
+          "performance-measurement-of-esg-themed-megatrend-investments-in-global-equity-mar"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|XLB,XLC,XLE,XLF,XLI,XLK,XLP,XLRE,XLU,XLV,XLY|0.06057|0.452|2399",
+        "n": 4,
+        "examples": [
+          "a-market-timing-strategy-for-the-gcc-conventional-and-shariah-stock-indices",
+          "managing-the-downside-of-active-and-passive-strategiesipart-1-convexity-and-frag",
+          "does-investor-sentiment-influence-south-african-etf-flows-during-different-marke",
+          "investment-implications-of-industry-40-evidence-from-smart-manufacturing-etfs"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|DBA,DBC,GLD,GSG,SLV,UNG,USO|0.04482|0.309|992",
+        "n": 3,
+        "examples": [
+          "re-evaluating-short-and-long-term-trend-factors-in-cta-replication-a-bayesian-gr",
+          "follow-the-leader-enhancing-systematic-trend-following-using-network-momentum",
+          "slow-momentum-with-fast-reversion-a-trading-strategy-using-deep-learning-and-cha"
+        ]
+      },
+      {
+        "fingerprint": "mean_reversion|BTC-USD,ETH-USD|-0.12678|-0.007|2450",
+        "n": 3,
+        "examples": [
+          "liquidity-fragmentation-and-the-price-impact-of-etf-flows-a-model-of-cross-venue",
+          "cryptocurrency-price-prediction-using-a-hybrid-deep-learning-approach-with-expla",
+          "deep-temporal-convolutional-networks-for-high-frequency-cryptocurrency-price-for"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|BND,HYG,IEF,LQD,SHY,TIP,TLT|0.03335|0.655|1475",
+        "n": 3,
+        "examples": [
+          "a-century-of-evidence-on-trend-following-investing",
+          "ai-driven-adaptive-asset-allocation-a-machine-learning-approach-to-dynamic-portf",
+          "fundamental-framework-for-technical-analysis"
+        ]
+      },
+      {
+        "fingerprint": "mean_reversion|BIL,SPY|0.01436|0.172|1713",
+        "n": 3,
+        "examples": [
+          "not-all-factors-crowd-equally-modeling-measuring-and-trading-on-alpha-decay",
+          "reimagining-price-trends",
+          "modeling-momentum-and-reversals"
+        ]
+      },
+      {
+        "fingerprint": "abs_momentum|BIL,SPY|0.06001|0.627|264",
+        "n": 3,
+        "examples": [
+          "air-sea-fluxes-with-a-focus-on-heat-and-momentum",
+          "reward-risk-momentum-strategies-using-classical-tempered-stable-distribution",
+          "on-the-natures-of-the-spin-and-orbital-parts-of-optical-angular-momentum"
+        ]
+      }
+    ],
+    "site_gap_n": 0,
+    "site_gap_top": [],
+    "flags_sample": [
+      {
+        "source": "new100",
+        "slug": "on-the-efficacy-of-shorting-corporate-bonds-as-a-tail-risk-hedging-solution",
+        "title": "On the Efficacy of Shorting Corporate Bonds as a Tail Risk Hedging Sol",
+        "issue": "trades_too_many:7098",
+        "cagr": -2.73,
+        "sharpe": -0.4015,
+        "max_dd": -49.82,
+        "trades": 7098,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "combining-momentum-with-reversal-in-commodity-futures",
+        "title": "Combining momentum with reversal in commodity futures",
+        "issue": "trades_too_many:17816",
+        "cagr": -7.24,
+        "sharpe": -0.1868,
+        "max_dd": -94.18,
+        "trades": 17816,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "liquidity-fragmentation-and-the-price-impact-of-etf-flows-a-model-of-cross-venue",
+        "title": "Liquidity Fragmentation and the Price Impact of ETF Flows",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "pairs-trading-with-nonlinear-and-non-gaussian-state-space-models",
+        "title": "Pairs Trading with Nonlinear and Non-Gaussian State Space Models",
+        "issue": "trades_too_many:4635",
+        "cagr": 1.26,
+        "sharpe": 0.1624,
+        "max_dd": -48.0,
+        "trades": 4635,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "cryptocurrency-price-prediction-using-a-hybrid-deep-learning-approach-with-expla",
+        "title": "Cryptocurrency Price Prediction using a Hybrid Deep Learning Approach ",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "commodity-momentum-and-reversal-do-they-exist-and-if-so-why",
+        "title": "Commodity momentum and reversal: Do they exist, and if so, why?",
+        "issue": "trades_too_many:17816",
+        "cagr": -7.24,
+        "sharpe": -0.1868,
+        "max_dd": -94.18,
+        "trades": 17816,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "new100",
+        "slug": "deep-temporal-convolutional-networks-for-high-frequency-cryptocurrency-price-for",
+        "title": "Deep Temporal Convolutional Networks for High-Frequency Cryptocurrency",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      }
+    ],
+    "issue_counts": {
+      "trades_too_many": 7
+    }
+  },
+  "library": {
+    "n": 1764,
+    "ok": 1764,
+    "errors": 0,
+    "zero_trades": 0,
+    "flag_count": 25,
+    "flagged_slugs": 25,
+    "dist": {
+      "cagr_p10": 1.44,
+      "cagr_p50": 6.57,
+      "cagr_p90": 7.89,
+      "sharpe_p10": 0.17,
+      "sharpe_p50": 0.63,
+      "sharpe_p90": 0.74,
+      "dd_p10": -71.48,
+      "dd_p50": -33.72,
+      "dd_p90": -18.15,
+      "trades_p50": 264,
+      "vol_p50": 13.6,
+      "daily_win_p50": 39.98
+    },
+    "clone_clusters": [
+      {
+        "fingerprint": "dual_momentum|BIL,SPY|0.07895|0.627|57",
+        "n": 506,
+        "examples": [
+          "10-k\u62a5\u544a\u4e2d\u7684\u65e0\u5f62\u8d44\u4ea7\u5bc6\u96c6\u5ea6\u5206\u6790",
+          "52\u5468\u9ad8\u70b9\u6548\u5e94\u5728\u80a1\u7968\u4e2d\u7684\u5e94\u7528",
+          "abnormal-turnover-effect-in-the-stock-market",
+          "absolute-momentum-effect-in-stocks",
+          "accrual-anomaly",
+          "accrual-effect-in-family-firms",
+          "accruals-seasonality",
+          "advertising-effect-within-stocks"
+        ]
+      },
+      {
+        "fingerprint": "abs_momentum|BIL,SPY|0.06001|0.627|264",
+        "n": 279,
+        "examples": [
+          "12-month-cycle-in-cross-section-of-stocks-returns",
+          "3609",
+          "52-weeks-high-effect-in-stocks",
+          "abnormal-volume-effect-in-the-stock-market",
+          "accruals-effect-combined-with-price-momentum",
+          "accruals-momentum",
+          "betting-against-beta-factor-in-stocks",
+          "betting-against-correlation-in-sp500-stocks"
+        ]
+      },
+      {
+        "fingerprint": "mean_reversion|BIL,SPY|0.01436|0.172|1713",
+        "n": 79,
+        "examples": [
+          "12-month-seasonal-reversals",
+          "__trashed-3",
+          "afternoon-reversal-trading-strategy",
+          "announcement-adjusted-industry-relative-reversal-factor",
+          "betting-against-beta-in-india",
+          "combining-fundamental-fscore-and-equity-short-term-reversals",
+          "combining-fundamental-fscore-and-equity-short-term-reversals-2",
+          "cross-sectional-mood-reversal-strategy-in-equities-2"
+        ]
+      },
+      {
+        "fingerprint": "sma_trend|BIL,SPY|0.06767|0.742|268",
+        "n": 77,
+        "examples": [
+          "__trashed",
+          "abnormal-turnover-in-china",
+          "absolute-delta-beta-strategy-in-chinese-equities",
+          "anti-matthew-effect",
+          "a\u80a1\u65b0\u95fb\u76f8\u5173\u52a8\u91cf\u7b56\u7565",
+          "climate-change-exposure-and-the-cross-section-of-stock-returns",
+          "comomentum-strategy",
+          "complexity-effect-in-stocks"
+        ]
+      },
+      {
+        "fingerprint": "equal_weight|EFA,EWJ,GLD,SPY,TLT|0.05555|0.474|1490",
+        "n": 36,
+        "examples": [
+          "benchmarks-portfolios-with-decreasing-carbon-footprints",
+          "cheap-options-are-expensive",
+          "cross-border-ma-and-currency-returns",
+          "currency-option-delta-hedging-strategy",
+          "dispersion-trading",
+          "dispersion-trading-2",
+          "effect-of-corruption-on-fx-markets",
+          "federal-open-market-committee-meeting-effect-on-us-dollar"
+        ]
+      },
+      {
+        "fingerprint": "abs_momentum|BTC-USD,ETH-USD|0.65793|1.137|133",
+        "n": 32,
+        "examples": [
+          "bitcoin-intraday-momentum",
+          "blended-factors-in-cryptocurrencies",
+          "boosted-trees-and-cryptocurrency-return-prediction",
+          "carry-factor-in-cryptocurrencies",
+          "computing-power-factor-in-cryptocurrencies",
+          "cross-sectional-momentum-in-large-cryptos",
+          "geopolitical-risk-and-the-cross-section-of-cryptocurrency-returns",
+          "growth-of-addresses-with-balance-factor-in-cryptos"
+        ]
+      },
+      {
+        "fingerprint": "momentum_rotation|DBA,DBC,GLD,GSG,SLV,UNG,USO|0.00654|0.163|569",
+        "n": 27,
+        "examples": [
+          "1-month-momentum-in-commodities",
+          "carry-factor-within-asset-classes",
+          "combining-momentum-term-structure-and-idiosyncratic-volatility-within-commodities",
+          "convenience-yield-risk-factor-predicts-commodity-futures-returns",
+          "cross-asset-skewness-effect",
+          "geopolitical-risk-and-commodities",
+          "idiosyncratic-commodity-momentum",
+          "momentum-effect-in-commodities"
+        ]
+      },
+      {
+        "fingerprint": "equal_weight|DBA,DBC,GLD,GSG,SLV,UNG,USO|-0.00482|0.069|1687",
+        "n": 26,
+        "examples": [
+          "dynamic-crude-oil-allocation-in-a-balanced-portfolio",
+          "forecasting-crude-oil-prices",
+          "hedging-pressure-predicts-commodity-option-returns",
+          "inventory-mispricing-predicts-oil-returns",
+          "machine-learning-in-commodities",
+          "option-to-futures-volume-in-commodities",
+          "payroll-news-timing-in-fx",
+          "political-uncertainty-and-commodity-prices"
+        ]
+      },
+      {
+        "fingerprint": "dual_momentum|BIL,BTC-USD,ETH-USD|0.37737|0.892|50",
+        "n": 25,
+        "examples": [
+          "bitcoin-leads-altcoins-on-intraday-basis",
+          "cointegrated-cryptocurrency-portfolios",
+          "crypto-perpetual-futures-arbitrage",
+          "cryptomarket-discounts",
+          "delta-hedged-short-straddle-btc-strategy",
+          "delta\u5bf9\u51b2\u7684\u7a7a\u5934\u8de8\u5f0f\u6bd4\u7279\u5e01\u7b56\u7565",
+          "delta\u5bf9\u51b2\u7684\u7a7a\u5934\u8de8\u5f0f\u6bd4\u7279\u5e01\u7b56\u7565-2",
+          "financial-uncertainty-explains-cryptocurrency-returns"
+        ]
+      },
+      {
+        "fingerprint": "momentum_rotation|EFA,EWJ,GLD,SPY,TLT|0.033|0.27|299",
+        "n": 25,
+        "examples": [
+          "conditional-currency-momentum-portfolios",
+          "conditional-fx-correlation-risk",
+          "cross-sectional-one-month-equity-atm-straddle-trading-strategy",
+          "currency-momentum-factor",
+          "currency-value-factor",
+          "global-dollar-risk-strategy",
+          "investor-sentiment-and-momentum-effect-in-currencies",
+          "momentum-in-forex-trading-strategies"
+        ]
+      },
+      {
+        "fingerprint": "dual_momentum|BIL,QQQ|0.1149|0.734|55",
+        "n": 22,
+        "examples": [
+          "aggregate-call-order-imbalance-strategy",
+          "expected-options-return-predictability-using-machine-learning",
+          "improved-dispersion-trading",
+          "max-pain-strategy-stock-return-predictability-at-options-expiration",
+          "max-pain-\u7b56\u7565-\u671f\u6743\u5230\u671f\u65f6\u80a1\u7968\u56de\u62a5\u7684\u53ef\u9884\u6d4b\u6027",
+          "opening-range-breakout-orb-strategy-in-qqq",
+          "option-trading-volume-predicts-equity-returns",
+          "predictable-price-pressure-caused-by-option-makers-and-leveraged-etfs"
+        ]
+      },
+      {
+        "fingerprint": "equal_weight|BND,HYG,IEF,LQD,SHY,TIP,TLT|0.03829|0.688|1896",
+        "n": 20,
+        "examples": [
+          "bond-etf-arbitrage-with-machine-learning",
+          "closed-end-fund-mean-reversion-trading",
+          "dollar-carry-trade",
+          "esg\u4e0e\u56fa\u5b9a\u6536\u76ca\u6295\u8d44\u7ec4\u5408\u6574\u5408\u7b56\u7565",
+          "global-bond-portfolio-predicts-government-bonds-returns-in-individual-countries",
+          "high-disagreement-predicts-hedge-fund-returns",
+          "international-carry-investing-on-the-yield-curve",
+          "portfolio-optimization-with-nonlinear-risk-budgeting-using-neural-network"
+        ]
+      }
+    ],
+    "site_gap_n": 452,
+    "site_gap_top": [
+      {
+        "slug": "salience-theory-and-cryptocurrency-returns",
+        "title": "Salience Theory and Cryptocurrency Returns",
+        "site_cagr": 280.1,
+        "recon_cagr": -12.68,
+        "gap_pp": 292.8,
+        "template": "mean_reversion",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      },
+      {
+        "slug": "\u663e\u8457\u6027\u7406\u8bba\u4e0e\u52a0\u5bc6\u8d27\u5e01\u56de\u62a5\u7b56\u7565",
+        "title": "\u663e\u8457\u6027\u7406\u8bba\u4e0e\u52a0\u5bc6\u8d27\u5e01\u56de\u62a5\u7b56\u7565",
+        "site_cagr": 280.1,
+        "recon_cagr": 65.79,
+        "gap_pp": 214.3,
+        "template": "abs_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      },
+      {
+        "slug": "reversal-in-small-cryptos",
+        "title": "Reversal in Small Cryptos",
+        "site_cagr": 187.2,
+        "recon_cagr": -12.68,
+        "gap_pp": 199.9,
+        "template": "mean_reversion",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      },
+      {
+        "slug": "predicting-intraday-returns-with-machine-learning-methods",
+        "title": "Predicting Intraday Returns with Machine Learning methods",
+        "site_cagr": 194.32,
+        "recon_cagr": 6.0,
+        "gap_pp": 188.3,
+        "template": "abs_momentum",
+        "assets": [
+          "SPY",
+          "BIL"
+        ]
+      },
+      {
+        "slug": "illiquid-bitcoin-options",
+        "title": "Illiquid Bitcoin Options",
+        "site_cagr": 186.15,
+        "recon_cagr": 37.74,
+        "gap_pp": 148.4,
+        "template": "dual_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD",
+          "BIL"
+        ]
+      },
+      {
+        "slug": "\u4f4e\u6d41\u52a8\u6027\u6bd4\u7279\u5e01\u671f\u6743\u7b56\u7565",
+        "title": "\u4f4e\u6d41\u52a8\u6027\u6bd4\u7279\u5e01\u671f\u6743\u7b56\u7565",
+        "site_cagr": 186.15,
+        "recon_cagr": 37.74,
+        "gap_pp": 148.4,
+        "template": "dual_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD",
+          "BIL"
+        ]
+      },
+      {
+        "slug": "price-based-value-in-cryptocurrencies",
+        "title": "Price-based Value in Cryptocurrencies",
+        "site_cagr": 168.6,
+        "recon_cagr": 37.74,
+        "gap_pp": 130.9,
+        "template": "dual_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD",
+          "BIL"
+        ]
+      },
+      {
+        "slug": "hedging-pressure-predicts-commodity-option-returns",
+        "title": "Hedging Pressure Predicts Commodity Option Returns",
+        "site_cagr": 124.27,
+        "recon_cagr": -0.48,
+        "gap_pp": 124.8,
+        "template": "equal_weight",
+        "assets": [
+          "GLD",
+          "SLV",
+          "DBC",
+          "GSG",
+          "USO",
+          "UNG"
+        ]
+      },
+      {
+        "slug": "\u5957\u671f\u4fdd\u503c\u538b\u529b\u9884\u6d4b\u5546\u54c1\u671f\u6743\u56de\u62a5",
+        "title": "\u5957\u671f\u4fdd\u503c\u538b\u529b\u9884\u6d4b\u5927\u5b97\u5546\u54c1\u671f\u6743\u56de\u62a5\u7b56\u7565",
+        "site_cagr": 124.27,
+        "recon_cagr": -0.48,
+        "gap_pp": 124.8,
+        "template": "equal_weight",
+        "assets": [
+          "GLD",
+          "SLV",
+          "DBC",
+          "GSG",
+          "USO",
+          "UNG"
+        ]
+      },
+      {
+        "slug": "intraday-reversal-in-china",
+        "title": "Intraday Reversal in China",
+        "site_cagr": 126.34,
+        "recon_cagr": 1.67,
+        "gap_pp": 124.7,
+        "template": "momentum_rotation",
+        "assets": [
+          "FXI",
+          "ASHR",
+          "EWH",
+          "SPY",
+          "BIL"
+        ]
+      },
+      {
+        "slug": "\u5c0f\u5e02\u503c\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u53cd\u8f6c\u6548\u5e94",
+        "title": "\u5c0f\u5e02\u503c\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u53cd\u8f6c\u6548\u5e94",
+        "site_cagr": 187.2,
+        "recon_cagr": 65.79,
+        "gap_pp": 121.4,
+        "template": "abs_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      },
+      {
+        "slug": "geopolitical-risk-and-the-cross-section-of-cryptocurrency-returns",
+        "title": "Geopolitical Risk and the Cross-Section of Cryptocurrency Returns",
+        "site_cagr": 187.05,
+        "recon_cagr": 65.79,
+        "gap_pp": 121.3,
+        "template": "abs_momentum",
+        "assets": [
+          "BTC-USD",
+          "ETH-USD"
+        ]
+      }
+    ],
+    "flags_sample": [
+      {
+        "source": "library",
+        "slug": "24-hour-reversal-in-cryptocurrencies",
+        "title": "24-Hour Reversal in Cryptocurrencies",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "harvesting-volatility-risk-premia-and-crisis-alpha-via-etfs",
+        "title": "Harvesting Volatility Risk Premia and Crisis Alpha via ETFs",
+        "issue": "trades_too_many:8718",
+        "cagr": -17.05,
+        "sharpe": -0.2626,
+        "max_dd": -99.31,
+        "trades": 8718,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "jump-only-momentum-and-reversal-in-currency-markets",
+        "title": "Jump-Only Momentum and Reversal in Currency Markets",
+        "issue": "trades_too_many:29609",
+        "cagr": 3.81,
+        "sharpe": 0.2744,
+        "max_dd": -62.92,
+        "trades": 29609,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "long-term-reversal-combined-with-a-momentum-effect",
+        "title": "Long-Term Reversal Combined with a Momentum Effect",
+        "issue": "trades_too_many:33840",
+        "cagr": 2.74,
+        "sharpe": 0.2334,
+        "max_dd": -62.33,
+        "trades": 33840,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "long-term-reversal-combined-with-a-momentum-effect-in-industry-portfolios",
+        "title": "Long-Term Reversal Combined with a Momentum Effect in Industry Portfol",
+        "issue": "trades_too_many:26610",
+        "cagr": 1.89,
+        "sharpe": 0.1937,
+        "max_dd": -47.88,
+        "trades": 26610,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "momentum-and-trend-following-in-global-asset-allocation",
+        "title": "Momentum and Trend Following in Global Asset Allocation",
+        "issue": "trades_too_many:32410",
+        "cagr": 2.79,
+        "sharpe": 0.2376,
+        "max_dd": -65.14,
+        "trades": 32410,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "momentum-and-uninformed-flows-in-fx-market",
+        "title": "Momentum and (Un)Informed Flows in FX market",
+        "issue": "trades_too_many:12064",
+        "cagr": 0.57,
+        "sharpe": 0.1168,
+        "max_dd": -41.3,
+        "trades": 12064,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "net-current-asset-value-effect-2",
+        "title": "Net Current Asset Value Effect",
+        "issue": "trades_too_few:1",
+        "cagr": 8.24,
+        "sharpe": 0.5072,
+        "max_dd": -55.19,
+        "trades": 1,
+        "template": "equal_weight"
+      },
+      {
+        "source": "library",
+        "slug": "payday-anomaly",
+        "title": "Mid-Month Payday S&P500 Strategy",
+        "issue": "trades_too_few:1",
+        "cagr": 8.24,
+        "sharpe": 0.5072,
+        "max_dd": -55.19,
+        "trades": 1,
+        "template": "equal_weight"
+      },
+      {
+        "source": "library",
+        "slug": "payday-anomaly-2",
+        "title": "Payday Anomaly",
+        "issue": "trades_too_few:1",
+        "cagr": 8.24,
+        "sharpe": 0.5072,
+        "max_dd": -55.19,
+        "trades": 1,
+        "template": "equal_weight"
+      },
+      {
+        "source": "library",
+        "slug": "predicting-bond-returns-with-a-combined-model",
+        "title": "Predicting Bond Returns with a Combined Model",
+        "issue": "trades_too_many:17816",
+        "cagr": -7.24,
+        "sharpe": -0.1868,
+        "max_dd": -94.18,
+        "trades": 17816,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "predicting-bond-returns-with-commodity-index",
+        "title": "Predicting Bond Returns with Commodity Index",
+        "issue": "trades_too_many:17816",
+        "cagr": -7.24,
+        "sharpe": -0.1868,
+        "max_dd": -94.18,
+        "trades": 17816,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "predicting-bond-returns-with-equity-return",
+        "title": "Predicting Bond Returns with Equity Return",
+        "issue": "trades_too_many:16286",
+        "cagr": 2.26,
+        "sharpe": 0.214,
+        "max_dd": -53.22,
+        "trades": 16286,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "rebalancing-premium-in-cryptocurrencies-2",
+        "title": "Rebalancing Premium in Cryptocurrencies",
+        "issue": "trades_too_few:1",
+        "cagr": 51.42,
+        "sharpe": 0.9597,
+        "max_dd": -83.4,
+        "trades": 1,
+        "template": "equal_weight"
+      },
+      {
+        "source": "library",
+        "slug": "reversal-in-small-cryptos",
+        "title": "Reversal in Small Cryptos",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "salience-theory-and-cryptocurrency-returns",
+        "title": "Salience Theory and Cryptocurrency Returns",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "semivariance-and-time-series-momentum-in-futures",
+        "title": "Semivariance and Time Series Momentum in Futures",
+        "issue": "trades_too_many:10286",
+        "cagr": -0.32,
+        "sharpe": 0.08,
+        "max_dd": -55.07,
+        "trades": 10286,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "time-series-momentum-factor-in-cryptocurrencies",
+        "title": "Time-Series Momentum Factor in Cryptocurrencies",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "time-series-reversal-of-momentum-on-futures",
+        "title": "Time Series Reversal of Momentum on Futures",
+        "issue": "trades_too_many:17816",
+        "cagr": -7.24,
+        "sharpe": -0.1868,
+        "max_dd": -94.18,
+        "trades": 17816,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "trading-volume-in-cryptocurrency-markets-and-reversals",
+        "title": "Trading Volume in Cryptocurrency Markets and Reversals",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u768424\u5c0f\u65f6\u53cd\u8f6c\u7b56\u7565",
+        "title": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u768424\u5c0f\u65f6\u53cd\u8f6c\u7b56\u7565",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "\u6ce2\u52a8\u7387\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+        "title": "\u6ce2\u52a8\u7387\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+        "issue": "trades_too_many:8718",
+        "cagr": -17.05,
+        "sharpe": -0.2626,
+        "max_dd": -99.31,
+        "trades": 8718,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "\u901a\u8fc7etf\u6536\u5272\u6ce2\u52a8\u6027\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+        "title": "\u901a\u8fc7ETF\u6536\u5272\u6ce2\u52a8\u6027\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+        "issue": "trades_too_many:8718",
+        "cagr": -17.05,
+        "sharpe": -0.2626,
+        "max_dd": -99.31,
+        "trades": 8718,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u65f6\u95f4\u5e8f\u5217\u52a8\u91cf\u56e0\u5b50",
+        "title": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u65f6\u95f4\u5e8f\u5217\u52a8\u91cf\u56e0\u5b50",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      },
+      {
+        "source": "library",
+        "slug": "\u52a0\u5bc6\u8d27\u5e01\u5e02\u573a\u7684\u4ea4\u6613\u91cf\u4e0e\u53cd\u8f6c\u6548\u5e94",
+        "title": "\u52a0\u5bc6\u8d27\u5e01\u5e02\u573a\u7684\u4ea4\u6613\u91cf\u4e0e\u53cd\u8f6c\u6548\u5e94",
+        "issue": "trades_too_many:2450",
+        "cagr": -12.68,
+        "sharpe": -0.0069,
+        "max_dd": -92.52,
+        "trades": 2450,
+        "template": "mean_reversion"
+      }
+    ],
+    "issue_counts": {
+      "trades_too_many": 21,
+      "trades_too_few": 4
+    }
+  },
+  "curves": {
+    "missing_curves": 0,
+    "endpoint_mismatch": 0,
+    "samples": []
+  },
+  "posts_winrate": {
+    "posts": 100,
+    "winRate_null": 100
+  },
+  "blotters": [
+    {
+      "slug": "a-hybrid-adaptive-trading-strategy-integrating-investor-sentiment-for-precious-m",
+      "template": "sma_trend",
+      "assets": [
+        "GLD",
+        "SLV"
+      ],
+      "n_trades": 334,
+      "n_trade_months": 185,
+      "start": "2005-09-02",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 771397.19,
+      "cagr": 0.1027,
+      "sharpe": 0.5839,
+      "max_dd": -0.5301,
+      "daily_win_rate": 0.3179,
+      "min_cash": 0.0,
+      "open_share_net": {},
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2005-09-02",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 2258.305175,
+          "price": 44.25885,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2005-10-03",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 0.000754,
+          "price": 46.429282,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2006-10-02",
+          "symbol": "GLD",
+          "side": "sell",
+          "shares": 2258.305929,
+          "price": 59.138172,
+          "value": 133552.08,
+          "commission": 66.776
+        },
+        {
+          "date": "2006-11-01",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 2173.922289,
+          "price": 61.372273,
+          "value": 133418.55,
+          "commission": 66.7093
+        },
+        {
+          "date": "2026-05-01",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 16.761535,
+          "price": 423.264629,
+          "value": 7094.56,
+          "commission": 3.5473
+        },
+        {
+          "date": "2026-06-01",
+          "symbol": "GLD",
+          "side": "sell",
+          "shares": 929.363723,
+          "price": 411.177758,
+          "value": 382133.69,
+          "commission": 191.0668
+        },
+        {
+          "date": "2026-06-01",
+          "symbol": "SLV",
+          "side": "sell",
+          "shares": 5759.233716,
+          "price": 67.656464,
+          "value": 389649.39,
+          "commission": 194.8247
+        }
+      ]
+    },
+    {
+      "slug": "volatilitymanaged-portfolios",
+      "template": "vol_target",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "n_trades": 538,
+      "n_trade_months": 310,
+      "start": "2000-04-03",
+      "end": "2026-08-01",
+      "start_equity": 99974.42,
+      "end_equity": 315468.63,
+      "cagr": 0.0446,
+      "sharpe": 0.585,
+      "max_dd": -0.2894,
+      "daily_win_rate": 0.4555,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "SPY": 188.9133,
+        "BIL": 1901.6659
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2000-04-03",
+          "symbol": "SPY",
+          "side": "buy",
+          "shares": 384.517249,
+          "price": 95.034788,
+          "value": 36542.52,
+          "commission": 18.2713
+        },
+        {
+          "date": "2000-05-01",
+          "symbol": "SPY",
+          "side": "buy",
+          "shares": 9.171428,
+          "price": 92.403632,
+          "value": 847.47,
+          "commission": 0.4237
+        },
+        {
+          "date": "2000-06-01",
+          "symbol": "SPY",
+          "side": "sell",
+          "shares": 18.342913,
+          "price": 91.267624,
+          "value": 1674.11,
+          "commission": 0.8371
+        },
+        {
+          "date": "2000-07-03",
+          "symbol": "SPY",
+          "side": "buy",
+          "shares": 40.597884,
+          "price": 92.758996,
+          "value": 3765.82,
+          "commission": 1.8829
+        },
+        {
+          "date": "2026-07-01",
+          "symbol": "BIL",
+          "side": "buy",
+          "shares": 83.970792,
+          "price": 91.418282,
+          "value": 7676.47,
+          "commission": 3.8382
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "SPY",
+          "side": "sell",
+          "shares": 4.32066,
+          "price": 746.880623,
+          "value": 3227.02,
+          "commission": 1.6135
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "BIL",
+          "side": "buy",
+          "shares": 35.156526,
+          "price": 91.698336,
+          "value": 3223.79,
+          "commission": 1.6119
+        }
+      ]
+    },
+    {
+      "slug": "long-term-short-term-and-time-varying-profitability-of-reversals-the-role-of-mar",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWZ",
+        "FXI",
+        "EWT",
+        "EWY",
+        "EIDO",
+        "THD",
+        "EPHE",
+        "ECH",
+        "EPOL",
+        "EZA",
+        "ARGT",
+        "TUR"
+      ],
+      "n_trades": 1476,
+      "n_trade_months": 315,
+      "start": "2000-06-13",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 984775.79,
+      "cagr": 0.0915,
+      "sharpe": 0.451,
+      "max_dd": -0.6499,
+      "daily_win_rate": 0.4399,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "EWY": 2092.4154,
+        "EWT": 3404.6449,
+        "TUR": 8600.5814
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2000-06-13",
+          "symbol": "EWY",
+          "side": "buy",
+          "shares": 6591.766113,
+          "price": 15.162854,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2000-07-03",
+          "symbol": "EWY",
+          "side": "buy",
+          "shares": 0.002248,
+          "price": 15.566598,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2000-08-01",
+          "symbol": "EWY",
+          "side": "sell",
+          "shares": 3295.88418,
+          "price": 13.452777,
+          "value": 44338.8,
+          "commission": 22.1694
+        },
+        {
+          "date": "2000-08-01",
+          "symbol": "EWT",
+          "side": "buy",
+          "shares": 2939.204367,
+          "price": 15.070217,
+          "value": 44294.45,
+          "commission": 22.1472
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "EWT",
+          "side": "buy",
+          "shares": 3404.644943,
+          "price": 96.569313,
+          "value": 328784.22,
+          "commission": 164.3921
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "EWY",
+          "side": "buy",
+          "shares": 2092.415448,
+          "price": 157.131426,
+          "value": 328784.22,
+          "commission": 164.3921
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "TUR",
+          "side": "buy",
+          "shares": 8600.58136,
+          "price": 38.067613,
+          "value": 327403.61,
+          "commission": 163.7018
+        }
+      ]
+    },
+    {
+      "slug": "factor-momentum-and-regime-switching-overlay-strategy",
+      "template": "risk_parity",
+      "assets": [
+        "SPY",
+        "EFA",
+        "EWJ",
+        "GLD",
+        "TLT"
+      ],
+      "n_trades": 1474,
+      "n_trade_months": 317,
+      "start": "2000-04-03",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 417454.05,
+      "cagr": 0.0558,
+      "sharpe": 0.5063,
+      "max_dd": -0.514,
+      "daily_win_rate": 0.4477,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "SPY": 120.2411,
+        "EWJ": 552.9016,
+        "EFA": 740.696,
+        "TLT": 1783.0116,
+        "GLD": 139.1301
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2000-04-03",
+          "symbol": "SPY",
+          "side": "buy",
+          "shares": 540.368485,
+          "price": 95.034788,
+          "value": 51353.8,
+          "commission": 25.6769
+        },
+        {
+          "date": "2000-04-03",
+          "symbol": "EWJ",
+          "side": "buy",
+          "shares": 1151.039257,
+          "price": 42.219399,
+          "value": 48596.19,
+          "commission": 24.2981
+        },
+        {
+          "date": "2000-05-01",
+          "symbol": "SPY",
+          "side": "sell",
+          "shares": 12.510237,
+          "price": 92.366678,
+          "value": 1155.53,
+          "commission": 0.5778
+        },
+        {
+          "date": "2000-05-01",
+          "symbol": "EWJ",
+          "side": "buy",
+          "shares": 28.660819,
+          "price": 40.278272,
+          "value": 1154.41,
+          "commission": 0.5772
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "GLD",
+          "side": "sell",
+          "shares": 5.799234,
+          "price": 371.465701,
+          "value": 2154.22,
+          "commission": 1.0771
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "EFA",
+          "side": "buy",
+          "shares": 37.333432,
+          "price": 105.601118,
+          "value": 3942.45,
+          "commission": 1.9712
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "TLT",
+          "side": "buy",
+          "shares": 139.217812,
+          "price": 82.26645,
+          "value": 11452.96,
+          "commission": 5.7265
+        }
+      ]
+    },
+    {
+      "slug": "on-the-efficacy-of-shorting-corporate-bonds-as-a-tail-risk-hedging-solution",
+      "template": "mean_reversion",
+      "assets": [
+        "LQD",
+        "HYG",
+        "AGG",
+        "BIL"
+      ],
+      "n_trades": 7098,
+      "n_trade_months": 264,
+      "start": "2002-08-26",
+      "end": "2026-08-01",
+      "start_equity": 100000.0,
+      "end_equity": 51552.01,
+      "cagr": -0.0273,
+      "sharpe": -0.4015,
+      "max_dd": -0.4982,
+      "daily_win_rate": 0.2005,
+      "min_cash": -0.0,
+      "open_share_net": {
+        "LQD": 161.7318,
+        "AGG": 176.4815,
+        "HYG": 216.2054
+      },
+      "issues": [
+        "nonpositive_fill"
+      ],
+      "sample_trades": [
+        {
+          "date": "2002-10-07",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 2580.326337,
+          "price": 38.735407,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2002-10-08",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 0.000912,
+          "price": 38.373625,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2002-10-29",
+          "symbol": "LQD",
+          "side": "sell",
+          "shares": 2580.327249,
+          "price": 38.391174,
+          "value": 99061.79,
+          "commission": 49.5309
+        },
+        {
+          "date": "2003-03-17",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 2430.884077,
+          "price": 40.710598,
+          "value": 98962.74,
+          "commission": 49.4814
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "LQD",
+          "side": "sell",
+          "shares": 0.000109,
+          "price": 106.22875,
+          "value": 0.01,
+          "commission": 0.0
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "HYG",
+          "side": "sell",
+          "shares": 0.000145,
+          "price": 79.464107,
+          "value": 0.01,
+          "commission": 0.0
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "AGG",
+          "side": "buy",
+          "shares": 0.000237,
+          "price": 97.389477,
+          "value": 0.02,
+          "commission": 0.0
+        }
+      ]
+    },
+    {
+      "slug": "establishment-of-portfolio-based-on-momentum-strategy-and-analyzing-the-factors-",
+      "template": "dual_momentum",
+      "assets": [
+        "GLD",
+        "SLV",
+        "DBC",
+        "GSG",
+        "USO",
+        "UNG",
+        "DBA",
+        "BIL"
+      ],
+      "n_trades": 195,
+      "n_trade_months": 120,
+      "start": "2005-11-17",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 51890.71,
+      "cagr": -0.0312,
+      "sharpe": 0.095,
+      "max_dd": -0.9007,
+      "daily_win_rate": 0.3993,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "USO": 401.7242
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2005-11-17",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 2061.262478,
+          "price": 48.489696,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2005-12-01",
+          "symbol": "GLD",
+          "side": "buy",
+          "shares": 0.000697,
+          "price": 50.180032,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2007-06-01",
+          "symbol": "GLD",
+          "side": "sell",
+          "shares": 2061.263175,
+          "price": 66.426714,
+          "value": 136922.94,
+          "commission": 68.4615
+        },
+        {
+          "date": "2007-06-01",
+          "symbol": "SLV",
+          "side": "buy",
+          "shares": 10028.498749,
+          "price": 13.639727,
+          "value": 136785.99,
+          "commission": 68.393
+        },
+        {
+          "date": "2026-06-01",
+          "symbol": "SLV",
+          "side": "sell",
+          "shares": 805.525042,
+          "price": 67.656464,
+          "value": 54498.98,
+          "commission": 27.2495
+        },
+        {
+          "date": "2026-06-01",
+          "symbol": "USO",
+          "side": "buy",
+          "shares": 401.723835,
+          "price": 135.5271,
+          "value": 54444.47,
+          "commission": 27.2222
+        },
+        {
+          "date": "2026-07-01",
+          "symbol": "USO",
+          "side": "buy",
+          "shares": 0.000369,
+          "price": 103.290651,
+          "value": 0.04,
+          "commission": 0.0
+        }
+      ]
+    },
+    {
+      "slug": "optimizing-cryptocurrency-returns-a-quantitative-study-on-factor-based-investing",
+      "template": "abs_momentum",
+      "assets": [
+        "BTC-USD",
+        "ETH-USD"
+      ],
+      "n_trades": 133,
+      "n_trade_months": 71,
+      "start": "2015-05-27",
+      "end": "2026-08-01",
+      "start_equity": 100000.0,
+      "end_equity": 28514063.14,
+      "cagr": 0.6579,
+      "sharpe": 1.1371,
+      "max_dd": -0.8326,
+      "daily_win_rate": 0.4175,
+      "min_cash": 0.0,
+      "open_share_net": {},
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2015-10-01",
+          "symbol": "BTC-USD",
+          "side": "buy",
+          "shares": 420.671128,
+          "price": 237.596506,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2015-11-01",
+          "symbol": "BTC-USD",
+          "side": "buy",
+          "shares": 0.000107,
+          "price": 325.496086,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2018-08-01",
+          "symbol": "BTC-USD",
+          "side": "sell",
+          "shares": 420.671235,
+          "price": 7623.385174,
+          "value": 3206938.86,
+          "commission": 1603.4694
+        },
+        {
+          "date": "2018-08-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 7612.866135,
+          "price": 420.831159,
+          "value": 3203731.28,
+          "commission": 1601.8656
+        },
+        {
+          "date": "2025-12-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 6543.084908,
+          "price": 2800.749003,
+          "value": 18325538.53,
+          "commission": 9162.7693
+        },
+        {
+          "date": "2026-01-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 0.004278,
+          "price": 3000.994366,
+          "value": 12.84,
+          "commission": 0.0064
+        },
+        {
+          "date": "2026-02-01",
+          "symbol": "ETH-USD",
+          "side": "sell",
+          "shares": 12581.338812,
+          "price": 2267.511251,
+          "value": 28528327.31,
+          "commission": 14264.1637
+        }
+      ]
+    },
+    {
+      "slug": "fast-times-slow-times-timescale-separation-in-financial-timeseries-data",
+      "template": "equal_weight",
+      "assets": [
+        "SHY",
+        "IEF",
+        "TLT",
+        "LQD",
+        "HYG",
+        "TIP",
+        "BND"
+      ],
+      "n_trades": 1896,
+      "n_trade_months": 290,
+      "start": "2002-07-30",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 246257.02,
+      "cagr": 0.0383,
+      "sharpe": 0.6875,
+      "max_dd": -0.1916,
+      "daily_win_rate": 0.4408,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "SHY": 429.0222,
+        "IEF": 378.4811,
+        "TLT": 427.7181,
+        "LQD": 331.0882,
+        "TIP": 326.8588,
+        "HYG": 442.6247,
+        "BND": 487.0527
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2002-07-30",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 488.471401,
+          "price": 51.190305,
+          "value": 25005.0,
+          "commission": 12.5025
+        },
+        {
+          "date": "2002-07-30",
+          "symbol": "IEF",
+          "side": "buy",
+          "shares": 618.489316,
+          "price": 40.429154,
+          "value": 25005.0,
+          "commission": 12.5025
+        },
+        {
+          "date": "2002-07-30",
+          "symbol": "TLT",
+          "side": "buy",
+          "shares": 697.628546,
+          "price": 35.842857,
+          "value": 25005.0,
+          "commission": 12.5025
+        },
+        {
+          "date": "2002-07-30",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 679.471886,
+          "price": 36.697604,
+          "value": 24934.99,
+          "commission": 12.4675
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "BND",
+          "side": "sell",
+          "shares": 0.44848,
+          "price": 72.215557,
+          "value": 32.39,
+          "commission": 0.0162
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "TLT",
+          "side": "buy",
+          "shares": 11.244388,
+          "price": 82.26645,
+          "value": 925.04,
+          "commission": 0.4625
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 2.701356,
+          "price": 106.27125,
+          "value": 287.08,
+          "commission": 0.1435
+        }
+      ]
+    },
+    {
+      "slug": "1-month-momentum-in-bonds",
+      "template": "momentum_rotation",
+      "assets": [
+        "SHY",
+        "IEF",
+        "TLT",
+        "LQD",
+        "HYG",
+        "TIP",
+        "BND"
+      ],
+      "n_trades": 685,
+      "n_trade_months": 276,
+      "start": "2003-01-29",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 242238.09,
+      "cagr": 0.0384,
+      "sharpe": 0.5192,
+      "max_dd": -0.1529,
+      "daily_win_rate": 0.4347,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "TIP": 1124.5394,
+        "HYG": 1524.96
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2003-01-29",
+          "symbol": "TLT",
+          "side": "buy",
+          "shares": 1276.228769,
+          "price": 39.185765,
+          "value": 50010.0,
+          "commission": 25.005
+        },
+        {
+          "date": "2003-01-29",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 1246.543226,
+          "price": 40.062782,
+          "value": 49939.99,
+          "commission": 24.97
+        },
+        {
+          "date": "2003-02-03",
+          "symbol": "TLT",
+          "side": "sell",
+          "shares": 3.734135,
+          "price": 39.627693,
+          "value": 147.98,
+          "commission": 0.074
+        },
+        {
+          "date": "2003-02-03",
+          "symbol": "LQD",
+          "side": "buy",
+          "shares": 3.66448,
+          "price": 40.35009,
+          "value": 147.86,
+          "commission": 0.0739
+        },
+        {
+          "date": "2026-07-01",
+          "symbol": "HYG",
+          "side": "buy",
+          "shares": 1517.508723,
+          "price": 79.605914,
+          "value": 120802.67,
+          "commission": 60.4013
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "HYG",
+          "side": "sell",
+          "shares": 1524.958964,
+          "price": 79.464107,
+          "value": 121179.5,
+          "commission": 60.5898
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "TIP",
+          "side": "buy",
+          "shares": 1124.53944,
+          "price": 107.651523,
+          "value": 121058.38,
+          "commission": 60.5292
+        }
+      ]
+    },
+    {
+      "slug": "hedging-factor-in-cryptocurrencies",
+      "template": "abs_momentum",
+      "assets": [
+        "BIL",
+        "SHY"
+      ],
+      "n_trades": 276,
+      "n_trade_months": 150,
+      "start": "2003-07-30",
+      "end": "2026-08-01",
+      "start_equity": 99930.04,
+      "end_equity": 152260.23,
+      "cagr": 0.0185,
+      "sharpe": 1.7346,
+      "max_dd": -0.0189,
+      "daily_win_rate": 0.3977,
+      "min_cash": 0.0,
+      "open_share_net": {
+        "SHY": 928.4157,
+        "BIL": 830.3899
+      },
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2003-07-30",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 1891.641078,
+          "price": 52.837714,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2003-08-01",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 0.000664,
+          "price": 52.723353,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2005-03-01",
+          "symbol": "SHY",
+          "side": "sell",
+          "shares": 1891.641741,
+          "price": 53.750928,
+          "value": 101677.5,
+          "commission": 50.8387
+        },
+        {
+          "date": "2005-05-02",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 1878.280946,
+          "price": 54.07915,
+          "value": 101575.84,
+          "commission": 50.7879
+        },
+        {
+          "date": "2026-07-01",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 0.974406,
+          "price": 81.856364,
+          "value": 79.76,
+          "commission": 0.0399
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "BIL",
+          "side": "sell",
+          "shares": 0.459646,
+          "price": 91.661664,
+          "value": 42.13,
+          "commission": 0.0211
+        },
+        {
+          "date": "2026-08-01",
+          "symbol": "SHY",
+          "side": "buy",
+          "shares": 0.513189,
+          "price": 82.0164,
+          "value": 42.09,
+          "commission": 0.021
+        }
+      ]
+    },
+    {
+      "slug": "bitcoin-intraday-momentum",
+      "template": "abs_momentum",
+      "assets": [
+        "BTC-USD",
+        "ETH-USD"
+      ],
+      "n_trades": 133,
+      "n_trade_months": 71,
+      "start": "2015-05-27",
+      "end": "2026-08-01",
+      "start_equity": 100000.0,
+      "end_equity": 28514063.14,
+      "cagr": 0.6579,
+      "sharpe": 1.1371,
+      "max_dd": -0.8326,
+      "daily_win_rate": 0.4175,
+      "min_cash": 0.0,
+      "open_share_net": {},
+      "issues": [],
+      "sample_trades": [
+        {
+          "date": "2015-10-01",
+          "symbol": "BTC-USD",
+          "side": "buy",
+          "shares": 420.671128,
+          "price": 237.596506,
+          "value": 99949.99,
+          "commission": 49.975
+        },
+        {
+          "date": "2015-11-01",
+          "symbol": "BTC-USD",
+          "side": "buy",
+          "shares": 0.000107,
+          "price": 325.496086,
+          "value": 0.03,
+          "commission": 0.0
+        },
+        {
+          "date": "2018-08-01",
+          "symbol": "BTC-USD",
+          "side": "sell",
+          "shares": 420.671235,
+          "price": 7623.385174,
+          "value": 3206938.86,
+          "commission": 1603.4694
+        },
+        {
+          "date": "2018-08-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 7612.866135,
+          "price": 420.831159,
+          "value": 3203731.28,
+          "commission": 1601.8656
+        },
+        {
+          "date": "2025-12-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 6543.084908,
+          "price": 2800.749003,
+          "value": 18325538.53,
+          "commission": 9162.7693
+        },
+        {
+          "date": "2026-01-01",
+          "symbol": "ETH-USD",
+          "side": "buy",
+          "shares": 0.004278,
+          "price": 3000.994366,
+          "value": 12.84,
+          "commission": 0.0064
+        },
+        {
+          "date": "2026-02-01",
+          "symbol": "ETH-USD",
+          "side": "sell",
+          "shares": 12581.338812,
+          "price": 2267.511251,
+          "value": 28528327.31,
+          "commission": 14264.1637
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "win_rate_definition": "metrics.daily_win_rate is share of DAYS with positive equity change, not trade-level win rate. Cash/flat days count as losses/non-wins, so SMA strategies often show ~30%.",
+    "winRate_field": "new_100 posts write winRate from metrics['win_rate'] which does not exist; field is null.",
+    "start_equity": "First mark is after the opening rebalance, so start_equity is ~100000 minus 7bps (5 commission + 2 slip).",
+    "clones": "Identical (template, assets, cagr, sharpe, trades) means many papers share one ETF proxy."
+  }
+}

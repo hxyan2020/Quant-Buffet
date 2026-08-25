@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=mean-reversion-within-cluster-industries
+In-house reconstruction: backtest/strategies/generated/en__mean-reversion-within-cluster-industries.py
+Fidelity: no_qc_theme_proxy

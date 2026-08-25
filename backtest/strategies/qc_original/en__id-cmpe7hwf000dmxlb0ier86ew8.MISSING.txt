@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=显著理论预测美国跨类别股票表现策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hwf000dmxlb0ier86ew8.py
+Fidelity: no_qc_theme_proxy

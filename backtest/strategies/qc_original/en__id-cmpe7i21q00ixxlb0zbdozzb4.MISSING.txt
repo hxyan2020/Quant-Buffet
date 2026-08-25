@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=分层股票动量策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i21q00ixxlb0zbdozzb4.py
+Fidelity: no_qc_theme_proxy

@@ -7,6 +7,7 @@ export type AdminStrategyFilters = {
   locale?: string;
   paywall?: "" | "yes" | "no";
   published?: "" | "yes" | "no";
+  archived?: "" | "yes" | "no";
   python?: "" | "yes" | "no";
   region?: string;
   market?: string;
@@ -39,6 +40,8 @@ export async function listAdminStrategies(filters: AdminStrategyFilters = {}) {
   if (filters.paywall === "no") where.isPaywalled = false;
   if (filters.published === "yes") where.published = true;
   if (filters.published === "no") where.published = false;
+  if (filters.archived === "yes") where.archived = true;
+  if (filters.archived === "no") where.archived = false;
   if (filters.python === "yes") where.hasPythonCode = true;
   if (filters.python === "no") where.hasPythonCode = false;
 
@@ -92,26 +95,6 @@ export async function scanAllStrategiesForPython() {
     if (has) yes++;
   }
   return { total: rows.length, withPython: yes };
-}
-
-export async function setHalfFreePerLocale() {
-  let updated = 0;
-  for (const locale of ["en", "zh"] as const) {
-    const rows = await prisma.strategy.findMany({
-      where: { locale, published: true },
-      orderBy: [{ sortOrder: "asc" }, { createdAt: "asc" }],
-      select: { id: true },
-    });
-    const freeCount = Math.ceil(rows.length / 2);
-    for (let i = 0; i < rows.length; i++) {
-      await prisma.strategy.update({
-        where: { id: rows[i].id },
-        data: { isPaywalled: i >= freeCount },
-      });
-      updated++;
-    }
-  }
-  return updated;
 }
 
 export function getAdminFilterOptions(rows: Awaited<ReturnType<typeof listAdminStrategies>>) {

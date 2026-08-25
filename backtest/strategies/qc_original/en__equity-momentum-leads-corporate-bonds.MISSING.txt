@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=equity-momentum-leads-corporate-bonds
+In-house reconstruction: backtest/strategies/generated/en__equity-momentum-leads-corporate-bonds.py
+Fidelity: no_qc_theme_proxy

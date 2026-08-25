@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=中国期货的日内时间序列动量
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7inab01auxlb06ht0u7wm.py
+Fidelity: no_qc_theme_proxy

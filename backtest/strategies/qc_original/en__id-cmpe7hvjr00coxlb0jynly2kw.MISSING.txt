@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过远期方差因子预测股票回报策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hvjr00coxlb0jynly2kw.py
+Fidelity: no_qc_theme_proxy

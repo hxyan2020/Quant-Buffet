@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=机器学习策略-中国股票收益预测
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7htho00alxlb0tvnh2k8y.py
+Fidelity: signal_unavailable_etf_proxy

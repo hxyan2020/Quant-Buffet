@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=分散型宏观经济风险与跨类别股票收益策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hwcc00djxlb0pc7gz7eg.py
+Fidelity: no_qc_theme_proxy

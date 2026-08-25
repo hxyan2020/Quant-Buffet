@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=corporate-bond-value-strategy
+In-house reconstruction: backtest/strategies/generated/en__corporate-bond-value-strategy.py
+Fidelity: no_qc_theme_proxy

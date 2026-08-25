@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=delta对冲的空头跨式比特币策略
+In-house reconstruction: backtest/strategies/generated/en__delta.py
+Fidelity: no_qc_theme_proxy

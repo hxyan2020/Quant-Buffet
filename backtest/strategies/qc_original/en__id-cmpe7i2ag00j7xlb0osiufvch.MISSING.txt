@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=客户动量策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i2ag00j7xlb0osiufvch.py
+Fidelity: no_qc_theme_proxy

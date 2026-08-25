@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=空头回补因子策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i12800hsxlb0jpd4zgo6.py
+Fidelity: no_qc_theme_proxy

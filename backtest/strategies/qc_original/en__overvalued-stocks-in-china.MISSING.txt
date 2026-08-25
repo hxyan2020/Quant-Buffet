@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=overvalued-stocks-in-china
+In-house reconstruction: backtest/strategies/generated/en__overvalued-stocks-in-china.py
+Fidelity: no_qc_theme_proxy

@@ -22,7 +22,24 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Quant Buffet",
+  metadataBase: new URL(process.env.AUTH_URL ?? "https://www.quantbuffet.com"),
+  title: {
+    default: "Quant Buffet — Academic Quant Trading Strategies",
+    template: "%s",
+  },
+  description:
+    "Bilingual library of academic quantitative trading strategies with backtests and QuantConnect/LEAN Python code.",
+  applicationName: "Quant Buffet",
+  authors: [{ name: "Quant Buffet", url: "https://www.quantbuffet.com" }],
+  creator: "Quant Buffet",
+  category: "finance",
+  openGraph: {
+    type: "website",
+    siteName: "Quant Buffet",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

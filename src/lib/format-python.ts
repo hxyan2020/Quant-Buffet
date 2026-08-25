@@ -59,3 +59,76 @@ export function extractPythonPlainText(rawHtmlOrCode: string | null | undefined)
   if (!rawHtmlOrCode?.trim()) return "";
   return normalizePythonLines(extractRawCode(rawHtmlOrCode));
 }
+
+/**
+ * Strip educational `# …` annotations while preserving code and string literals
+ * (including multi-line triple-quoted docstrings).
+ */
+export function stripPythonAnnotations(source: string): string {
+  const lines = source.replace(/\r\n/g, "\n").split("\n");
+  const out: string[] = [];
+  let triple: '"' | "'" | null = null;
+
+  for (const line of lines) {
+    let i = 0;
+    let result = "";
+    let inSingle = false;
+    let inDouble = false;
+
+    while (i < line.length) {
+      const ch = line[i];
+      const next3 = line.slice(i, i + 3);
+
+      if (triple) {
+        if (next3 === triple + triple + triple) {
+          result += next3;
+          i += 3;
+          triple = null;
+          continue;
+        }
+        result += ch;
+        i += 1;
+        continue;
+      }
+
+      if (!inSingle && !inDouble && (next3 === '"""' || next3 === "'''")) {
+        triple = next3[0] as '"' | "'";
+        result += next3;
+        i += 3;
+        continue;
+      }
+
+      if (!inDouble && ch === "'" && line[i - 1] !== "\\") {
+        inSingle = !inSingle;
+        result += ch;
+        i += 1;
+        continue;
+      }
+
+      if (!inSingle && ch === '"' && line[i - 1] !== "\\") {
+        inDouble = !inDouble;
+        result += ch;
+        i += 1;
+        continue;
+      }
+
+      if (!inSingle && !inDouble && ch === "#") {
+        break;
+      }
+
+      result += ch;
+      i += 1;
+    }
+
+    const trimmedRight = result.replace(/[ \t]+$/g, "");
+    if (trimmedRight.trim().length === 0) {
+      if (line.trim().length === 0) {
+        out.push("");
+      }
+      continue;
+    }
+    out.push(trimmedRight);
+  }
+
+  return out.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+}

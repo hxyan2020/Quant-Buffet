@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=公司债券中的公允价差价值因子
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7huss00bqxlb0xe3q45o6.py
+Fidelity: no_qc_theme_proxy

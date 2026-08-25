@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=当对冲基金与非对冲基金意见不一致时的策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hzcp00gexlb0ka8vvevb.py
+Fidelity: no_qc_theme_proxy

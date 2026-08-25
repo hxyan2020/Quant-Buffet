@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=波动率调整后的公司债券动量策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iiqb015fxlb0j53wmii0.py
+Fidelity: no_qc_theme_proxy

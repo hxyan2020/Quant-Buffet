@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=蝴蝶形态隐含收益
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hzbp00gdxlb0xne7ws3s.py
+Fidelity: signal_unavailable_etf_proxy

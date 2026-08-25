@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=earnings-delays-and-advances-predict-stock-returns
+In-house reconstruction: backtest/strategies/generated/en__earnings-delays-and-advances-predict-stock-returns.py
+Fidelity: no_qc_theme_proxy

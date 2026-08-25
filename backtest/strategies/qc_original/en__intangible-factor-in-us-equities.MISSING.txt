@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=intangible-factor-in-us-equities
+In-house reconstruction: backtest/strategies/generated/en__intangible-factor-in-us-equities.py
+Fidelity: no_qc_theme_proxy

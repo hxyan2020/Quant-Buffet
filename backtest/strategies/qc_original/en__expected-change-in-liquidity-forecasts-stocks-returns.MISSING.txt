@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=expected-change-in-liquidity-forecasts-stocks-returns
+In-house reconstruction: backtest/strategies/generated/en__expected-change-in-liquidity-forecasts-stocks-returns.py
+Fidelity: no_qc_theme_proxy

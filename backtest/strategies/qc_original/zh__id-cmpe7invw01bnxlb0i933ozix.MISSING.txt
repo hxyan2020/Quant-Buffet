@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=中国股票中的盈利因子
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7invw01bnxlb0i933ozix.py
+Fidelity: no_qc_theme_proxy

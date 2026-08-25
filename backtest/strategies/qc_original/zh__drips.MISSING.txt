@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=股息再投资计划（drips）与股价下跌
+In-house reconstruction: backtest/strategies/generated/zh__drips.py
+Fidelity: no_qc_theme_proxy

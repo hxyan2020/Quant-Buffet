@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=option-trading-volume-predicts-equity-returns
+In-house reconstruction: backtest/strategies/generated/en__option-trading-volume-predicts-equity-returns.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=esg-price-momentum-and-stochastic-optimization
+In-house reconstruction: backtest/strategies/generated/en__esg-price-momentum-and-stochastic-optimization.py
+Fidelity: signal_unavailable_etf_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=cross-border-ma-and-currency-returns
+In-house reconstruction: backtest/strategies/generated/en__cross-border-ma-and-currency-returns.py
+Fidelity: no_qc_theme_proxy

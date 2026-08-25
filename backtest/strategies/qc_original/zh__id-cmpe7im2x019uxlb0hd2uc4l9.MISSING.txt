@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=使用机器学习选择风险资产与无风险资产的最佳组
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7im2x019uxlb0hd2uc4l9.py
+Fidelity: no_qc_theme_proxy

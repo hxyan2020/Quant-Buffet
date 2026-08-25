@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=classification-of-stocks-as-anomaly-longs
+In-house reconstruction: backtest/strategies/generated/en__classification-of-stocks-as-anomaly-longs.py
+Fidelity: signal_unavailable_etf_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=使用lasso预测delta对冲期权收益
+In-house reconstruction: backtest/strategies/generated/en__lasso-delta.py
+Fidelity: no_qc_theme_proxy

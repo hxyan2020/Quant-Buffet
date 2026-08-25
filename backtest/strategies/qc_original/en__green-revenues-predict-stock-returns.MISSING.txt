@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=green-revenues-predict-stock-returns
+In-house reconstruction: backtest/strategies/generated/en__green-revenues-predict-stock-returns.py
+Fidelity: no_qc_theme_proxy

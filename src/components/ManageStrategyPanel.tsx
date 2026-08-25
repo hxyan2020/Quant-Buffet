@@ -44,6 +44,7 @@ type SerializedStrategy = {
   metaDescription?: string | null;
   sortOrder?: number | null;
   published: boolean;
+  archived: boolean;
   isPaywalled: boolean;
 };
 
@@ -94,6 +95,7 @@ function buildFormState(seed?: SerializedStrategy) {
       metaDescription: "",
       sortOrder: "0",
       published: true,
+      archived: false,
       isPaywalled: true,
     };
   }
@@ -120,6 +122,7 @@ function buildFormState(seed?: SerializedStrategy) {
     metaDescription: seed.metaDescription ?? "",
     sortOrder: String(seed.sortOrder ?? 0),
     published: seed.published,
+    archived: Boolean(seed.archived),
     isPaywalled: seed.isPaywalled,
   };
 }
@@ -221,6 +224,7 @@ export default function ManageStrategyPanel({
         metaDescription: nullable(form.metaDescription ?? ""),
         sortOrder: Number(form.sortOrder) || 0,
         published: form.published,
+        archived: form.archived,
         isPaywalled: form.isPaywalled,
       };
 
@@ -370,6 +374,10 @@ export default function ManageStrategyPanel({
         <label className="flex items-center gap-2 text-[#dbe7fb]">
           <input type="checkbox" checked={form.published} disabled={busy} onChange={(evt) => setForm({ ...form, published: evt.target.checked })} />
           Published / visible on site
+        </label>
+        <label className="flex items-center gap-2 text-[#dbe7fb]">
+          <input type="checkbox" checked={form.archived} disabled={busy} onChange={(evt) => setForm({ ...form, archived: evt.target.checked })} />
+          Archived (hidden from public library)
         </label>
         <label className="flex items-center gap-2 text-[#dbe7fb]">
           <input type="checkbox" checked={form.isPaywalled} disabled={busy} onChange={(evt) => setForm({ ...form, isPaywalled: evt.target.checked })} />

@@ -4,6 +4,7 @@
 
 import { extractPythonPlainText, formatPythonCodeHtml } from "@/lib/format-python";
 import { detectPythonCode, strategyCodeBlob } from "@/lib/detect-python";
+import { extractPaperImages, paperImagesToJson, type PaperImage } from "@/lib/paper-images";
 import { emptyToNa, sanitizePlainText, stripHtmlToText } from "@/lib/sanitize-text";
 
 export type BacktestMetrics = {
@@ -27,6 +28,8 @@ export type ParsedStrategyContent = {
   academicLink: string | null;
   backtestMetrics: BacktestMetrics;
   pythonCodeHtml: string;
+  paperImages: PaperImage[];
+  paperImagesJson: string;
   contentHtml: string;
   hasPythonCode: boolean;
 };
@@ -263,6 +266,7 @@ export function parseStrategyContent(
   const paper = parsePaperFromSection(sections.paper ?? "");
   const backtestMetrics = parseBacktestMetricsFromHtml(sections.backtest ?? "");
   const pythonCodeHtml = extractPythonFromSection(sections.python ?? "", html);
+  const paperImages = extractPaperImages(html);
 
   const excerptClean = options?.excerpt ? sanitizePlainText(options.excerpt) : "";
   const teaser = excerptClean.length > 0 ? excerptClean : "N/A";
@@ -280,6 +284,8 @@ export function parseStrategyContent(
     academicLink: paper.academicLink,
     backtestMetrics,
     pythonCodeHtml,
+    paperImages,
+    paperImagesJson: paperImagesToJson(paperImages),
     contentHtml: bodyParts.join("\n\n").trim(),
     hasPythonCode: detectPythonCode(strategyCodeBlob(html, pythonCodeHtml)),
   };

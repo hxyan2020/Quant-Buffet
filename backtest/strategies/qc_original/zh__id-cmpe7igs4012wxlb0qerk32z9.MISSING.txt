@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=改进的并购套利
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7igs4012wxlb0qerk32z9.py
+Fidelity: no_qc_theme_proxy

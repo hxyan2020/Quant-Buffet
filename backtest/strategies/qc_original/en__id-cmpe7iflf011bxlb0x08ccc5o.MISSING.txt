@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过深度学习来调整因子的时间
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7iflf011bxlb0x08ccc5o.py
+Fidelity: no_qc_theme_proxy

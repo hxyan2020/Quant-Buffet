@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=idiosyncratic-liquidity-in-stocks
+In-house reconstruction: backtest/strategies/generated/en__idiosyncratic-liquidity-in-stocks.py
+Fidelity: no_qc_theme_proxy

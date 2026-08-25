@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=在可转换债券套利中卖空发行人股票
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7il18018kxlb0w1ukx6ww.py
+Fidelity: no_qc_theme_proxy

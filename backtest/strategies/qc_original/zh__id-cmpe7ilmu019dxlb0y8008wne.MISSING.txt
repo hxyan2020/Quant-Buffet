@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=仅基于跳跃的动量与反转策略在外汇市场中的应用
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ilmu019dxlb0y8008wne.py
+Fidelity: no_qc_theme_proxy

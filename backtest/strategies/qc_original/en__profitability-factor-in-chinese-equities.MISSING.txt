@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=profitability-factor-in-chinese-equities
+In-house reconstruction: backtest/strategies/generated/en__profitability-factor-in-chinese-equities.py
+Fidelity: no_qc_theme_proxy

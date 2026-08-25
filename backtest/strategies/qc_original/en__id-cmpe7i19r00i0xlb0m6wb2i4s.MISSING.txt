@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=使用深度学习对因子效应进行择时策略-来自中国
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i19r00i0xlb0m6wb2i4s.py
+Fidelity: signal_unavailable_etf_proxy

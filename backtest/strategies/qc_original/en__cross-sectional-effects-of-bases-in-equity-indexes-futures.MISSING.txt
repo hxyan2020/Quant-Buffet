@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=cross-sectional-effects-of-bases-in-equity-indexes-futures
+In-house reconstruction: backtest/strategies/generated/en__cross-sectional-effects-of-bases-in-equity-indexes-futures.py
+Fidelity: no_qc_theme_proxy

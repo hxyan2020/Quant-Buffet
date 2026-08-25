@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=对投资组合的汇报进行排序并分析其相似特征策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hw5100dbxlb0axajlvcr.py
+Fidelity: no_qc_theme_proxy

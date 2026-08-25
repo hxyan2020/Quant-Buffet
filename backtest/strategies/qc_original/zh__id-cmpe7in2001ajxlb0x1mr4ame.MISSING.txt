@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=主成分投资组合
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7in2001ajxlb0x1mr4ame.py
+Fidelity: no_qc_theme_proxy

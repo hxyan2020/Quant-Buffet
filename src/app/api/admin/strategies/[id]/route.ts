@@ -32,6 +32,7 @@ const updateSchema = z
     frequency: z.string().optional().nullable(),
     isPaywalled: z.boolean().optional(),
     published: z.boolean().optional(),
+    archived: z.boolean().optional(),
     paperTitle: z.string().optional().nullable(),
     paperAuthors: z.string().optional().nullable(),
     paperInstitute: z.string().optional().nullable(),

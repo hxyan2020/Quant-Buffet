@@ -1,5 +1,6 @@
 import prisma from "@/lib/prisma";
 import { collectDistinctTokens, splitFilterTokens, tokenMatchesField } from "@/lib/strategy-tokens";
+import { PUBLIC_STRATEGY_WHERE } from "@/lib/strategy-visibility";
 
 export const STRATEGIES_PAGE_SIZE = 50;
 
@@ -32,13 +33,21 @@ const listSelect = {
 
 export async function countPublishedStrategies(locale: string) {
   return prisma.strategy.count({
-    where: { locale, published: true },
+    where: { locale, ...PUBLIC_STRATEGY_WHERE },
   });
+}
+
+export async function countPublishedByPaywall(locale: string) {
+  const [free, paid] = await Promise.all([
+    prisma.strategy.count({ where: { locale, ...PUBLIC_STRATEGY_WHERE, isPaywalled: false } }),
+    prisma.strategy.count({ where: { locale, ...PUBLIC_STRATEGY_WHERE, isPaywalled: true } }),
+  ]);
+  return { free, paid, total: free + paid };
 }
 
 export async function getLibraryFilterOptions(locale: string) {
   const rows = await prisma.strategy.findMany({
-    where: { locale, published: true },
+    where: { locale, ...PUBLIC_STRATEGY_WHERE },
     select: { market: true, region: true, assetClass: true },
   });
   return {
@@ -88,7 +97,7 @@ export async function listStrategies({
   const safePage = Math.max(1, page);
 
   const rows = await prisma.strategy.findMany({
-    where: { locale, published: true },
+    where: { locale, ...PUBLIC_STRATEGY_WHERE },
     orderBy: [{ sortOrder: "asc" }, { title: "asc" }],
     select: listSelect,
   });

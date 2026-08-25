@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=外汇期货交易的多策略方法
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ilhr0196xlb0nfzj6jng.py
+Fidelity: no_qc_theme_proxy

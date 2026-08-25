@@ -1,0 +1,2138 @@
+[
+  {
+    "slug": "a-multi-strategy-approach-to-trading-foreign-exchange-futures",
+    "title": "A Multi Strategy Approach to Trading Foreign Exchange Futures",
+    "isPaywalled": false,
+    "annualisedReturn": "9.76%",
+    "sharpeRatio": "0.5",
+    "equities": [
+      "DBC"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3639
+  },
+  {
+    "slug": "adaptive-moving-averages-used-for-market-timing",
+    "title": "Adaptive Moving Averages used for Market Timing",
+    "isPaywalled": false,
+    "annualisedReturn": "14.6%",
+    "sharpeRatio": "0.61",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1999
+  },
+  {
+    "slug": "antonaccis-dual-momentum",
+    "title": "Antonacci\u2019s Dual Momentum",
+    "isPaywalled": false,
+    "annualisedReturn": "14.9%",
+    "sharpeRatio": "1.07",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 2852
+  },
+  {
+    "slug": "avoid-equity-bear-markets-with-a-market-timing-strategy",
+    "title": "Avoid Equity Bear Markets with a Market Timing Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "6.59%",
+    "sharpeRatio": "0.56",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 5169
+  },
+  {
+    "slug": "combined-momentum-and-counter-trend-strategy-on-us-equity-indexes",
+    "title": "Combined Momentum and Counter Trend Strategy on US Equity Indexes",
+    "isPaywalled": false,
+    "annualisedReturn": "12.2%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY",
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1097
+  },
+  {
+    "slug": "combining-smart-factors-momentum-and-market-portfolio",
+    "title": "Combining Smart Factors Momentum and Market Portfolio",
+    "isPaywalled": false,
+    "annualisedReturn": "11.91%",
+    "sharpeRatio": "0.96",
+    "equities": [
+      "IWM"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 4101
+  },
+  {
+    "slug": "contrarian-vix-strategy",
+    "title": "Contrarian VIX strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "10.8%",
+    "sharpeRatio": "1.93",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1358
+  },
+  {
+    "slug": "credit-informed-tactical-asset-allocation",
+    "title": "Credit-Informed Tactical Asset Allocation",
+    "isPaywalled": false,
+    "annualisedReturn": "18.1%",
+    "sharpeRatio": "0.81",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2633
+  },
+  {
+    "slug": "crude-oil-predicts-equity-returns",
+    "title": "Oil-Driven Equity Allocation via Monthly Regression",
+    "isPaywalled": false,
+    "annualisedReturn": "11.9%",
+    "sharpeRatio": "-0.505",
+    "equities": [
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 2690
+  },
+  {
+    "slug": "daily-box-office-earnings-and-aggregate-stock-returns",
+    "title": "Daily Box Office Earnings and Aggregate Stock Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "27.13%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1345
+  },
+  {
+    "slug": "employee-sentiment-and-stock-returns",
+    "title": "Employee Sentiment and Stock Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "7.5%",
+    "sharpeRatio": "0.75",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 5333
+  },
+  {
+    "slug": "end-of-month-treasury-returns",
+    "title": "End-of-Month Treasury Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "3.96%",
+    "sharpeRatio": "0.52",
+    "equities": [
+      "TLT"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2031
+  },
+  {
+    "slug": "factor-momentum-in-the-chinese-stock-market",
+    "title": "Factor Momentum in the Chinese Stock Market",
+    "isPaywalled": false,
+    "annualisedReturn": "7.02%",
+    "sharpeRatio": "0.8",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 7812
+  },
+  {
+    "slug": "federal-open-market-committee-meeting-effect-in-stocks",
+    "title": "FOMC Event-Based Stock Timing Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "6.19%",
+    "sharpeRatio": "-0.274",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 3230
+  },
+  {
+    "slug": "filtered-short-term-reversal",
+    "title": "Filtered Short-Term Reversal",
+    "isPaywalled": false,
+    "annualisedReturn": "9.77%",
+    "sharpeRatio": "0.31",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2065
+  },
+  {
+    "slug": "front-running-sp-gsci-index",
+    "title": "Front-Running S&P GSCI Index",
+    "isPaywalled": false,
+    "annualisedReturn": "11.1%",
+    "sharpeRatio": "0.61",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1719
+  },
+  {
+    "slug": "gold-to-oil-ratio-predicts-aggregate-stock-returns",
+    "title": "Gold to Oil Ratio Predicts Aggregate Stock Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "7.02%",
+    "sharpeRatio": "0.72",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 3550
+  },
+  {
+    "slug": "halloween-effect-during-low-and-high-cape-months",
+    "title": "Halloween Effect during Low and High CAPE Months",
+    "isPaywalled": false,
+    "annualisedReturn": "12.24%",
+    "sharpeRatio": "0.46",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3261
+  },
+  {
+    "slug": "halloween-effect-during-the-mid-term-election-year",
+    "title": "Halloween Effect During the Mid-Term Election Year",
+    "isPaywalled": false,
+    "annualisedReturn": "13.24%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1138
+  },
+  {
+    "slug": "harvesting-volatility-risk-premia-and-crisis-alpha-via-etfs",
+    "title": "Harvesting Volatility Risk Premia and Crisis Alpha via ETFs",
+    "isPaywalled": false,
+    "annualisedReturn": "22.2%",
+    "sharpeRatio": "0.92",
+    "equities": [
+      "VIXY",
+      "SVXY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 7506
+  },
+  {
+    "slug": "hazard-fear-in-commodity-markets",
+    "title": "Hazard Fear in Commodity Markets",
+    "isPaywalled": false,
+    "annualisedReturn": "9.28%",
+    "sharpeRatio": "0.9",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 10470
+  },
+  {
+    "slug": "hedging-factor-in-cryptocurrencies",
+    "title": "Hedging Factor in Cryptocurrencies",
+    "isPaywalled": false,
+    "annualisedReturn": "4.68%",
+    "sharpeRatio": null,
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 3583
+  },
+  {
+    "slug": "high-momentum-in-liquid-cryptocurrencies",
+    "title": "High-Momentum in Liquid Cryptocurrencies",
+    "isPaywalled": false,
+    "annualisedReturn": "13.61%",
+    "sharpeRatio": "2.1",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 4785
+  },
+  {
+    "slug": "improved-cross-asset-time-series-momentum-i-xtsm",
+    "title": "Improved Cross-Asset Time-Series Momentum I-XTSM",
+    "isPaywalled": false,
+    "annualisedReturn": "20.82%",
+    "sharpeRatio": "0.72",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 3619
+  },
+  {
+    "slug": "inflation-hedging-using-online-prices",
+    "title": "Inflation Hedging Using Online Prices",
+    "isPaywalled": false,
+    "annualisedReturn": "2.6%",
+    "sharpeRatio": "48%",
+    "equities": [
+      "TIP",
+      "IEF"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2329
+  },
+  {
+    "slug": "intraday-momentum-in-crude-oil-etf",
+    "title": "Intraday Momentum in Crude Oil ETF",
+    "isPaywalled": false,
+    "annualisedReturn": "1.85%",
+    "sharpeRatio": null,
+    "equities": [
+      "USO"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 1363
+  },
+  {
+    "slug": "intraday-momentum-in-equities",
+    "title": "Intraday Momentum in Equities",
+    "isPaywalled": false,
+    "annualisedReturn": "4.39%",
+    "sharpeRatio": "0.98",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 1022
+  },
+  {
+    "slug": "january-barometer",
+    "title": "January Return-Based Equity Timing Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "10.38%",
+    "sharpeRatio": "0.179",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1152
+  },
+  {
+    "slug": "january-effect-in-stocks",
+    "title": "January Small-Cap Entry, Large-Cap Hold Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "12.7%",
+    "sharpeRatio": "0.263",
+    "equities": [
+      "SPY",
+      "IWM"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 755
+  },
+  {
+    "slug": "long-term-reversal-combined-with-a-momentum-effect-in-industry-portfolios",
+    "title": "Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios",
+    "isPaywalled": false,
+    "annualisedReturn": "9.9%",
+    "sharpeRatio": "0.3",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 6036
+  },
+  {
+    "slug": "low-value-factor-in-india",
+    "title": "Low Value Factor in India",
+    "isPaywalled": false,
+    "annualisedReturn": "16.47%",
+    "sharpeRatio": "0.73",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3690
+  },
+  {
+    "slug": "lunar-cycle-in-precious-metals",
+    "title": "Lunar Cycle in Precious Metals",
+    "isPaywalled": false,
+    "annualisedReturn": "5.2%",
+    "sharpeRatio": null,
+    "equities": [
+      "GLD"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2588
+  },
+  {
+    "slug": "lunar-monthly-effect-in-chinese-stocks",
+    "title": "Lunar Monthly Effect in Chinese Stocks",
+    "isPaywalled": false,
+    "annualisedReturn": "4.46%",
+    "sharpeRatio": "0.88",
+    "equities": [
+      "FXI"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1715
+  },
+  {
+    "slug": "market-seasonality-effect",
+    "title": "Global Equity Rotation Strategy Based on Seasonal Market Timing",
+    "isPaywalled": false,
+    "annualisedReturn": "8.80%",
+    "sharpeRatio": "0.21",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "rotation",
+    "code_chars": 1736
+  },
+  {
+    "slug": "market-seasonality-effect-in-world-equity-indexes",
+    "title": "Seasonal Global Equity Rotation Strategy with Hemispheric and Sector Timing",
+    "isPaywalled": false,
+    "annualisedReturn": "8.8%",
+    "sharpeRatio": "0.221",
+    "equities": [
+      "AAPL",
+      "GOOG"
+    ],
+    "algolib": false,
+    "template_hint": "rotation",
+    "code_chars": 506
+  },
+  {
+    "slug": "market-sentiment-and-an-overnight-anomaly",
+    "title": "Market Sentiment and an Overnight Anomaly",
+    "isPaywalled": false,
+    "annualisedReturn": "15.58%",
+    "sharpeRatio": "0.34",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 1480
+  },
+  {
+    "slug": "market-timing-sp-500-with-vix-and-cot-report",
+    "title": "Market Timing S&P 500 with VIX and COT Report",
+    "isPaywalled": false,
+    "annualisedReturn": "8.39%",
+    "sharpeRatio": "0.44",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 6620
+  },
+  {
+    "slug": "market-timing-with-merton-rule-for-earnings-yield",
+    "title": "Market Timing with Merton Rule for Earnings Yield",
+    "isPaywalled": false,
+    "annualisedReturn": "10.02%",
+    "sharpeRatio": "0.97",
+    "equities": [
+      "SPY",
+      "TIP"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 5047
+  },
+  {
+    "slug": "market-timing-with-relative-sentiment",
+    "title": "Market Timing with Relative Sentiment",
+    "isPaywalled": false,
+    "annualisedReturn": "12.11%",
+    "sharpeRatio": "0.94",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3750
+  },
+  {
+    "slug": "modified-volatility-predicts-dji-returns",
+    "title": "Modified volatility predicts DJI returns",
+    "isPaywalled": false,
+    "annualisedReturn": "3.23%",
+    "sharpeRatio": null,
+    "equities": [
+      "DIA",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "vol_target",
+    "code_chars": 3524
+  },
+  {
+    "slug": "momentum-in-mutual-fund-returns",
+    "title": "Momentum Strategy for No-Load US Equity Mutual Funds",
+    "isPaywalled": false,
+    "annualisedReturn": "19%",
+    "sharpeRatio": "0.395",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "momentum",
+    "code_chars": 1786
+  },
+  {
+    "slug": "net-emotional-volatility-index-effect",
+    "title": "Net Emotional Volatility Index Effect",
+    "isPaywalled": false,
+    "annualisedReturn": "12.65%",
+    "sharpeRatio": "1.46",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 4064
+  },
+  {
+    "slug": "oil-beta-uncertainty-and-global-stock-returns",
+    "title": "Oil Beta Uncertainty and Global Stock Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "10.17%",
+    "sharpeRatio": "0.66",
+    "equities": [
+      "URTH"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 6032
+  },
+  {
+    "slug": "opening-range-breakout-orb-strategy-in-qqq",
+    "title": "Opening Range Breakout (ORB) Strategy in QQQ",
+    "isPaywalled": false,
+    "annualisedReturn": "31%",
+    "sharpeRatio": "1.12",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3478
+  },
+  {
+    "slug": "overnight-anomaly",
+    "title": "Overnight Anomaly",
+    "isPaywalled": false,
+    "annualisedReturn": "14%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1127
+  },
+  {
+    "slug": "paired-switching-2",
+    "title": "Paired Switching",
+    "isPaywalled": false,
+    "annualisedReturn": "11.3%",
+    "sharpeRatio": "0.78",
+    "equities": [
+      "SPY",
+      "AGG"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2295
+  },
+  {
+    "slug": "pairs-trading-in-cryptocurrencies",
+    "title": "Pairs Trading in Cryptocurrencies",
+    "isPaywalled": false,
+    "annualisedReturn": "70.4%",
+    "sharpeRatio": "1.77",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4396
+  },
+  {
+    "slug": "payday-anomaly",
+    "title": "Mid-Month Payday S&P500 Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "2.57%",
+    "sharpeRatio": "-0.3",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1133
+  },
+  {
+    "slug": "pre-holiday-effect",
+    "title": "US Pre-Holiday Equity Exposure Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "6.39%",
+    "sharpeRatio": "-0.239",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 867
+  },
+  {
+    "slug": "price-gap-strategy-in-the-us-stock-market",
+    "title": "Price Gap Strategy in the US Stock Market",
+    "isPaywalled": false,
+    "annualisedReturn": "5.9%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1310
+  },
+  {
+    "slug": "return-asymmetry-effect-in-commodity-futures",
+    "title": "Return Asymmetry Effect in Commodity Futures",
+    "isPaywalled": false,
+    "annualisedReturn": "4.36%",
+    "sharpeRatio": "0.041",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 3661
+  },
+  {
+    "slug": "reversal-effect-in-india",
+    "title": "Reversal Effect in India",
+    "isPaywalled": false,
+    "annualisedReturn": "47.74%",
+    "sharpeRatio": "1.32",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3133
+  },
+  {
+    "slug": "scheduled-economic-announcements-effect-in-stocks",
+    "title": "Scheduled Economic Announcements Effect in Stocks",
+    "isPaywalled": false,
+    "annualisedReturn": "7.2%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1087
+  },
+  {
+    "slug": "sector-rotation-strategy-based-on-multivariate-regression-analysis",
+    "title": "Sector Rotation Strategy Based on Multivariate Regression Analysis",
+    "isPaywalled": false,
+    "annualisedReturn": "7.04%",
+    "sharpeRatio": "0.55",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": false,
+    "template_hint": "rotation",
+    "code_chars": 4368
+  },
+  {
+    "slug": "short-term-adaptive-reversal-in-sp-500-index",
+    "title": "Short-term Adaptive Reversal in S&P 500 Index",
+    "isPaywalled": false,
+    "annualisedReturn": "19.9%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4458
+  },
+  {
+    "slug": "shorting-stocks-during-the-last-hour-of-month",
+    "title": "Shorting Stocks During the Last Hour of Month",
+    "isPaywalled": false,
+    "annualisedReturn": "1.8%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 651
+  },
+  {
+    "slug": "size-factor-vs-monetary-policy-regime",
+    "title": "Size Factor vs. Monetary Policy Regime",
+    "isPaywalled": false,
+    "annualisedReturn": "6.27%",
+    "sharpeRatio": "0.62",
+    "equities": [
+      "SPY",
+      "IWM"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3535
+  },
+  {
+    "slug": "stock-and-bond-returns-predict-currency-returns",
+    "title": "Stock and Bond Returns Predict Currency Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "8.47%",
+    "sharpeRatio": "2.11",
+    "equities": [
+      "VTI"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4776
+  },
+  {
+    "slug": "stock-trading-rule-that-produces-higher-returns-with-lower-risk",
+    "title": "Stock Trading Rule that Produces Higher Returns with Lower Risk",
+    "isPaywalled": false,
+    "annualisedReturn": "6.78%",
+    "sharpeRatio": "0.251",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3946
+  },
+  {
+    "slug": "synthetic-lending-rates-predict-subsequent-market-return-2",
+    "title": "Synthetic Lending Rates Predict Subsequent Market Return",
+    "isPaywalled": false,
+    "annualisedReturn": "15.47%",
+    "sharpeRatio": "0.79",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2146
+  },
+  {
+    "slug": "term-spread-and-term-premium-predict-us-government-bonds-returns",
+    "title": "Term Spread and Term Premium Predict US Government Bonds Returns",
+    "isPaywalled": false,
+    "annualisedReturn": "8.08%",
+    "sharpeRatio": "1.08",
+    "equities": [
+      "IEF",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2033
+  },
+  {
+    "slug": "text-based-recession-detection-strategy",
+    "title": "Text-Based Recession Detection Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "8.78%",
+    "sharpeRatio": "0.65",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3243
+  },
+  {
+    "slug": "the-fomc-cycle-effect",
+    "title": "The FOMC Cycle Effect",
+    "isPaywalled": false,
+    "annualisedReturn": "12.15%",
+    "sharpeRatio": "0.92",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1366
+  },
+  {
+    "slug": "the-tax-day-trade",
+    "title": "The Tax Day Trade",
+    "isPaywalled": false,
+    "annualisedReturn": "2.5%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 978
+  },
+  {
+    "slug": "timing-betting-against-beta-with-small-stocks",
+    "title": "Timing Betting Against Beta with Small Stocks",
+    "isPaywalled": false,
+    "annualisedReturn": "22.42%",
+    "sharpeRatio": "1.13",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 5181
+  },
+  {
+    "slug": "timing-carry-trade",
+    "title": "Timing Carry Trade",
+    "isPaywalled": false,
+    "annualisedReturn": "12.6%",
+    "sharpeRatio": "0.86",
+    "equities": [
+      "DBC"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 6632
+  },
+  {
+    "slug": "timing-carry-trade-with-central-banks-announcements",
+    "title": "Timing Carry Trade with Central Banks\u2019 Announcements",
+    "isPaywalled": false,
+    "annualisedReturn": "4.47%",
+    "sharpeRatio": "0.91",
+    "equities": [
+      "SPY",
+      "IEF",
+      "UUP"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3975
+  },
+  {
+    "slug": "timing-commodities-and-sp500-with-cot-report",
+    "title": "Timing Commodities and S&P500 with COT Report",
+    "isPaywalled": false,
+    "annualisedReturn": "16.8%",
+    "sharpeRatio": "1.24",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 8381
+  },
+  {
+    "slug": "timing-the-small-cap-effect-ver-2",
+    "title": "Timing the Small Cap Effect ver. 2",
+    "isPaywalled": false,
+    "annualisedReturn": "9%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY",
+      "IWM"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 985
+  },
+  {
+    "slug": "timing-the-small-cap-effect-ver-3",
+    "title": "Timing the Small Cap Effect ver. 3",
+    "isPaywalled": false,
+    "annualisedReturn": "5.42%",
+    "sharpeRatio": "0.69",
+    "equities": [
+      "SPY",
+      "DIA",
+      "IWM"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2119
+  },
+  {
+    "slug": "trading-commodity-etfs-versus-equity-etfs",
+    "title": "Trading Commodity ETFs versus Equity ETFs",
+    "isPaywalled": false,
+    "annualisedReturn": "31.1%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY",
+      "DBC"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1028
+  },
+  {
+    "slug": "trading-fomc-announcements-with-summary-of-economic-projections",
+    "title": "Trading FOMC Announcements with Summary of Economic Projections",
+    "isPaywalled": false,
+    "annualisedReturn": "8.9%",
+    "sharpeRatio": "1.78",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1146
+  },
+  {
+    "slug": "traditional-carry-in-cryptocurrencies",
+    "title": "Traditional Carry in Cryptocurrencies",
+    "isPaywalled": false,
+    "annualisedReturn": "46.71%",
+    "sharpeRatio": "0.77",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3158
+  },
+  {
+    "slug": "trend-following-and-spillover-e\ufb00ect",
+    "title": "Trend-Following and Spillover E\ufb00ect",
+    "isPaywalled": false,
+    "annualisedReturn": "3.2%",
+    "sharpeRatio": "0.67",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 6680
+  },
+  {
+    "slug": "trendfollowing-effect-within-reits",
+    "title": "Trendfollowing Effect within REITs",
+    "isPaywalled": false,
+    "annualisedReturn": "14.38%",
+    "sharpeRatio": "0.97",
+    "equities": [
+      "VNQ",
+      "SHY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1437
+  },
+  {
+    "slug": "turn-of-the-month-in-equity-indexes",
+    "title": "SPY Turn-of-the-Month Strategy",
+    "isPaywalled": false,
+    "annualisedReturn": "7.2%",
+    "sharpeRatio": "0.013",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1287
+  },
+  {
+    "slug": "us-equity-tail-risk-and-currency-risk-premia",
+    "title": "US Equity Tail Risk and Currency Risk Premia",
+    "isPaywalled": false,
+    "annualisedReturn": "4.57%",
+    "sharpeRatio": "0.56",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 5162
+  },
+  {
+    "slug": "volume-weighted-average-price-vwap-as-precise-trend-following-indicator-for-day-traders",
+    "title": "Volume Weighted Average Price (VWAP) as Precise Trend-Following Indicator for Day-Traders",
+    "isPaywalled": false,
+    "annualisedReturn": "43%",
+    "sharpeRatio": "2.39",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1700
+  },
+  {
+    "slug": "when-to-own-stocks-and-when-to-own-gold",
+    "title": "When to Own Stocks and When to Own Gold",
+    "isPaywalled": false,
+    "annualisedReturn": "10%",
+    "sharpeRatio": "0.43",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3220
+  },
+  {
+    "slug": "why-do-us-stocks-outperform-em-and-eafe-regions",
+    "title": "Why Do US Stocks Outperform EM and EAFE Regions?",
+    "isPaywalled": false,
+    "annualisedReturn": "7.14%",
+    "sharpeRatio": "0.37",
+    "equities": [
+      "SPY",
+      "EEM"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1533
+  },
+  {
+    "slug": "betting-against-uncertainty-beta-in-us-hedge-funds",
+    "title": "Betting Against Uncertainty Beta in US Hedge Funds",
+    "isPaywalled": true,
+    "annualisedReturn": "8.89%",
+    "sharpeRatio": "0.62",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 6463
+  },
+  {
+    "slug": "bond-yield-changes-and-the-cross-section-of-equity-indices",
+    "title": "Bond Yield Changes and the Cross Section of Equity Indices",
+    "isPaywalled": true,
+    "annualisedReturn": "7.83%",
+    "sharpeRatio": "0.49",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 7155
+  },
+  {
+    "slug": "combining-smart-factors-momentum-and-market-portfolio-2",
+    "title": "Dynamic Factor Momentum Blended with Market Exposure Strategy",
+    "isPaywalled": true,
+    "annualisedReturn": "11.91%",
+    "sharpeRatio": "1.14",
+    "equities": [
+      "IWM"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 4113
+  },
+  {
+    "slug": "combining-vix-futures-term-structure-strategy-and-sp500-index",
+    "title": "Combining VIX Futures Term Structure Strategy and S&P500 Index",
+    "isPaywalled": true,
+    "annualisedReturn": "23.58%",
+    "sharpeRatio": "1.18",
+    "equities": [
+      "SPY",
+      "VIXY"
+    ],
+    "algolib": false,
+    "template_hint": "vol_target",
+    "code_chars": 2382
+  },
+  {
+    "slug": "currency-factor-momentum",
+    "title": "Currency Factor Momentum",
+    "isPaywalled": true,
+    "annualisedReturn": "4.9%",
+    "sharpeRatio": "0.85",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 4267
+  },
+  {
+    "slug": "etf-momentum",
+    "title": "ETF Momentum",
+    "isPaywalled": true,
+    "annualisedReturn": "16.08%",
+    "sharpeRatio": "0.62",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 2542
+  },
+  {
+    "slug": "fed\u6a21\u578b\u7b56\u7565",
+    "title": "FED\u6a21\u578b\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.7%",
+    "sharpeRatio": "0.27",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 3034
+  },
+  {
+    "slug": "generalised-risk-adjusted-momentum-in-equity-indexes",
+    "title": "Generalised Risk-Adjusted Momentum in Equity Indexes",
+    "isPaywalled": true,
+    "annualisedReturn": "12.7%",
+    "sharpeRatio": "0.64",
+    "equities": [
+      "ACWI"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 6913
+  },
+  {
+    "slug": "global-imbalance-currency-factor",
+    "title": "Global Imbalance Currency Factor",
+    "isPaywalled": true,
+    "annualisedReturn": "4.4%",
+    "sharpeRatio": "0.68",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 7201
+  },
+  {
+    "slug": "hedging-portfolio",
+    "title": "Hedging Portfolio",
+    "isPaywalled": true,
+    "annualisedReturn": "8.03%",
+    "sharpeRatio": "0.65",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 8339
+  },
+  {
+    "slug": "implied-volatility-spreads-and-expected-market-returns-in-sp500",
+    "title": "Implied Volatility Spreads and Expected Market Returns in S&P500",
+    "isPaywalled": true,
+    "annualisedReturn": "11.09%",
+    "sharpeRatio": "0.77",
+    "equities": [
+      "BIL",
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3841
+  },
+  {
+    "slug": "market-sentiment-and-an-overnight-anomaly-2",
+    "title": "Overnight SPY Trading Strategy Using VIX and Market Sentiment",
+    "isPaywalled": true,
+    "annualisedReturn": "15.58%",
+    "sharpeRatio": "2.12",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1488
+  },
+  {
+    "slug": "momentum-and-low-risk-effects-in-india",
+    "title": "Momentum and Low Risk Effects in India",
+    "isPaywalled": true,
+    "annualisedReturn": "10.84%",
+    "sharpeRatio": "-0.287",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 5399
+  },
+  {
+    "slug": "monetary-fomc-momentum-in-stocks",
+    "title": "Monetary (FOMC) Momentum in Stocks",
+    "isPaywalled": true,
+    "annualisedReturn": "9.02%",
+    "sharpeRatio": "0.57",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 1604
+  },
+  {
+    "slug": "oil-volatility-affects-industry-momentum-in-china",
+    "title": "Oil Volatility Affects Industry Momentum in China",
+    "isPaywalled": true,
+    "annualisedReturn": "62.88%",
+    "sharpeRatio": "1.64",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 6250
+  },
+  {
+    "slug": "output-gap-predicts-fx-returns",
+    "title": "Output Gap Predicts FX Returns",
+    "isPaywalled": true,
+    "annualisedReturn": "4.92%",
+    "sharpeRatio": "0.72",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3727
+  },
+  {
+    "slug": "payday-anomaly-2",
+    "title": "Payday Anomaly",
+    "isPaywalled": true,
+    "annualisedReturn": "2.57%",
+    "sharpeRatio": "0.6",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1096
+  },
+  {
+    "slug": "pre-election-drift-in-the-stock-market",
+    "title": "Pre-Election Drift In the Stock Market",
+    "isPaywalled": true,
+    "annualisedReturn": "2.46%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 819
+  },
+  {
+    "slug": "qqq-\u5f00\u76d8\u533a\u95f4\u7a81\u7834-orb-\u7b56\u7565",
+    "title": "QQQ \u5f00\u76d8\u533a\u95f4\u7a81\u7834 (ORB) \u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "31%",
+    "sharpeRatio": "1.12",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3478
+  },
+  {
+    "slug": "return-asymmetry-effect-in-commodity-futures-2",
+    "title": "Monthly Commodity Asymmetry Ranking and Long-Short Strategy",
+    "isPaywalled": true,
+    "annualisedReturn": "4.36%",
+    "sharpeRatio": "0.58",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 5068
+  },
+  {
+    "slug": "shorting-volatility-during-fomc-meeting-days",
+    "title": "FOMC-Day Intraday VIX Futures Shorting Strategy",
+    "isPaywalled": true,
+    "annualisedReturn": "10%",
+    "sharpeRatio": "1.04",
+    "equities": [
+      "VIIX"
+    ],
+    "algolib": false,
+    "template_hint": "vol_target",
+    "code_chars": 958
+  },
+  {
+    "slug": "the-5-month-prediction-pattern-in-the-us-stock-market-returns",
+    "title": "Lag-5 Calendar Month S&P Return Forecasting Strategy",
+    "isPaywalled": true,
+    "annualisedReturn": "10.5%",
+    "sharpeRatio": "0.6",
+    "equities": [
+      "DIA"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2108
+  },
+  {
+    "slug": "vwap\u65e5\u5185\u4ea4\u6613\u7b56\u7565",
+    "title": "VWAP\u65e5\u5185\u4ea4\u6613\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "43%",
+    "sharpeRatio": "2.39",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1709
+  },
+  {
+    "slug": "yield-gap-predictive-allocation-strategy-for-equity-bond-forecasting",
+    "title": "Yield Gap Regression Timing Strategy Using FED Model Signals Monthly",
+    "isPaywalled": true,
+    "annualisedReturn": "11.70%",
+    "sharpeRatio": "0. 45",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 5671
+  },
+  {
+    "slug": "\u4e00\u6708\u6674\u96e8\u8868",
+    "title": "\u4e00\u6708\u6674\u96e8\u8868\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "10.38%",
+    "sharpeRatio": "0.179",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1152
+  },
+  {
+    "slug": "\u4e2d\u56fd\u80a1\u5e02\u4e2d\u7684\u56e0\u5b50\u52a8\u91cf\u7b56\u7565",
+    "title": "\u4e2d\u56fd\u80a1\u5e02\u4e2d\u7684\u56e0\u5b50\u52a8\u91cf\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "7.02%",
+    "sharpeRatio": "0.8",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 7770
+  },
+  {
+    "slug": "\u4ea7\u751f\u66f4\u9ad8\u6536\u76ca\u4e14\u98ce\u9669\u8f83\u4f4e\u7684\u80a1\u7968\u4ea4\u6613\u89c4\u5219",
+    "title": "\u7528\u4f4e\u98ce\u9669\u80a1\u7968\u4ea7\u751f\u66f4\u9ad8\u6536\u76ca\u7684\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "6.78%",
+    "sharpeRatio": "0.251",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3946
+  },
+  {
+    "slug": "\u4f20\u7edf\u5957\u5229\u4ea4\u6613\u5728\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5e94\u7528",
+    "title": "\u4f20\u7edf\u5957\u5229\u4ea4\u6613\u5728\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5e94\u7528",
+    "isPaywalled": true,
+    "annualisedReturn": "46.71%",
+    "sharpeRatio": "0.77",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3143
+  },
+  {
+    "slug": "\u4f7f\u7528cot\u62a5\u544a\u5bf9\u5546\u54c1\u548c\u6807\u666e500\u8fdb\u884c\u65f6\u673a\u9009\u62e9",
+    "title": "\u4f7f\u7528COT\u62a5\u544a\u5bf9\u5546\u54c1\u548c\u6807\u666e500\u8fdb\u884c\u65f6\u673a\u9009\u62e9",
+    "isPaywalled": true,
+    "annualisedReturn": "16.8%",
+    "sharpeRatio": "1.24",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 8381
+  },
+  {
+    "slug": "\u4f7f\u7528vix\u6307\u6570\u548ccot\u62a5\u544a\u8fdb\u884c\u5728\u6807\u666e500\u5e02\u573a\u4e2d\u7684\u65f6\u673a\u9009\u62e9\u7b56",
+    "title": "\u4f7f\u7528VIX\u6307\u6570\u548cCOT\u62a5\u544a\u8fdb\u884c\u5728\u6807\u666e500\u5e02\u573a\u4e2d\u7684\u65f6\u673a\u9009\u62e9\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.39%",
+    "sharpeRatio": "0.44",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 6620
+  },
+  {
+    "slug": "\u4f7f\u7528\u4fee\u6539\u540e\u7684\u6ce2\u52a8\u7387\u9884\u6d4b\u9053\u743c\u65af\u5de5\u4e1a\u6307\u6570\uff08dji\uff09\u56de",
+    "title": "\u4f7f\u7528\u4fee\u6539\u540e\u7684\u6ce2\u52a8\u7387\u9884\u6d4b\u9053\u743c\u65af\u5de5\u4e1a\u6307\u6570\uff08DJI\uff09\u56de\u62a5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "3.23%",
+    "sharpeRatio": null,
+    "equities": [
+      "DIA",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "vol_target",
+    "code_chars": 3524
+  },
+  {
+    "slug": "\u4f7f\u7528\u9ec4\u91d1\u4e0e\u77f3\u6cb9\u6bd4\u7387\u9884\u6d4b\u6574\u4f53\u80a1\u7968\u56de\u62a5\u7b56\u7565",
+    "title": "\u4f7f\u7528\u9ec4\u91d1\u4e0e\u77f3\u6cb9\u6bd4\u7387\u9884\u6d4b\u6574\u4f53\u80a1\u7968\u56de\u62a5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "7.02%",
+    "sharpeRatio": "0.72",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 3529
+  },
+  {
+    "slug": "\u5168\u7403\u80a1\u6307\u4e2d\u7684\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94",
+    "title": "\u5168\u7403\u80a1\u6307\u4e2d\u7684\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94",
+    "isPaywalled": true,
+    "annualisedReturn": "8.8%",
+    "sharpeRatio": "0.221",
+    "equities": [
+      "AAPL",
+      "GOOG"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 506
+  },
+  {
+    "slug": "\u5171\u540c\u57fa\u91d1\u6536\u76ca\u4e2d\u7684\u52a8\u91cf\u6548\u5e94",
+    "title": "\u5171\u540c\u57fa\u91d1\u6536\u76ca\u4e2d\u7684\u52a8\u91cf\u6548\u5e94",
+    "isPaywalled": true,
+    "annualisedReturn": "19%",
+    "sharpeRatio": "0.395",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "momentum",
+    "code_chars": 1786
+  },
+  {
+    "slug": "\u519c\u5386\u6708\u6548\u5e94\u5728\u4e2d\u56fd\u80a1\u7968\u4e2d\u7684\u8868\u73b0",
+    "title": "\u519c\u5386\u6708\u6548\u5e94\u5728\u4e2d\u56fd\u80a1\u7968\u4e2d\u7684\u8868\u73b0",
+    "isPaywalled": true,
+    "annualisedReturn": "4.46%",
+    "sharpeRatio": "0.88",
+    "equities": [
+      "FXI"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1715
+  },
+  {
+    "slug": "\u5229\u7528\u5728\u7ebf\u4ef7\u683c\u8fdb\u884c\u901a\u80c0\u5bf9\u51b2\u7b56\u7565",
+    "title": "\u5229\u7528\u5728\u7ebf\u4ef7\u683c\u8fdb\u884c\u901a\u80c0\u5bf9\u51b2\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "2.6%",
+    "sharpeRatio": "48%",
+    "equities": [
+      "TIP",
+      "IEF"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2329
+  },
+  {
+    "slug": "\u5229\u7528\u592e\u884c\u516c\u544a\u8fdb\u884c\u5957\u5229\u4ea4\u6613\u65f6\u673a\u9009\u62e9",
+    "title": "\u5229\u7528\u592e\u884c\u516c\u544a\u8fdb\u884c\u5957\u5229\u4ea4\u6613\u65f6\u673a\u9009\u62e9",
+    "isPaywalled": true,
+    "annualisedReturn": "4.47%",
+    "sharpeRatio": "0.91",
+    "equities": [
+      "SPY",
+      "IEF",
+      "UUP"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3961
+  },
+  {
+    "slug": "\u5229\u7528\u9ed8\u987f\u89c4\u5219\u8fdb\u884c\u6536\u76ca\u7387\u8ba1\u7b97\u7684\u5e02\u573a\u65f6\u673a\u9009\u62e9",
+    "title": "\u5229\u7528\u9ed8\u987f\u89c4\u5219\u8fdb\u884c\u6536\u76ca\u7387\u8ba1\u7b97\u7684\u5e02\u573a\u65f6\u673a\u9009\u62e9",
+    "isPaywalled": true,
+    "annualisedReturn": "10.02%",
+    "sharpeRatio": "0.97",
+    "equities": [
+      "SPY",
+      "TIP"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 5019
+  },
+  {
+    "slug": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5bf9\u51b2\u56e0\u5b50\u7b56\u7565",
+    "title": "\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5bf9\u51b2\u56e0\u5b50\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "4.68%",
+    "sharpeRatio": null,
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 3583
+  },
+  {
+    "slug": "\u52a0\u5bc6\u8d27\u5e01\u5bf9\u51b2\u4ea4\u6613\u7b56\u7565",
+    "title": "\u52a0\u5bc6\u8d27\u5e01\u5bf9\u51b2\u4ea4\u6613\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "70.4%",
+    "sharpeRatio": "1.77",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4396
+  },
+  {
+    "slug": "\u52a0\u5bc6\u8d27\u5e01\u914d\u5bf9\u4ea4\u6613\u7b56\u7565",
+    "title": "\u52a0\u5bc6\u8d27\u5e01\u914d\u5bf9\u4ea4\u6613\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "70.4%",
+    "sharpeRatio": "1.77",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4396
+  },
+  {
+    "slug": "\u5370\u5ea6\u5e02\u573a\u4e2d\u7684\u4f4e\u4ef7\u503c\u56e0\u5b50\u7b56\u7565",
+    "title": "\u5370\u5ea6\u5e02\u573a\u4e2d\u7684\u4f4e\u4ef7\u503c\u56e0\u5b50\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "16.47%",
+    "sharpeRatio": "0.73",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3690
+  },
+  {
+    "slug": "\u5370\u5ea6\u5e02\u573a\u4e2d\u7684\u53cd\u8f6c\u6548\u5e94",
+    "title": "\u5370\u5ea6\u5e02\u573a\u4e2d\u7684\u53cd\u8f6c\u6548\u5e94",
+    "isPaywalled": true,
+    "annualisedReturn": "47.74%",
+    "sharpeRatio": "1.32",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3133
+  },
+  {
+    "slug": "\u539f\u6cb9\u9884\u6d4b\u80a1\u7968\u6536\u76ca",
+    "title": "\u539f\u6cb9\u9884\u6d4b\u80a1\u7968\u6536\u76ca\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.9%",
+    "sharpeRatio": "-0.505",
+    "equities": [
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 2690
+  },
+  {
+    "slug": "\u53d1\u85aa\u65e5\u5f02\u5e38\u73b0\u8c61",
+    "title": "\u53d1\u85aa\u65e5\u5f02\u5e38\u73b0\u8c61\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "2.57%",
+    "sharpeRatio": "-0.3",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1133
+  },
+  {
+    "slug": "\u5408\u6210\u501f\u8d37\u5229\u7387\u9884\u6d4b\u540e\u7eed\u5e02\u573a\u56de\u62a5",
+    "title": "\u5408\u6210\u501f\u8d37\u5229\u7387\u9884\u6d4b\u5e02\u573a\u56de\u62a5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "15.47%",
+    "sharpeRatio": "0.79",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2146
+  },
+  {
+    "slug": "\u5458\u5de5\u60c5\u7eea\u4e0e\u80a1\u7968\u56de\u62a5\u7b56\u7565",
+    "title": "\u5458\u5de5\u60c5\u7eea\u4e0e\u80a1\u7968\u56de\u62a5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "7.5%",
+    "sharpeRatio": "0.75",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "mean_reversion",
+    "code_chars": 5333
+  },
+  {
+    "slug": "\u57fa\u4e8e\u4fe1\u7528\u4fe1\u606f\u7684\u6218\u672f\u8d44\u4ea7\u914d\u7f6e\u7b56\u7565",
+    "title": "\u57fa\u4e8e\u4fe1\u7528\u4fe1\u606f\u7684\u6218\u672f\u8d44\u4ea7\u914d\u7f6e\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "18.1%",
+    "sharpeRatio": "0.81",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2623
+  },
+  {
+    "slug": "\u57fa\u4e8e\u6536\u76ca\u5dee\u8ddd\u7684\u7f8e\u80a1\u62e9\u65f6\u7b56\u7565",
+    "title": "\u57fa\u4e8e\u6536\u76ca\u5dee\u8ddd\u7684\u7f8e\u80a1\u62e9\u65f6\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.70%",
+    "sharpeRatio": "0. 45",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 3034
+  },
+  {
+    "slug": "\u57fa\u4e8e\u6587\u672c\u5206\u6790\u7684\u7ecf\u6d4e\u8870\u9000\u9884\u6d4b\u7b56\u7565",
+    "title": "\u57fa\u4e8e\u6587\u672c\u5206\u6790\u7684\u7ecf\u6d4e\u8870\u9000\u9884\u6d4b\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.78%",
+    "sharpeRatio": "0.65",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3243
+  },
+  {
+    "slug": "\u57fa\u4e8e\u76f8\u5bf9\u60c5\u7eea\u7684\u5e02\u573a\u65f6\u673a\u7b56\u7565",
+    "title": "\u57fa\u4e8e\u76f8\u5bf9\u60c5\u7eea\u7684\u5e02\u573a\u65f6\u673a\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "12.11%",
+    "sharpeRatio": "0.94",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3750
+  },
+  {
+    "slug": "\u5b89\u4e1c\u7eb3\u5947\u53cc\u91cd\u52a8\u91cf\u7b56\u7565",
+    "title": "\u5b89\u4e1c\u7eb3\u5947\u53cc\u91cd\u52a8\u91cf\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "14.9%",
+    "sharpeRatio": "1.07",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 2852
+  },
+  {
+    "slug": "\u5b89\u4e1c\u7eb3\u5947\u7684\u53cc\u91cd\u52a8\u91cf\u7b56\u7565",
+    "title": "\u5b89\u4e1c\u7eb3\u5947\u7684\u53cc\u91cd\u52a8\u91cf\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "14.9%",
+    "sharpeRatio": "1.07",
+    "equities": [
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 2852
+  },
+  {
+    "slug": "\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94\u7b56\u7565",
+    "title": "\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.8%",
+    "sharpeRatio": "0.21",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 504
+  },
+  {
+    "slug": "\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94\u7b56\u7565-2",
+    "title": "\u5e02\u573a\u5b63\u8282\u6027\u6548\u5e94\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.80%",
+    "sharpeRatio": "0.21",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 504
+  },
+  {
+    "slug": "\u5e02\u573a\u60c5\u7eea\u4e0e\u9694\u591c\u5f02\u5e38\u73b0\u8c61",
+    "title": "\u5e02\u573a\u60c5\u7eea\u4e0e\u9694\u591c\u5f02\u5e38\u73b0\u8c61\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "15.58%",
+    "sharpeRatio": "0.34",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 1480
+  },
+  {
+    "slug": "\u5e02\u573a\u65f6\u673a\u7b56\u7565-\u6709\u6548\u907f\u514d\u80a1\u5e02\u718a\u5e02",
+    "title": "\u5e02\u573a\u65f6\u673a\u7b56\u7565 - \u6709\u6548\u907f\u514d\u80a1\u5e02\u718a\u5e02",
+    "isPaywalled": true,
+    "annualisedReturn": "6.59%",
+    "sharpeRatio": "0.56",
+    "equities": [
+      "SPY",
+      "SHY"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 5169
+  },
+  {
+    "slug": "\u5f00\u76d8\u533a\u95f4\u7a81\u7834\uff08orb\uff09\u7b56\u7565",
+    "title": "\u5f00\u76d8\u533a\u95f4\u7a81\u7834\uff08ORB\uff09\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "31%",
+    "sharpeRatio": "1.12",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 3478
+  },
+  {
+    "slug": "\u6210\u4ea4\u91cf\u52a0\u6743\u5e73\u5747\u4ef7\u683c-vwap-\u4f5c\u4e3a\u65e5\u5185\u4ea4\u6613\u8005\u7684\u8d8b\u52bf\u8ddf\u968f",
+    "title": "\u6210\u4ea4\u91cf\u52a0\u6743\u5e73\u5747\u4ef7\u683c (VWAP) \u4f5c\u4e3a\u65e5\u5185\u4ea4\u6613\u8005\u7684\u8d8b\u52bf\u8ddf\u968f\u6307\u6807\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "43%",
+    "sharpeRatio": "2.39",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1709
+  },
+  {
+    "slug": "\u6210\u4ea4\u91cf\u52a0\u6743\u5e73\u5747\u4ef7\u683c-vwap-\u4f5c\u4e3a\u65e5\u5185\u4ea4\u6613\u8005\u7684\u8d8b\u52bf\u8ddf\u968f-2",
+    "title": "\u6210\u4ea4\u91cf\u52a0\u6743\u5e73\u5747\u4ef7\u683c (VWAP) \u4f5c\u4e3a\u65e5\u5185\u4ea4\u6613\u8005\u7684\u8d8b\u52bf\u8ddf\u968f\u6307\u6807\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "43%",
+    "sharpeRatio": "2.39",
+    "equities": [
+      "QQQ"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 1709
+  },
+  {
+    "slug": "\u6539\u8fdb\u540e\u7684\u8de8\u8d44\u4ea7\u65f6\u95f4\u5e8f\u5217\u52a8\u91cf\u7b56\u7565-i-xtsm",
+    "title": "\u6539\u8fdb\u540e\u7684\u8de8\u8d44\u4ea7\u65f6\u95f4\u5e8f\u5217\u52a8\u91cf\u7b56\u7565 (I-XTSM)",
+    "isPaywalled": true,
+    "annualisedReturn": "20.82%",
+    "sharpeRatio": "0.72",
+    "equities": [
+      "SPY",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 3600
+  },
+  {
+    "slug": "\u6708\u672b\u6548\u5e94\u5728\u80a1\u7968\u6307\u6570\u4e2d\u7684\u8868\u73b0",
+    "title": "\u6708\u672b\u6548\u5e94\u5728\u80a1\u7968\u6307\u6570\u4e2d\u7684\u8868\u73b0",
+    "isPaywalled": true,
+    "annualisedReturn": "7.2%",
+    "sharpeRatio": "0.013",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 1287
+  },
+  {
+    "slug": "\u671f\u9650\u5229\u5dee\u548c\u671f\u9650\u6ea2\u4ef7\u9884\u6d4b\u7b56\u7565",
+    "title": "\u671f\u9650\u5229\u5dee\u548c\u671f\u9650\u6ea2\u4ef7\u9884\u6d4b\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.08%",
+    "sharpeRatio": "1.08",
+    "equities": [
+      "IEF",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2033
+  },
+  {
+    "slug": "\u6ce2\u52a8\u7387\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+    "title": "\u6ce2\u52a8\u7387\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "22.22%",
+    "sharpeRatio": "0.92",
+    "equities": [
+      "VIXY",
+      "SVXY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 7532
+  },
+  {
+    "slug": "\u77f3\u6cb9\u8d1d\u5854\u4e0d\u786e\u5b9a\u6027\u4e0e\u5168\u7403\u80a1\u7968\u6536\u76ca\u7b56\u7565",
+    "title": "\u77f3\u6cb9\u8d1d\u5854\u4e0d\u786e\u5b9a\u6027\u4e0e\u5168\u7403\u80a1\u7968\u6536\u76ca\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "10.17%",
+    "sharpeRatio": "0.66",
+    "equities": [
+      "URTH"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 6032
+  },
+  {
+    "slug": "\u7ed3\u5408\u667a\u80fd\u56e0\u5b50\u52a8\u91cf\u548c\u5e02\u573a\u6295\u8d44\u7ec4\u5408\u7b56\u7565",
+    "title": "\u7ed3\u5408\u667a\u80fd\u56e0\u5b50\u52a8\u91cf\u548c\u5e02\u573a\u6295\u8d44\u7ec4\u5408\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.9%",
+    "sharpeRatio": "0.384",
+    "equities": [
+      "IWM"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 4101
+  },
+  {
+    "slug": "\u7ed3\u5408\u667a\u80fd\u56e0\u5b50\u52a8\u91cf\u548c\u5e02\u573a\u6295\u8d44\u7ec4\u5408\u7b56\u7565-2",
+    "title": "\u7ed3\u5408\u667a\u80fd\u56e0\u5b50\u52a8\u91cf\u6548\u5e94\u548c\u5e02\u573a\u6295\u8d44\u7ec4\u5408\u7684\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.9%",
+    "sharpeRatio": "0.384",
+    "equities": [
+      "IWM"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 4101
+  },
+  {
+    "slug": "\u7f8e\u56fd\u80a1\u5e02\u672a\u67655\u4e2a\u6708\u56de\u62a5\u9884\u6d4b\u7b56\u7565",
+    "title": "\u7f8e\u56fd\u80a1\u5e02\u672a\u67655\u4e2a\u6708\u56de\u62a5\u9884\u6d4b\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "10.5%",
+    "sharpeRatio": "0.6",
+    "equities": [
+      "DIA"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2098
+  },
+  {
+    "slug": "\u7f8e\u56fd\u80a1\u7968\u4e0e\u65b0\u5174\u5e02\u573a-em-\u548c\u6b27\u6d32\u3001\u6fb3\u5927\u5229\u4e9a\u53ca\u8fdc\u4e1c-eafe",
+    "title": "\u7f8e\u56fd\u80a1\u7968\u4e0e\u65b0\u5174\u5e02\u573a (EM) \u548c\u6b27\u6d32\u3001\u6fb3\u5927\u5229\u4e9a\u53ca\u8fdc\u4e1c (EAFE) \u5730\u533a\u80a1\u7968\u8868\u73b0\u7814\u7a76",
+    "isPaywalled": true,
+    "annualisedReturn": "7.14%",
+    "sharpeRatio": "0.37",
+    "equities": [
+      "SPY",
+      "EEM"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1533
+  },
+  {
+    "slug": "\u8054\u90a6\u516c\u5f00\u5e02\u573a\u59d4\u5458\u4f1a\u4f1a\u8bae\u6548\u5e94\u5728\u80a1\u7968\u5e02\u573a\u4e2d\u7684\u5f71\u54cd",
+    "title": "\u8054\u90a6\u516c\u5f00\u5e02\u573a\u59d4\u5458\u4f1a\u4f1a\u8bae\u5728\u80a1\u7968\u5e02\u573a\u4e2d\u7684\u5f71\u54cd",
+    "isPaywalled": true,
+    "annualisedReturn": "6.19%",
+    "sharpeRatio": "-0.274",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 3230
+  },
+  {
+    "slug": "\u80a1\u7968\u4e2d\u7684\u4e00\u6708\u6548\u5e94",
+    "title": "\u80a1\u7968\u4e2d\u7684\u4e00\u6708\u6548\u5e94",
+    "isPaywalled": true,
+    "annualisedReturn": "12.7%",
+    "sharpeRatio": "0.263",
+    "equities": [
+      "SPY",
+      "IWM"
+    ],
+    "algolib": true,
+    "template_hint": "sma_trend",
+    "code_chars": 755
+  },
+  {
+    "slug": "\u80a1\u7968\u548c\u503a\u5238\u56de\u62a5\u9884\u6d4b\u8d27\u5e01\u56de\u62a5",
+    "title": "\u7528\u80a1\u7968\u548c\u503a\u5238\u56de\u62a5\u9884\u6d4b\u8d27\u5e01\u6536\u76ca\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.47%",
+    "sharpeRatio": "2.11",
+    "equities": [
+      "VTI"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 4776
+  },
+  {
+    "slug": "\u8282\u5047\u65e5\u524d\u6548\u5e94",
+    "title": "\u8282\u5047\u65e5\u524d\u6548\u5e94",
+    "isPaywalled": true,
+    "annualisedReturn": "6.39%",
+    "sharpeRatio": "-0.239",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": true,
+    "template_hint": "unknown",
+    "code_chars": 867
+  },
+  {
+    "slug": "\u89c4\u6a21\u56e0\u5b50\u4e0e\u8d27\u5e01\u653f\u7b56\u7b56\u7565",
+    "title": "\u89c4\u6a21\u56e0\u5b50\u4e0e\u8d27\u5e01\u653f\u7b56\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "6.27%",
+    "sharpeRatio": "0.62",
+    "equities": [
+      "SPY",
+      "IWM"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 3535
+  },
+  {
+    "slug": "\u9006\u5411vix\u7b56\u7565",
+    "title": "\u9006\u5411VIX\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "10.8%",
+    "sharpeRatio": "1.93",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1352
+  },
+  {
+    "slug": "\u901a\u8fc7etf\u6536\u5272\u6ce2\u52a8\u6027\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+    "title": "\u901a\u8fc7ETF\u6536\u5272\u6ce2\u52a8\u6027\u98ce\u9669\u6ea2\u4ef7\u548c\u5371\u673a\u963f\u5c14\u6cd5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "22.2%",
+    "sharpeRatio": "0.92",
+    "equities": [
+      "VIXY",
+      "SVXY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 7532
+  },
+  {
+    "slug": "\u901a\u8fc7\u671f\u9650\u5229\u5dee\u548c\u671f\u9650\u6ea2\u4ef7\u9884\u6d4b\u7f8e\u56fd\u653f\u5e9c\u503a\u5238\u56de\u62a5\u7b56",
+    "title": "\u901a\u8fc7\u671f\u9650\u5229\u5dee\u548c\u671f\u9650\u6ea2\u4ef7\u9884\u6d4b\u7f8e\u56fd\u653f\u5e9c\u503a\u5238\u56de\u62a5\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "8.08%",
+    "sharpeRatio": "1.08",
+    "equities": [
+      "IEF",
+      "BIL"
+    ],
+    "algolib": false,
+    "template_hint": "sma_trend",
+    "code_chars": 2018
+  },
+  {
+    "slug": "\u914d\u5bf9\u5207\u6362\u7b56\u7565",
+    "title": "\u914d\u5bf9\u5207\u6362\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "11.3%",
+    "sharpeRatio": "0.78",
+    "equities": [
+      "SPY",
+      "AGG"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 2295
+  },
+  {
+    "slug": "\u9694\u591c\u5f02\u5e38\u7b56\u7565",
+    "title": "\u9694\u591c\u5f02\u5e38\u7b56\u7565",
+    "isPaywalled": true,
+    "annualisedReturn": "14%",
+    "sharpeRatio": null,
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "unknown",
+    "code_chars": 1127
+  },
+  {
+    "slug": "\u9ad8\u52a8\u91cf\u7b56\u7565\u5728\u9ad8\u6d41\u52a8\u6027\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5e94\u7528",
+    "title": "\u9ad8\u52a8\u91cf\u7b56\u7565\u5728\u9ad8\u6d41\u52a8\u6027\u52a0\u5bc6\u8d27\u5e01\u4e2d\u7684\u5e94\u7528",
+    "isPaywalled": true,
+    "annualisedReturn": "13.61%",
+    "sharpeRatio": "2.1",
+    "equities": [
+      "SPY"
+    ],
+    "algolib": false,
+    "template_hint": "momentum",
+    "code_chars": 4761
+  }
+]

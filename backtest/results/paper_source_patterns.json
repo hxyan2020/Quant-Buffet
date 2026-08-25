@@ -1,0 +1,791 @@
+{
+  "total_en": 1311,
+  "has_academic_link": 884,
+  "has_paper_title": 1311,
+  "pct_with_link": 67.4,
+  "pct_with_paper_title": 100.0,
+  "link_kinds": {
+    "ssrn": 764,
+    "missing": 427,
+    "other": 74,
+    "journal_publisher": 15,
+    "researchgate": 14,
+    "quantpedia": 11,
+    "doi": 3,
+    "semanticscholar": 3
+  },
+  "top_domains": [
+    [
+      "papers.ssrn.com",
+      678
+    ],
+    [
+      "ssrn.com",
+      84
+    ],
+    [
+      "researchgate.net",
+      14
+    ],
+    [
+      "quantpedia.com",
+      11
+    ],
+    [
+      "nber.org",
+      5
+    ],
+    [
+      "efmaefm.org",
+      5
+    ],
+    [
+      "aeaweb.org",
+      5
+    ],
+    [
+      "link.springer.com",
+      4
+    ],
+    [
+      "globalmarkets.db.com",
+      3
+    ],
+    [
+      "repository.up.ac.za",
+      3
+    ],
+    [
+      "citeseerx.ist.psu.edu",
+      3
+    ],
+    [
+      "pages.stern.nyu.edu",
+      2
+    ],
+    [
+      "download.ssrn.com",
+      2
+    ],
+    [
+      "wp.lancs.ac.uk",
+      2
+    ],
+    [
+      "tandfonline.com",
+      2
+    ],
+    [
+      "semanticscholar.org",
+      2
+    ],
+    [
+      "personal.lse.ac.uk",
+      2
+    ],
+    [
+      "pimco.com",
+      2
+    ],
+    [
+      "web.archive.org",
+      1
+    ],
+    [
+      "repub.eur.nl",
+      1
+    ],
+    [
+      "cis.upenn.edu",
+      1
+    ],
+    [
+      "pm-research.com",
+      1
+    ],
+    [
+      "par.nsf.gov",
+      1
+    ],
+    [
+      "acfr.aut.ac.nz",
+      1
+    ],
+    [
+      "journals.sagepub.com",
+      1
+    ],
+    [
+      "scholar.harvard.edu",
+      1
+    ],
+    [
+      "durham-repository.worktribe.com",
+      1
+    ],
+    [
+      "cass.city.ac.uk",
+      1
+    ],
+    [
+      "spglobal.com",
+      1
+    ],
+    [
+      "iwf.rw.fau.de",
+      1
+    ]
+  ],
+  "top_institutes": [
+    [
+      "N/A",
+      611
+    ],
+    [
+      "Quantpedia; Quantpedia.com",
+      10
+    ],
+    [
+      "Comenius University Bratislava; Comenius University - Faculty of Mathematics, Physics and Informatics; Quantpedia.com",
+      8
+    ],
+    [
+      "Duke University; National Bureau of Economic Research; Duke University - Department of Economics; Duke University - Finance; National Bureau of Economic Research (NBER); European Central Bank; European Central Bank (ECB)",
+      7
+    ],
+    [
+      "Institut Mines-T\u00e9l\u00e9com Business School; Cambria Investment Management",
+      6
+    ],
+    [
+      "Independent",
+      5
+    ],
+    [
+      "Quoniam Asset Management GmbH; Robeco Quantitative Investments",
+      4
+    ],
+    [
+      "Cornell University; Cornell University - Samuel Curtis Johnson Graduate School of Management; Tsinghua University; Institute of Economics, School of Social Sciences, Tsinghua University",
+      4
+    ],
+    [
+      "Vrije Universiteit Amsterdam; VU University Amsterdam; TrendXplorer",
+      4
+    ],
+    [
+      "Wright Materials Research (United States); Queens Public Library; Qplum; Wright Research",
+      4
+    ],
+    [
+      "Griffith University; Griffith University - Department of Accounting, Finance and Economics",
+      4
+    ],
+    [
+      "\u00c9cole Polytechnique; BNP Paribas (France); BNP Paribas; Ecole Polytechnique; Laboratoire de Probabilit\u00e9s, Statistique et Mod\u00e9lisation; Laboratoire de Probabilit\u00e9s, Statistique et Mod\u00e9lisation (LPSM)",
+      4
+    ],
+    [
+      "T. Rowe Price Program for Charitable Giving; T.Rowe Price",
+      4
+    ],
+    [
+      "Capital University; AQR Capital Management, LLC; Acadian Seaplants (Canada); London Business School; Acadian Asset Management",
+      4
+    ],
+    [
+      "Relative Sentiment Technologies, LLC",
+      3
+    ],
+    [
+      "Liverpool John Moores University; Professor of Banking and Finance at Liverpool Business School, Liverpool John Moores University,; Friedrich-Ebert-Stiftung e.V.; GBT \u2013 Trading, Friedrich-Ebert-Stra\u00dfe, Kassel, 34119, Germany; GBT \u2013 Trading, Friedrich-Ebert-Stra\u00dfe",
+      3
+    ],
+    [
+      "Shanghai University of Finance and Economics; University of Macau; Faculty of Business Administration, University of Macau; James Cook University; James Cook University - College of Business, Law and Governance,",
+      3
+    ],
+    [
+      "Invespar Pte Ltd; Healthcentric Advisors; QED Capital Advisors",
+      3
+    ],
+    [
+      "Vrije Universiteit Amsterdam; VU University Amsterdam",
+      3
+    ],
+    [
+      "Invespar Pte Ltd",
+      3
+    ],
+    [
+      "University of Bath; University of Bath - School of Management; ICMA Centre; University of Reading; University of Reading - ICMA Centre; University of Liverpool; University of Liverpool Management School",
+      3
+    ],
+    [
+      "Robeco Asset Management; Erasmus University Rotterdam; Erasmus University Rotterdam (EUR); Robeco Quantitative Investments",
+      3
+    ],
+    [
+      "University of Queensland; University of Queensland Business School; Bond University; Audencia Business School",
+      3
+    ],
+    [
+      "Erasmus University Rotterdam; Erasmus University Rotterdam (EUR); Erasmus University Rotterdam (EUR) - Erasmus School of Economics (ESE); Robeco Quantitative Investments; Robeco Asset Management",
+      3
+    ],
+    [
+      "Queen's University Belfast; Queen's University Belfast, Queen's Management School; Queen's University Belfast - Queen's Management School; University of Hull; Hull University Business School",
+      3
+    ]
+  ],
+  "title_keywords": [
+    [
+      "momentum",
+      167
+    ],
+    [
+      "factor",
+      106
+    ],
+    [
+      "predict",
+      74
+    ],
+    [
+      "reversal",
+      54
+    ],
+    [
+      "volatility",
+      45
+    ],
+    [
+      "risk",
+      42
+    ],
+    [
+      "timing",
+      40
+    ],
+    [
+      "option",
+      40
+    ],
+    [
+      "value",
+      37
+    ],
+    [
+      "crypto",
+      37
+    ],
+    [
+      "futures",
+      36
+    ],
+    [
+      "bond",
+      36
+    ],
+    [
+      "machine learning",
+      36
+    ],
+    [
+      "allocation",
+      22
+    ],
+    [
+      "carry",
+      18
+    ],
+    [
+      "trend",
+      16
+    ],
+    [
+      "anomaly",
+      13
+    ],
+    [
+      "seasonality",
+      13
+    ],
+    [
+      "sector",
+      11
+    ],
+    [
+      "pairs",
+      7
+    ],
+    [
+      "mean reversion",
+      2
+    ]
+  ],
+  "link_examples": {
+    "other": [
+      {
+        "slug": "yield-gap-predictive-allocation-strategy-for-equity-bond-forecasting",
+        "link": "https://web.archive.org/web/20141023225649id_/http://www.fma.org/Turin/Papers/YG.pdf",
+        "paper": "The FED model and expected asset returns"
+      },
+      {
+        "slug": "fx-carry-trade",
+        "link": "http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "currency-momentum-factor",
+        "link": "http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "currency-value-factor",
+        "link": "http://globalmarkets.db.com/new/docs/dbCurrencyReturns_March2009.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "momentum-factor-effect-in-country-equity-indexes",
+        "link": "https://repository.up.ac.za/bitstream/handle/2263/14149/Muller_Momentum%282010%29.pdf?sequence=1",
+        "paper": "N/A"
+      },
+      {
+        "slug": "momentum-effect-in-commodities",
+        "link": "https://repository.up.ac.za/bitstream/handle/2263/14149/Muller_Momentum%282010%29.pdf?sequence=1",
+        "paper": "o Open PDF]"
+      },
+      {
+        "slug": "size-factor-small-capitalization-stocks-premium",
+        "link": "https://repository.up.ac.za/bitstream/handle/2263/14149/Muller_Momentum%282010%29.pdf?sequence=1",
+        "paper": "N/A"
+      },
+      {
+        "slug": "betting-against-beta-factor-in-stocks",
+        "link": "https://pages.stern.nyu.edu/~lpederse/papers/BettingAgainstBeta.pdf",
+        "paper": "N/A"
+      }
+    ],
+    "ssrn": [
+      {
+        "slug": "market-seasonality-effect",
+        "link": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=643583",
+        "paper": "The Optimism Cycle: Sell in May"
+      },
+      {
+        "slug": "asset-class-trend-following",
+        "link": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=962461",
+        "paper": "N/A"
+      },
+      {
+        "slug": "sector-momentum-rotational-system",
+        "link": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1585517",
+        "paper": "Relative Strength Strategies for Investing"
+      },
+      {
+        "slug": "low-volatility-factor-effect-in-stocks",
+        "link": "http://papers.ssrn.com/sol3/papers.cfm?abstract_id=980865",
+        "paper": "N/A"
+      },
+      {
+        "slug": "pairs-trading-with-stocks",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=141615",
+        "paper": "Pairs Trading: Performance of a Relative Value Arbitrage Rule"
+      },
+      {
+        "slug": "short-term-reversal-effect-in-stocks",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1605049",
+        "paper": "Another Look at Trading Costs and Short-Term Reversal Profits"
+      },
+      {
+        "slug": "momentum-factor-effect-in-stocks",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2435323",
+        "paper": "Fact, Fiction and Momentum Investing"
+      },
+      {
+        "slug": "reversal-effect-in-international-equity-etfs",
+        "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=883937",
+        "paper": "Winner-Loser Reversals in National Stock Market Indices: Can They Be Explained?"
+      }
+    ],
+    "journal_publisher": [
+      {
+        "slug": "post-earnings-announcement-effect",
+        "link": "https://www.nber.org/system/files/working_papers/w5375/w5375.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "net-payout-yield-effect",
+        "link": "https://www.nber.org/system/files/working_papers/w10651/w10651.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "earnings-announcement-premium",
+        "link": "https://www.nber.org/system/files/working_papers/w13090/w13090.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "trading-wti-brent-spread",
+        "link": "https://link.springer.com/article/10.1057/jdhf.2009.24",
+        "paper": "Trading and filtering futures spread portfolios: Further applications of threshold and correlation filters"
+      },
+      {
+        "slug": "reversal-in-post-earnings-announcement-drift-2",
+        "link": "https://www.aeaweb.org/conference/2014/retrieve.php?pdfid=731",
+        "paper": "N/A"
+      },
+      {
+        "slug": "\u8d22\u62a5\u9006\u8f6c\u7b56\u7565-2",
+        "link": "https://www.aeaweb.org/conference/2014/retrieve.php?pdfid=731",
+        "paper": "N/A"
+      },
+      {
+        "slug": "wti-brent-\u4ef7\u5dee\u7b56\u7565-2",
+        "link": "https://link.springer.com/article/10.1057/jdhf.2009.24",
+        "paper": "Trading and filtering futures spread portfolios: Further applications of threshold and correlation filters"
+      },
+      {
+        "slug": "output-gap-predicts-fx-returns",
+        "link": "https://www.nber.org/system/files/working_papers/w26299/w26299.pdf",
+        "paper": "N/A"
+      }
+    ],
+    "quantpedia": [
+      {
+        "slug": "ramadan-effect",
+        "link": "https://quantpedia.com/www/Piety_and_Profits_Stock_Market_Anomaly_during_the_Muslim_Holy_Month.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "bond-yield-changes-and-the-cross-section-of-equity-indices",
+        "link": "https://quantpedia.com/www/BondYieldChangesandtheCross-SectionofGlobalEquityReturns.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "predicting-intraday-returns-with-machine-learning-methods",
+        "link": "https://quantpedia.com/www/Predicting_Intraday_Returns_with_Machine_Learning_methods.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "trend-following-in-commodity-calendar-spreads",
+        "link": "http://www.quantpedia.com/www/Trend-Following-Strategies-in-Commodity-Markets-and-the-Impact-of-Financialization.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "dividend-risk-premium-strategy",
+        "link": "https://quantpedia.com/www/Credit_Suisse_Dividend_Risk_Premium.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "economic-momentum-in-currencies",
+        "link": "https://quantpedia.com/www/Economic_Momentum_and_Currency_Returns.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "carry-factor-within-asset-classes",
+        "link": "https://quantpedia.com/www/Carry.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "using-straddles-to-trade-on-earnings-announcements",
+        "link": "https://quantpedia.com/www/Anticipating_Uncertainty-Straddles_Around_Earnings_Announcements.pdf",
+        "paper": "N/A"
+      }
+    ],
+    "researchgate": [
+      {
+        "slug": "momentum-effect-in-stocks-in-small-portfolios",
+        "link": "https://www.researchgate.net/publication/226528840_Can_small_investors_exploit_the_momentum_effect",
+        "paper": "N/A"
+      },
+      {
+        "slug": "time-series-momentum-and-carry",
+        "link": "https://www.researchgate.net/publication/321637981_Time-Series_Momentum_Carry_and_Hedging_Premium",
+        "paper": "N/A"
+      },
+      {
+        "slug": "trading-futures-using-basis-indicator",
+        "link": "https://www.researchgate.net/publication/324670834_Predicting_Out-of-Sample_Returns_Using_Basis_to_Beat_the_Historical_Average",
+        "paper": "N/A"
+      },
+      {
+        "slug": "opening-range-breakout-within-crude-oil",
+        "link": "https://www.researchgate.net/publication/254420457_Assessing_the_profitability_of_intraday_opening_range_breakout_strategies",
+        "paper": "N/A"
+      },
+      {
+        "slug": "low-price-effect",
+        "link": "https://www.researchgate.net/publication/314545502_Split-Adjusted_Stock_Price_and_the_Cross-Section_of_US_Stock_Returns",
+        "paper": "N/A"
+      },
+      {
+        "slug": "turn-of-the-month-effect-in-the-cross-section-of-stock-returns",
+        "link": "https://www.researchgate.net/publication/308617399_Dash_for_Cash_Month-End_Liquidity_Needs_and_the_Predictability_of_Stock_Returns",
+        "paper": "N/A"
+      },
+      {
+        "slug": "timing-carry-trade-v2",
+        "link": "https://www.researchgate.net/publication/251333006_Predictability_in_the_Short_and_Long_Legs_of_Carry_Trades",
+        "paper": "N/A"
+      },
+      {
+        "slug": "time-series-momentum-combined-with-volatility-filters-in-forex",
+        "link": "http://www.researchgate.net/profile/Jia_Miao2/publication/228462301_Volatility_filters_for_asset_management_An_application_to_managed_futures/links/543792c10cf2d5fa292b4065.pdf",
+        "paper": "N/A"
+      }
+    ],
+    "doi": [
+      {
+        "slug": "reversal-effect-in-india",
+        "link": "https://journals.sagepub.com/doi/pdf/10.1177/21582440211068490",
+        "paper": "Adaptive Market Hypothesis and Time-varying Contrarian Effect: Evidence From Emerging Stock Markets of South Asia"
+      },
+      {
+        "slug": "the-equity-differential-factor-in-currencies",
+        "link": "https://www.tandfonline.com/doi/full/10.1080/0015198X.2020.1712924",
+        "paper": "The Equity Differential Factor in Currency Markets"
+      },
+      {
+        "slug": "stock-picking-of-etf-constituents",
+        "link": "https://www.tandfonline.com/doi/pdf/10.1080/0015198X.2019.1572358?needAccess=true",
+        "paper": "N/A"
+      }
+    ],
+    "semanticscholar": [
+      {
+        "slug": "esg-factor-momentum-strategy-2",
+        "link": "https://www.semanticscholar.org/paper/Can-ESG-Add-Alpha-An-Analysis-of-ESG-Tilt-and-Nagy-Kassam/64f77da4f8ce5906a73ffe4e9eec7c49c0960acc",
+        "paper": "N/A"
+      },
+      {
+        "slug": "spin-off-anomaly",
+        "link": "https://pdfs.semanticscholar.org/e316/1574c42e00f6419c71e9bbe5306fa096c0eb.pdf",
+        "paper": "N/A"
+      },
+      {
+        "slug": "using-vix-to-time-options-writing",
+        "link": "https://www.semanticscholar.org/paper/Option-Writing%3A-Using-VIX-to-Improve-Returns-Malkiel-Rinaudo/847ab2f65e3bb813eb6bce4b4d6149ba47da01a6",
+        "paper": "N/A"
+      }
+    ]
+  },
+  "asset_classes": [
+    [
+      "?",
+      446
+    ],
+    [
+      "stocks",
+      422
+    ],
+    [
+      "CFDs, futures",
+      50
+    ],
+    [
+      "ETFs",
+      48
+    ],
+    [
+      "cryptos",
+      39
+    ],
+    [
+      "futures",
+      31
+    ],
+    [
+      "CFDs, ETFs, futures",
+      31
+    ],
+    [
+      "CFDs, ETFs, funds, futures",
+      29
+    ],
+    [
+      "CFDs, forwards, futures, swaps",
+      27
+    ],
+    [
+      "options",
+      24
+    ],
+    [
+      "bonds",
+      23
+    ],
+    [
+      "ETFs, futures",
+      15
+    ],
+    [
+      "ETFs, funds",
+      11
+    ],
+    [
+      "funds",
+      9
+    ],
+    [
+      "CFDs, forwards, futures",
+      9
+    ],
+    [
+      "ETFs, stocks",
+      8
+    ],
+    [
+      "options, stocks",
+      7
+    ],
+    [
+      "ETFs, funds, stocks",
+      5
+    ],
+    [
+      "bonds, ETFs, futures",
+      5
+    ],
+    [
+      "futures, stocks",
+      5
+    ],
+    [
+      "swaps",
+      5
+    ],
+    [
+      "CFDs, futures, swaps",
+      5
+    ],
+    [
+      "forwards, futures, swaps",
+      3
+    ],
+    [
+      "ETFs, options",
+      3
+    ],
+    [
+      "Stocks",
+      3
+    ]
+  ],
+  "regions": [
+    [
+      "United States",
+      505
+    ],
+    [
+      "?",
+      424
+    ],
+    [
+      "Global",
+      282
+    ],
+    [
+      "China",
+      53
+    ],
+    [
+      "Europe",
+      15
+    ],
+    [
+      "India",
+      14
+    ],
+    [
+      "Emerging Markets",
+      12
+    ],
+    [
+      "N/A",
+      1
+    ],
+    [
+      "China, United States",
+      1
+    ],
+    [
+      "Europe, Japan, United States",
+      1
+    ],
+    [
+      "China, Emerging Markets, India, Japan",
+      1
+    ],
+    [
+      "Global, United States</strong> <strong>",
+      1
+    ],
+    [
+      "United States</strong> <strong>",
+      1
+    ]
+  ],
+  "frequencies": [
+    [
+      "Monthly",
+      506
+    ],
+    [
+      "?",
+      424
+    ],
+    [
+      "Daily",
+      148
+    ],
+    [
+      "Weekly",
+      60
+    ],
+    [
+      "Yearly",
+      60
+    ],
+    [
+      "Intraday",
+      48
+    ],
+    [
+      "Quarterly",
+      30
+    ],
+    [
+      "<br>Monthly",
+      9
+    ],
+    [
+      "Semi-annually",
+      7
+    ],
+    [
+      "Semi-yearly",
+      7
+    ],
+    [
+      "<br>Daily",
+      5
+    ],
+    [
+      "<br>Yearly",
+      3
+    ],
+    [
+      "Every 3 Years",
+      1
+    ],
+    [
+      "Monthly</strong> <strong>",
+      1
+    ],
+    [
+      "<br>6 Months",
+      1
+    ]
+  ]
+}

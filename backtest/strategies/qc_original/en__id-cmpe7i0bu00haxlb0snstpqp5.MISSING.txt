@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过高精度期限结构预测股票回报策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i0bu00haxlb0snstpqp5.py
+Fidelity: no_qc_theme_proxy

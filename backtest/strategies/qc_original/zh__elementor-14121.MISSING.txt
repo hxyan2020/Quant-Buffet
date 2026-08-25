@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=elementor-14121
+In-house reconstruction: backtest/strategies/generated/zh__elementor-14121.py
+Fidelity: no_qc_theme_proxy

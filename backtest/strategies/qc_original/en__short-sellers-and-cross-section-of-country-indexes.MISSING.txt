@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=short-sellers-and-cross-section-of-country-indexes
+In-house reconstruction: backtest/strategies/generated/en__short-sellers-and-cross-section-of-country-indexes.py
+Fidelity: no_qc_theme_proxy

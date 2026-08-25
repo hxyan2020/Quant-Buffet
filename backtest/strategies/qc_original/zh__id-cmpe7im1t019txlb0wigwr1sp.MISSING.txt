@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=商品期权对期货交易量比率
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7im1t019txlb0wigwr1sp.py
+Fidelity: no_qc_theme_proxy

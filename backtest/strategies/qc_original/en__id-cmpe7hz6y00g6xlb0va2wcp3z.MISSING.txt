@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=专利创新因子在股票中的应用
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hz6y00g6xlb0va2wcp3z.py
+Fidelity: no_qc_theme_proxy

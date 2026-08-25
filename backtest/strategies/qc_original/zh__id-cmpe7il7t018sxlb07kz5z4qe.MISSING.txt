@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=机器学习自适应投资组合资产配置
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7il7t018sxlb07kz5z4qe.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=套期保值压力预测商品期权回报
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7huye00bxxlb0pu28mv9m.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,99 @@
+# Original QuantConnect / library Python
+# locale=zh slug="利率期货的隔夜-日内每周反转"
+# Extracted from Strategy.pythonCodeHtml — NOT modified.
+
+from AlgorithmImports import *
+class OvernightIntradayWeeklyReversalInterestRate(QCAlgorithm):
+def Initialize(self):
+    self.SetStartDate(2000, 1, 1)
+    self.SetCash(100000)
+    
+    self.symbols = [
+        "CME_TY1",      # 10 Yr Note Futures, Continuous Contract #1
+        "CME_FV1",      # 5 Yr Note Futures, Continuous Contract #1
+        "CME_TU1"       # 2 Yr Note Futures, Continuous Contract #1
+        "CME_ED1",      # Eurodollar Futures, Continuous Contract #1
+        "CME_FF1",      # 30-Day Fed Funds Futures, Continuous Contract #1
+        "CME_US1"       # US Treasury Bond Futures, Continuous Contract #1
+        "CME_UT1"       # US Ultra T-Bond Bond Futures, Continuous Contract #1                        
+    ]
+    
+    self.friday_close = {}
+    self.leverage = 1
+    
+    for symbol in self.symbols:
+        data = self.AddData(QuantpediaFutures, symbol, Resolution.Daily)
+        data.SetFeeModel(CustomFeeModel())
+        data.SetLeverage(5)
+        self.friday_close[symbol] = 0
+    
+    self.settings.minimum_order_margin_portfolio_percentage = 0.
+def OnData(self, data):
+    # Saturday -> Friday close available
+    if self.Time.date().weekday() == 5:
+        for symbol in self.symbols:
+            if symbol in data and data[symbol]:
+                price = data[symbol].Value
+                if price != 0:
+                    self.friday_close[symbol] = price
+                
+        self.Liquidate()
+    # Tuesday -> Monday close available
+    elif self.Time.date().weekday() == 1:
+        returns = {}
+        
+        for symbol in self.symbols:
+            # Check if data is still coming.
+            if self.securities[symbol].get_last_data() and self.time.date() > QuantpediaFutures.get_last_update_date()[symbol]:
+                self.liquidate(symbol)
+                continue
+            if symbol in data and data[symbol]:
+                price = data[symbol].Value
+                if price != 0 and symbol in self.friday_close and self.friday_close[symbol] != 0:
+                    returns[symbol] = price / self.friday_close[symbol] - 1
+        
+        self.friday_close.clear()
+        if len(returns) == 0: 
+            return
+        
+        ret_mean = np.mean([x[1] for x in returns.items()])
+        
+        weight = {}
+        N = len(returns)
+        for symbol in returns:
+            weight[symbol] = -(1/N) * (returns[symbol] - ret_mean) * 100
+
+        for symbol in weight:
+            if data.contains_key(symbol) and data[symbol]:
+                self.SetHoldings(symbol, self.leverage * weight[symbol])
+# Quantpedia data.
+# NOTE: IMPORTANT: Data order must be ascending (datewise)
+class QuantpediaFutures(PythonData):
+_last_update_date:Dict[Symbol, datetime.date] = {}
+@staticmethod
+def get_last_update_date() -> Dict[Symbol, datetime.date]:
+   return QuantpediaFutures._last_update_date
+def GetSource(self, config, date, isLiveMode):
+    return SubscriptionDataSource("data.quantpedia.com/backtesting_data/futures/{0}.csv".format(config.Symbol.Value), SubscriptionTransportMedium.RemoteFile, FileFormat.Csv)
+def Reader(self, config, line, date, isLiveMode):
+    data = QuantpediaFutures()
+    data.Symbol = config.Symbol
+    
+    if not line[0].isdigit(): return None
+    split = line.split(';')
+    
+    data.Time = datetime.strptime(split[0], "%d.%m.%Y") + timedelta(days=1)
+    data['back_adjusted'] = float(split[1])
+    data['spliced'] = float(split[2])
+    data.Value = float(split[1])
+    if config.Symbol.Value not in QuantpediaFutures._last_update_date:
+        QuantpediaFutures._last_update_date[config.Symbol.Value] = datetime(1,1,1).date()
+    if data.Time.date() > QuantpediaFutures._last_update_date[config.Symbol.Value]:
+        QuantpediaFutures._last_update_date[config.Symbol.Value] = data.Time.date()
+        
+    return data
+# Custom fee model.
+class CustomFeeModel(FeeModel):
+def GetOrderFee(self, parameters):
+    fee = parameters.Security.Price * parameters.Order.AbsoluteQuantity * 0.00005
+    return OrderFee(CashAmount(fee, "USD"))

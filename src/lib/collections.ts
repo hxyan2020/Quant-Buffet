@@ -1,4 +1,5 @@
 import prisma from "@/lib/prisma";
+import { PUBLIC_STRATEGY_WHERE } from "@/lib/strategy-visibility";
 
 export async function getCollectedStrategyIdSet(userId: string) {
   const rows = await prisma.strategyCollection.findMany({
@@ -21,7 +22,7 @@ export async function listCollectedStrategies(userId: string) {
   const rows = await prisma.strategyCollection.findMany({
     where: {
       userId,
-      strategy: { published: true },
+      strategy: { ...PUBLIC_STRATEGY_WHERE },
     },
     orderBy: { createdAt: "desc" },
     include: {
@@ -45,7 +46,7 @@ export async function listCollectedStrategies(userId: string) {
 
 export async function collectStrategy(userId: string, strategyId: string) {
   const strategy = await prisma.strategy.findFirst({
-    where: { id: strategyId, published: true },
+    where: { id: strategyId, ...PUBLIC_STRATEGY_WHERE },
     select: { id: true },
   });
   if (!strategy) return { ok: false as const, error: "NOT_FOUND" };

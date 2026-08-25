@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=股票中的新闻回报与非新闻回报
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ingr01b3xlb0b5grkg6o.py
+Fidelity: no_qc_theme_proxy

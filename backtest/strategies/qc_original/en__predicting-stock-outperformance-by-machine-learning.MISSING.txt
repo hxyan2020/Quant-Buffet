@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predicting-stock-outperformance-by-machine-learning
+In-house reconstruction: backtest/strategies/generated/en__predicting-stock-outperformance-by-machine-learning.py
+Fidelity: signal_unavailable_etf_proxy

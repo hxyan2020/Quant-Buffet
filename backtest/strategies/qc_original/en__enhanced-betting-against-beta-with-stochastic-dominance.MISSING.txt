@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=enhanced-betting-against-beta-with-stochastic-dominance
+In-house reconstruction: backtest/strategies/generated/en__enhanced-betting-against-beta-with-stochastic-dominance.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=中国再融资股票发行后的回报
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7indp01azxlb0w5bj60tw.py
+Fidelity: no_qc_theme_proxy

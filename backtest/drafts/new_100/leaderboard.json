@@ -1,0 +1,1870 @@
+[
+  {
+    "rank": 1,
+    "slug": "optimizing-cryptocurrency-returns-a-quantitative-study-on-factor-based-investing",
+    "title": "Optimizing Cryptocurrency Returns: A Quantitative Study on Factor-Based Investing",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 2,
+    "slug": "cryptocurrency-momentum-effect-dfa-and-mf-dfa-analysis",
+    "title": "Cryptocurrency momentum effect: DFA and MF-DFA analysis",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 3,
+    "slug": "navigating-risk-in-crypto-markets-connectedness-and-strategic-allocation",
+    "title": "Navigating Risk in Crypto Markets: Connectedness and Strategic Allocation",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 4,
+    "slug": "factor-models-of-cryptocurrency-returns-financial-theory-approach",
+    "title": "Factor Models of Cryptocurrency Returns: Financial Theory Approach",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 5,
+    "slug": "high-frequency-momentum-trading-with-cryptocurrencies",
+    "title": "High frequency momentum trading with cryptocurrencies",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 6,
+    "slug": "cryptocurrencies-and-momentum",
+    "title": "Cryptocurrencies and momentum",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 7,
+    "slug": "investor-psychology-and-sentiment-analysis-in-cryptocurrency-markets-a-behaviora",
+    "title": "Investor Psychology and Sentiment Analysis in Cryptocurrency Markets",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 8,
+    "slug": "optimizing-bitcoin-anomaly-detection-a-comparative-analysis-of-feature-selection",
+    "title": "Optimizing Bitcoin Anomaly Detection",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 9,
+    "slug": "leveraging-fintech-compliance-to-mitigate-cryptocurrency-volatility-for-secure-u",
+    "title": "Leveraging FinTech Compliance to Mitigate Cryptocurrency Volatility for Secure US Employee Retire\u2026",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 10,
+    "slug": "etf-resilience-to-uncertainty-shocks-a-cross-asset-nonlinear-analysis-of-ai-and-",
+    "title": "ETF Resilience to Uncertainty Shocks",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 11,
+    "slug": "momentum-based-cryptocurrency-trading-strategy-data-synthesis-and-machine-learni",
+    "title": "Momentum-Based Cryptocurrency Trading Strategy",
+    "template": "abs_momentum",
+    "cagr": 0.657932,
+    "sharpe": 1.1371,
+    "max_drawdown": -0.832641,
+    "volatility": 0.607038,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 12,
+    "slug": "analysis-of-different-trading-strategy-applicability-to-cryptocurrency-market",
+    "title": "Analysis of Different Trading Strategy Applicability to Cryptocurrency Market",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 13,
+    "slug": "momentum-trading-in-cryptocurrencies-a-comparative-study-of-time-series-and-cros",
+    "title": "Momentum Trading in Cryptocurrencies",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 14,
+    "slug": "bitcoin-intraday-time-series-momentum",
+    "title": "Bitcoin intraday time series momentum",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 15,
+    "slug": "technical-trading-rules-profitability-and-dynamic-risk-premiums-of-cryptocurrenc",
+    "title": "Technical trading rules' profitability and dynamic risk premiums of cryptocurrency exchange rates",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 16,
+    "slug": "deterministic-modelling-of-implied-volatility-in-cryptocurrency-options-with-und",
+    "title": "Deterministic modelling of implied volatility in cryptocurrency options with underlying multiple\u2026",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 17,
+    "slug": "systematic-trend-following-with-adaptive-portfolio-construction-enhancing-risk-a",
+    "title": "Systematic Trend-Following with Adaptive Portfolio Construction",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 18,
+    "slug": "cryptocurrency-price-prediction-using-regression-models-on-momentum-indicators",
+    "title": "Cryptocurrency Price Prediction using Regression Models on Momentum Indicators",
+    "template": "sma_trend",
+    "cagr": 0.554617,
+    "sharpe": 1.0405,
+    "max_drawdown": -0.820778,
+    "volatility": 0.601291,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 19,
+    "slug": "a-machine-learning-approach-to-risk-based-asset-allocation-in-portfolio-optimiza",
+    "title": "A machine learning approach to risk based asset allocation in portfolio optimization",
+    "template": "risk_parity",
+    "cagr": 0.0249,
+    "sharpe": 1.0072,
+    "max_drawdown": -0.08292,
+    "volatility": 0.024727,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "LQD",
+      "HYG",
+      "AGG",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 20,
+    "slug": "cryptocurrency-trading-a-comprehensive-survey",
+    "title": "Cryptocurrency trading: a comprehensive survey",
+    "template": "dual_momentum",
+    "cagr": 0.377369,
+    "sharpe": 0.8921,
+    "max_drawdown": -0.784581,
+    "volatility": 0.497873,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 21,
+    "slug": "risk-budget-portfolios-with-convex-non-negative-matrix-factorization",
+    "title": "Risk budget portfolios with convex Non-negative Matrix Factorization",
+    "template": "vol_target",
+    "cagr": 0.182039,
+    "sharpe": 0.8402,
+    "max_drawdown": -0.42017,
+    "volatility": 0.230967,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 22,
+    "slug": "asset-allocation-model-for-a-robo-advisor-using-the-financial-market-instability",
+    "title": "Asset Allocation Model for a Robo-Advisor Using the Financial Market Instability Index and Geneti\u2026",
+    "template": "risk_parity",
+    "cagr": 0.027593,
+    "sharpe": 0.7723,
+    "max_drawdown": -0.136658,
+    "volatility": 0.036096,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 23,
+    "slug": "continuous-timing-signals-for-growth-defensive-style-allocation-factor-attributi",
+    "title": "Continuous Timing Signals for Growth-Defensive Style Allocation",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "paper_tickers_extracted",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 24,
+    "slug": "few-shot-learning-patterns-in-financial-time-series-for-trend-following-strategi",
+    "title": "Few-Shot Learning Patterns in Financial Time-Series for Trend-Following Strategies",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 25,
+    "slug": "refining-and-robust-backtesting-of-a-century-of-profitable-industry-trends",
+    "title": "Refining and Robust Backtesting of A Century of Profitable Industry Trends",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 26,
+    "slug": "a-six-factor-asset-pricing-model",
+    "title": "A six-factor asset pricing model",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 27,
+    "slug": "domain-adapted-learning-and-interpretability-drl-for-gas-trading",
+    "title": "Domain-adapted Learning and Interpretability: DRL for Gas Trading",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 28,
+    "slug": "beyond-trend-following-deep-learning-for-market-trend-prediction",
+    "title": "Beyond Trend Following: Deep Learning for Market Trend Prediction",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 29,
+    "slug": "dynamics-of-periodic-bubbles-and-crashes-modeling-market-overheating-and-panic-s",
+    "title": "Dynamics of Periodic Bubbles and Crashes",
+    "template": "sma_trend",
+    "cagr": 0.067672,
+    "sharpe": 0.7415,
+    "max_drawdown": -0.190932,
+    "volatility": 0.094344,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 30,
+    "slug": "pricing-currency-risks",
+    "title": "Pricing Currency Risks",
+    "template": "sma_trend",
+    "cagr": 0.078519,
+    "sharpe": 0.7093,
+    "max_drawdown": -0.168408,
+    "volatility": 0.116089,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EWJ",
+      "GLD",
+      "TLT"
+    ]
+  },
+  {
+    "rank": 31,
+    "slug": "fast-times-slow-times-timescale-separation-in-financial-timeseries-data",
+    "title": "Fast Times, Slow Times: Timescale Separation in Financial Timeseries Data",
+    "template": "equal_weight",
+    "cagr": 0.038286,
+    "sharpe": 0.6875,
+    "max_drawdown": -0.191599,
+    "volatility": 0.057027,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 32,
+    "slug": "a-century-of-evidence-on-trend-following-investing",
+    "title": "A Century of Evidence on Trend-Following Investing",
+    "template": "sma_trend",
+    "cagr": 0.033349,
+    "sharpe": 0.6547,
+    "max_drawdown": -0.157516,
+    "volatility": 0.052194,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 33,
+    "slug": "ai-driven-adaptive-asset-allocation-a-machine-learning-approach-to-dynamic-portf",
+    "title": "Ai-driven adaptive asset allocation",
+    "template": "sma_trend",
+    "cagr": 0.033349,
+    "sharpe": 0.6547,
+    "max_drawdown": -0.157516,
+    "volatility": 0.052194,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 34,
+    "slug": "fundamental-framework-for-technical-analysis",
+    "title": "Fundamental Framework for Technical Analysis",
+    "template": "sma_trend",
+    "cagr": 0.033349,
+    "sharpe": 0.6547,
+    "max_drawdown": -0.157516,
+    "volatility": 0.052194,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 35,
+    "slug": "air-sea-fluxes-with-a-focus-on-heat-and-momentum",
+    "title": "Air-Sea Fluxes With a Focus on Heat and Momentum",
+    "template": "abs_momentum",
+    "cagr": 0.060015,
+    "sharpe": 0.6275,
+    "max_drawdown": -0.181452,
+    "volatility": 0.101057,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 36,
+    "slug": "reward-risk-momentum-strategies-using-classical-tempered-stable-distribution",
+    "title": "Reward-risk momentum strategies using classical tempered stable distribution",
+    "template": "abs_momentum",
+    "cagr": 0.060015,
+    "sharpe": 0.6275,
+    "max_drawdown": -0.181452,
+    "volatility": 0.101057,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 37,
+    "slug": "on-the-natures-of-the-spin-and-orbital-parts-of-optical-angular-momentum",
+    "title": "On the natures of the spin and orbital parts of optical angular momentum",
+    "template": "abs_momentum",
+    "cagr": 0.060015,
+    "sharpe": 0.6275,
+    "max_drawdown": -0.181452,
+    "volatility": 0.101057,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 38,
+    "slug": "the-importance-of-climate-risks-for-institutional-investors",
+    "title": "The Importance of Climate Risks for Institutional Investors",
+    "template": "dual_momentum",
+    "cagr": 0.078947,
+    "sharpe": 0.6269,
+    "max_drawdown": -0.337173,
+    "volatility": 0.136042,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 39,
+    "slug": "empirical-investigation-of-state-of-the-art-mean-reversion-strategies-for-equity",
+    "title": "Empirical investigation of state-of-the-art mean reversion strategies for equity markets",
+    "template": "sma_trend",
+    "cagr": 0.069253,
+    "sharpe": 0.619,
+    "max_drawdown": -0.228953,
+    "volatility": 0.11982,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "VNQ",
+      "IYR",
+      "RWX",
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 40,
+    "slug": "timing-excess-returns-a-cross-universe-approach-to-alpha",
+    "title": "Timing Excess Returns A cross-universe approach to alpha",
+    "template": "momentum_rotation",
+    "cagr": 0.037303,
+    "sharpe": 0.5954,
+    "max_drawdown": -0.217621,
+    "volatility": 0.065077,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "LQD",
+      "HYG",
+      "AGG",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 41,
+    "slug": "volatilitymanaged-portfolios",
+    "title": "Volatility\u2010Managed Portfolios",
+    "template": "vol_target",
+    "cagr": 0.044615,
+    "sharpe": 0.585,
+    "max_drawdown": -0.289448,
+    "volatility": 0.080116,
+    "fidelity": "theme_proxy_vol_managed",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 42,
+    "slug": "the-analysis-of-investment-into-industries-based-on-portfolio-managers",
+    "title": "The analysis of investment into industries based on portfolio managers",
+    "template": "vol_target",
+    "cagr": 0.044615,
+    "sharpe": 0.585,
+    "max_drawdown": -0.289448,
+    "volatility": 0.080116,
+    "fidelity": "theme_proxy_vol_managed",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 43,
+    "slug": "deep-hedging-with-reinforcement-learning-a-practical-framework-for-option-risk-m",
+    "title": "Deep Hedging with Reinforcement Learning: A Practical Framework for Option Risk Management",
+    "template": "vol_target",
+    "cagr": 0.044615,
+    "sharpe": 0.585,
+    "max_drawdown": -0.289448,
+    "volatility": 0.080116,
+    "fidelity": "paper_tickers_extracted",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 44,
+    "slug": "performance-measurement-of-esg-themed-megatrend-investments-in-global-equity-mar",
+    "title": "Performance measurement of ESG-themed megatrend investments in global equity markets using pure f\u2026",
+    "template": "vol_target",
+    "cagr": 0.044615,
+    "sharpe": 0.585,
+    "max_drawdown": -0.289448,
+    "volatility": 0.080116,
+    "fidelity": "theme_proxy_vol_managed",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 45,
+    "slug": "a-hybrid-adaptive-trading-strategy-integrating-investor-sentiment-for-precious-m",
+    "title": "A hybrid adaptive trading strategy integrating investor sentiment for precious metal ETFs",
+    "template": "sma_trend",
+    "cagr": 0.102667,
+    "sharpe": 0.5839,
+    "max_drawdown": -0.53014,
+    "volatility": 0.203223,
+    "fidelity": "paper_tickers_extracted",
+    "assets": [
+      "GLD",
+      "SLV"
+    ]
+  },
+  {
+    "rank": 46,
+    "slug": "predicting-chinese-commodity-futures-price-an-eemd-hurst-lstm-hybrid-approach",
+    "title": "Predicting Chinese Commodity Futures Price: An EEMD-Hurst-LSTM Hybrid Approach",
+    "template": "sma_trend",
+    "cagr": 0.075417,
+    "sharpe": 0.5763,
+    "max_drawdown": -0.298734,
+    "volatility": 0.14428,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "FXI",
+      "ASHR",
+      "EWH",
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 47,
+    "slug": "factor-investing-and-asset-allocation-strategies-a-comparison-of-factor-versus-s",
+    "title": "Factor investing and asset allocation strategies",
+    "template": "risk_parity",
+    "cagr": 0.084912,
+    "sharpe": 0.5657,
+    "max_drawdown": -0.497969,
+    "volatility": 0.16958,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 48,
+    "slug": "basis-immunity-isotropy-as-a-regularizer-for-uncertainty",
+    "title": "Basis Immunity: Isotropy as a Regularizer for Uncertainty",
+    "template": "risk_parity",
+    "cagr": 0.084912,
+    "sharpe": 0.5657,
+    "max_drawdown": -0.497969,
+    "volatility": 0.16958,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 49,
+    "slug": "center-of-mass-angular-momentum-and-memory-effect-in-asymptotically-flat-spaceti",
+    "title": "Center-of-mass angular momentum and memory effect in asymptotically flat spacetimes",
+    "template": "momentum_rotation",
+    "cagr": 0.03839,
+    "sharpe": 0.5192,
+    "max_drawdown": -0.152918,
+    "volatility": 0.078502,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 50,
+    "slug": "which-factors-matter-to-investors-evidence-from-mutual-fund-flows",
+    "title": "Which Factors Matter to Investors? Evidence from Mutual Fund Flows",
+    "template": "momentum_rotation",
+    "cagr": 0.03839,
+    "sharpe": 0.5192,
+    "max_drawdown": -0.152918,
+    "volatility": 0.078502,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 51,
+    "slug": "portfolio-optimization-based-stock-prediction-using-long-short-term-memory-netwo",
+    "title": "Portfolio Optimization-Based Stock Prediction Using Long-Short Term Memory Network in Quantitativ\u2026",
+    "template": "sma_trend",
+    "cagr": 0.069736,
+    "sharpe": 0.5151,
+    "max_drawdown": -0.305531,
+    "volatility": 0.153952,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VGK",
+      "EWJ",
+      "FXI"
+    ]
+  },
+  {
+    "rank": 52,
+    "slug": "factor-momentum-and-regime-switching-overlay-strategy",
+    "title": "Factor Momentum and Regime-Switching Overlay Strategy",
+    "template": "risk_parity",
+    "cagr": 0.055807,
+    "sharpe": 0.5063,
+    "max_drawdown": -0.513984,
+    "volatility": 0.121982,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EWJ",
+      "GLD",
+      "TLT"
+    ]
+  },
+  {
+    "rank": 53,
+    "slug": "towards-new-strategies-for-investing-insights-on-sustainable-exchange-traded-fun",
+    "title": "Towards New Strategies for Investing: Insights on Sustainable Exchange-Traded Funds (ETFs)",
+    "template": "momentum_rotation",
+    "cagr": 0.065379,
+    "sharpe": 0.5001,
+    "max_drawdown": -0.458134,
+    "volatility": 0.148827,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 54,
+    "slug": "rates-factors-and-global-asset-allocation",
+    "title": "Rates Factors and Global Asset Allocation",
+    "template": "momentum_rotation",
+    "cagr": 0.049212,
+    "sharpe": 0.4964,
+    "max_drawdown": -0.214087,
+    "volatility": 0.108688,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 55,
+    "slug": "global-asset-allocation-strategy-using-a-hidden-markov-model",
+    "title": "Global Asset Allocation Strategy Using a Hidden Markov Model",
+    "template": "momentum_rotation",
+    "cagr": 0.049212,
+    "sharpe": 0.4964,
+    "max_drawdown": -0.214087,
+    "volatility": 0.108688,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SHY",
+      "IEF",
+      "TLT",
+      "LQD",
+      "HYG",
+      "TIP",
+      "BND"
+    ]
+  },
+  {
+    "rank": 56,
+    "slug": "fusing-blockchain-and-ai-with-metaverse-a-survey",
+    "title": "Fusing Blockchain and AI With Metaverse: A Survey",
+    "template": "equal_weight",
+    "cagr": 0.055552,
+    "sharpe": 0.4739,
+    "max_drawdown": -0.479459,
+    "volatility": 0.132664,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EWJ",
+      "GLD",
+      "TLT"
+    ]
+  },
+  {
+    "rank": 57,
+    "slug": "optimal-trend-following-portfolios",
+    "title": "Optimal trend following portfolios",
+    "template": "risk_parity",
+    "cagr": 0.044344,
+    "sharpe": 0.4669,
+    "max_drawdown": -0.448496,
+    "volatility": 0.104671,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 58,
+    "slug": "end-to-end-parametric-portfolio-policies-for-cross-asset-futures-timing-when-do-",
+    "title": "End-to-End Parametric Portfolio Policies for Cross-Asset Futures Timing",
+    "template": "risk_parity",
+    "cagr": 0.044344,
+    "sharpe": 0.4669,
+    "max_drawdown": -0.448496,
+    "volatility": 0.104671,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 59,
+    "slug": "a-machine-learning-approach-in-regime-switching-risk-parity-portfolios",
+    "title": "A Machine Learning Approach in Regime-Switching Risk Parity Portfolios",
+    "template": "risk_parity",
+    "cagr": 0.044344,
+    "sharpe": 0.4669,
+    "max_drawdown": -0.448496,
+    "volatility": 0.104671,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 60,
+    "slug": "mad-risk-parity-portfolios",
+    "title": "MAD Risk Parity Portfolios",
+    "template": "risk_parity",
+    "cagr": 0.044344,
+    "sharpe": 0.4669,
+    "max_drawdown": -0.448496,
+    "volatility": 0.104671,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 61,
+    "slug": "agnostic-risk-parity-taming-known-and-unknown-unknowns",
+    "title": "Agnostic Risk Parity: Taming Known and Unknown-Unknowns",
+    "template": "risk_parity",
+    "cagr": 0.044344,
+    "sharpe": 0.4669,
+    "max_drawdown": -0.448496,
+    "volatility": 0.104671,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 62,
+    "slug": "a-market-timing-strategy-for-the-gcc-conventional-and-shariah-stock-indices",
+    "title": "A Market Timing Strategy for the GCC Conventional and Shariah Stock Indices",
+    "template": "sma_trend",
+    "cagr": 0.060567,
+    "sharpe": 0.4516,
+    "max_drawdown": -0.425746,
+    "volatility": 0.157952,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 63,
+    "slug": "managing-the-downside-of-active-and-passive-strategiesipart-1-convexity-and-frag",
+    "title": "Managing the Downside of Active and Passive Strategies\u2014<i>Part 1",
+    "template": "sma_trend",
+    "cagr": 0.060567,
+    "sharpe": 0.4516,
+    "max_drawdown": -0.425746,
+    "volatility": 0.157952,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 64,
+    "slug": "does-investor-sentiment-influence-south-african-etf-flows-during-different-marke",
+    "title": "Does Investor Sentiment Influence South African ETF Flows During Different Market Conditions?",
+    "template": "sma_trend",
+    "cagr": 0.060567,
+    "sharpe": 0.4516,
+    "max_drawdown": -0.425746,
+    "volatility": 0.157952,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 65,
+    "slug": "investment-implications-of-industry-40-evidence-from-smart-manufacturing-etfs",
+    "title": "Investment implications of Industry 4.0: evidence from smart manufacturing ETFs",
+    "template": "sma_trend",
+    "cagr": 0.060567,
+    "sharpe": 0.4516,
+    "max_drawdown": -0.425746,
+    "volatility": 0.157952,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 66,
+    "slug": "long-term-short-term-and-time-varying-profitability-of-reversals-the-role-of-mar",
+    "title": "Long-Term, Short-Term and Time-Varying Profitability of Reversals",
+    "template": "momentum_rotation",
+    "cagr": 0.091498,
+    "sharpe": 0.451,
+    "max_drawdown": -0.649856,
+    "volatility": 0.283256,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "EWZ",
+      "FXI",
+      "EWT",
+      "EWY",
+      "EIDO",
+      "THD",
+      "EPHE",
+      "ECH",
+      "EPOL",
+      "EZA",
+      "ARGT",
+      "TUR"
+    ]
+  },
+  {
+    "rank": 67,
+    "slug": "overreaction-effect-evidence-from-an-emerging-market-shanghai-stock-market",
+    "title": "Overreaction effect: evidence from an emerging market (Shanghai stock market)",
+    "template": "momentum_rotation",
+    "cagr": 0.091498,
+    "sharpe": 0.451,
+    "max_drawdown": -0.649856,
+    "volatility": 0.283256,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "EWZ",
+      "FXI",
+      "EWT",
+      "EWY",
+      "EIDO",
+      "THD",
+      "EPHE",
+      "ECH",
+      "EPOL",
+      "EZA",
+      "ARGT",
+      "TUR"
+    ]
+  },
+  {
+    "rank": 68,
+    "slug": "risk-adjusted-momentum-strategy-construction-and-industry-heterogeneity-analysis",
+    "title": "Risk-adjusted Momentum Strategy Construction and Industry Heterogeneity Analysis Based on STARR I\u2026",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 69,
+    "slug": "research-on-etf-sector-rotation-strategy-based-on-dual-perspectives-of-momentum-",
+    "title": "Research on ETF Sector Rotation Strategy Based on Dual Perspectives of Momentum and Risk Optimiza\u2026",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 70,
+    "slug": "factor-models-and-investment-strategies-in-the-renewable-energy-sector",
+    "title": "Factor models and investment strategies in the renewable energy sector",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 71,
+    "slug": "stock-investment-the-p-index-approach",
+    "title": "Stock Investment: The p-index Approach",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 72,
+    "slug": "when-alpha-breaks-two-level-uncertainty-for-safe-deployment-of-cross-sectional-s",
+    "title": "When Alpha Breaks",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 73,
+    "slug": "on-industry-momentum-strategies",
+    "title": "ON INDUSTRY MOMENTUM STRATEGIES",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 74,
+    "slug": "comparative-analysis-of-ai-driven-versus-human-managed-equity-funds-across-marke",
+    "title": "Comparative analysis of AI-driven versus human-managed equity funds across market trends",
+    "template": "momentum_rotation",
+    "cagr": 0.067457,
+    "sharpe": 0.4497,
+    "max_drawdown": -0.531062,
+    "volatility": 0.18225,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 75,
+    "slug": "observable-matrix-dynamics-of-stocks",
+    "title": "Observable Matrix Dynamics of Stocks",
+    "template": "momentum_rotation",
+    "cagr": 0.074272,
+    "sharpe": 0.4312,
+    "max_drawdown": -0.509829,
+    "volatility": 0.225118,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 76,
+    "slug": "optimal-portfolio-and-trading-strategy-using-machine-learning",
+    "title": "Optimal Portfolio and Trading Strategy Using Machine Learning",
+    "template": "dual_momentum",
+    "cagr": 0.071361,
+    "sharpe": 0.4225,
+    "max_drawdown": -0.395983,
+    "volatility": 0.221391,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 77,
+    "slug": "hierarchical-risk-parity-for-portfolio-allocation-in-the-latin-american-nuam-mar",
+    "title": "Hierarchical Risk Parity for Portfolio Allocation in the Latin American NUAM Market",
+    "template": "risk_parity",
+    "cagr": 0.074497,
+    "sharpe": 0.4098,
+    "max_drawdown": -0.644475,
+    "volatility": 0.255149,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "EWZ",
+      "FXI",
+      "EWT",
+      "EWY",
+      "EIDO",
+      "THD",
+      "EPHE",
+      "ECH",
+      "EPOL",
+      "EZA",
+      "ARGT",
+      "TUR"
+    ]
+  },
+  {
+    "rank": 78,
+    "slug": "asset-allocation-of-australian-superannuation-funds-a-markov-regime-switching-ap",
+    "title": "Asset allocation of Australian superannuation funds: a markov regime switching approach",
+    "template": "sma_trend",
+    "cagr": 0.044903,
+    "sharpe": 0.3558,
+    "max_drawdown": -0.45223,
+    "volatility": 0.159173,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "EWA",
+      "EWC",
+      "EWD",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWK",
+      "EWL",
+      "EWN",
+      "EWP",
+      "EWQ"
+    ]
+  },
+  {
+    "rank": 79,
+    "slug": "dynamic-asset-allocation-with-asset-specific-regime-forecasts",
+    "title": "Dynamic Asset Allocation with Asset-Specific Regime Forecasts",
+    "template": "momentum_rotation",
+    "cagr": 0.05129,
+    "sharpe": 0.3192,
+    "max_drawdown": -0.87689,
+    "volatility": 0.345924,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "EWZ",
+      "FXI",
+      "EWT",
+      "EWY",
+      "EIDO",
+      "THD",
+      "EPHE",
+      "ECH",
+      "EPOL",
+      "EZA",
+      "ARGT",
+      "TUR"
+    ]
+  },
+  {
+    "rank": 80,
+    "slug": "re-evaluating-short-and-long-term-trend-factors-in-cta-replication-a-bayesian-gr",
+    "title": "Re-evaluating Short- and Long-Term Trend Factors in CTA Replication",
+    "template": "sma_trend",
+    "cagr": 0.044815,
+    "sharpe": 0.3088,
+    "max_drawdown": -0.645757,
+    "volatility": 0.222657,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 81,
+    "slug": "follow-the-leader-enhancing-systematic-trend-following-using-network-momentum",
+    "title": "Follow the Leader: Enhancing Systematic Trend-Following Using Network Momentum",
+    "template": "sma_trend",
+    "cagr": 0.044815,
+    "sharpe": 0.3088,
+    "max_drawdown": -0.645757,
+    "volatility": 0.222657,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 82,
+    "slug": "slow-momentum-with-fast-reversion-a-trading-strategy-using-deep-learning-and-cha",
+    "title": "Slow Momentum with Fast Reversion",
+    "template": "sma_trend",
+    "cagr": 0.044815,
+    "sharpe": 0.3088,
+    "max_drawdown": -0.645757,
+    "volatility": 0.222657,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 83,
+    "slug": "trend-momentum-ii-driving-forces-of-low-volatility-and-momentum",
+    "title": "Trend Momentum II: Driving Forces of Low Volatility and Momentum",
+    "template": "momentum_rotation",
+    "cagr": 0.038588,
+    "sharpe": 0.2856,
+    "max_drawdown": -0.495601,
+    "volatility": 0.209729,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 84,
+    "slug": "lowrisk-anomalies",
+    "title": "Low\u2010Risk Anomalies?",
+    "template": "momentum_rotation",
+    "cagr": 0.038588,
+    "sharpe": 0.2856,
+    "max_drawdown": -0.495601,
+    "volatility": 0.209729,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "EFA",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "IEF",
+      "HYG"
+    ]
+  },
+  {
+    "rank": 85,
+    "slug": "portfolio-diversification-and-dynamic-interactions-between-clean-and-dirty-energ",
+    "title": "Portfolio Diversification and Dynamic Interactions between Clean and Dirty Energy Assets",
+    "template": "risk_parity",
+    "cagr": 0.03373,
+    "sharpe": 0.2833,
+    "max_drawdown": -0.72637,
+    "volatility": 0.165614,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 86,
+    "slug": "interpretable-machine-learning-for-diversified-portfolio-construction",
+    "title": "Interpretable Machine Learning for Diversified Portfolio Construction",
+    "template": "risk_parity",
+    "cagr": 0.03373,
+    "sharpe": 0.2833,
+    "max_drawdown": -0.72637,
+    "volatility": 0.165614,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 87,
+    "slug": "a-meta-method-for-portfolio-management-using-machine-learning-for-adaptive-strat",
+    "title": "A Meta-Method for Portfolio Management Using Machine Learning for Adaptive Strategy Selection",
+    "template": "risk_parity",
+    "cagr": 0.03373,
+    "sharpe": 0.2833,
+    "max_drawdown": -0.72637,
+    "volatility": 0.165614,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 88,
+    "slug": "topological-risk-parity",
+    "title": "Topological Risk Parity",
+    "template": "risk_parity",
+    "cagr": 0.014153,
+    "sharpe": 0.1968,
+    "max_drawdown": -0.472744,
+    "volatility": 0.093704,
+    "fidelity": "paper_tickers_extracted",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 89,
+    "slug": "sector-rotation-by-factor-model-and-fundamental-analysis",
+    "title": "Sector Rotation by Factor Model and Fundamental Analysis",
+    "template": "momentum_rotation",
+    "cagr": 0.01695,
+    "sharpe": 0.1842,
+    "max_drawdown": -0.598352,
+    "volatility": 0.19609,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "XLB",
+      "XLE",
+      "XLF",
+      "XLI",
+      "XLK",
+      "XLP",
+      "XLU",
+      "XLV",
+      "XLY",
+      "XLC",
+      "XLRE"
+    ]
+  },
+  {
+    "rank": 90,
+    "slug": "not-all-factors-crowd-equally-modeling-measuring-and-trading-on-alpha-decay",
+    "title": "Not All Factors Crowd Equally: Modeling, Measuring, and Trading on Alpha Decay",
+    "template": "mean_reversion",
+    "cagr": 0.014364,
+    "sharpe": 0.1716,
+    "max_drawdown": -0.369664,
+    "volatility": 0.140364,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 91,
+    "slug": "reimagining-price-trends",
+    "title": "(Re\u2010)Imag(in)ing Price Trends",
+    "template": "mean_reversion",
+    "cagr": 0.014364,
+    "sharpe": 0.1716,
+    "max_drawdown": -0.369664,
+    "volatility": 0.140364,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 92,
+    "slug": "modeling-momentum-and-reversals",
+    "title": "Modeling Momentum and Reversals",
+    "template": "mean_reversion",
+    "cagr": 0.014364,
+    "sharpe": 0.1716,
+    "max_drawdown": -0.369664,
+    "volatility": 0.140364,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "SPY",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 93,
+    "slug": "pairs-trading-with-nonlinear-and-non-gaussian-state-space-models",
+    "title": "Pairs Trading with Nonlinear and Non-Gaussian State Space Models",
+    "template": "mean_reversion",
+    "cagr": 0.012621,
+    "sharpe": 0.1624,
+    "max_drawdown": -0.480018,
+    "volatility": 0.199298,
+    "fidelity": "paper_tickers_extracted",
+    "assets": [
+      "EWT",
+      "EWH"
+    ]
+  },
+  {
+    "rank": 94,
+    "slug": "establishment-of-portfolio-based-on-momentum-strategy-and-analyzing-the-factors-",
+    "title": "Establishment of Portfolio Based On Momentum Strategy and Analyzing the Factors Affecting the Por\u2026",
+    "template": "dual_momentum",
+    "cagr": -0.031157,
+    "sharpe": 0.095,
+    "max_drawdown": -0.900728,
+    "volatility": 0.360232,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA",
+      "BIL"
+    ]
+  },
+  {
+    "rank": 95,
+    "slug": "liquidity-fragmentation-and-the-price-impact-of-etf-flows-a-model-of-cross-venue",
+    "title": "Liquidity Fragmentation and the Price Impact of ETF Flows",
+    "template": "mean_reversion",
+    "cagr": -0.126784,
+    "sharpe": -0.0069,
+    "max_drawdown": -0.925214,
+    "volatility": 0.507346,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 96,
+    "slug": "cryptocurrency-price-prediction-using-a-hybrid-deep-learning-approach-with-expla",
+    "title": "Cryptocurrency Price Prediction using a Hybrid Deep Learning Approach with Explainable AI Integra\u2026",
+    "template": "mean_reversion",
+    "cagr": -0.126784,
+    "sharpe": -0.0069,
+    "max_drawdown": -0.925214,
+    "volatility": 0.507346,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 97,
+    "slug": "deep-temporal-convolutional-networks-for-high-frequency-cryptocurrency-price-for",
+    "title": "Deep Temporal Convolutional Networks for High-Frequency Cryptocurrency Price Forecasting",
+    "template": "mean_reversion",
+    "cagr": -0.126784,
+    "sharpe": -0.0069,
+    "max_drawdown": -0.925214,
+    "volatility": 0.507346,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "BTC-USD",
+      "ETH-USD"
+    ]
+  },
+  {
+    "rank": 98,
+    "slug": "combining-momentum-with-reversal-in-commodity-futures",
+    "title": "Combining momentum with reversal in commodity futures",
+    "template": "mean_reversion",
+    "cagr": -0.072401,
+    "sharpe": -0.1868,
+    "max_drawdown": -0.941843,
+    "volatility": 0.243401,
+    "fidelity": "signal_unavailable_etf_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 99,
+    "slug": "commodity-momentum-and-reversal-do-they-exist-and-if-so-why",
+    "title": "Commodity momentum and reversal: Do they exist, and if so, why?",
+    "template": "mean_reversion",
+    "cagr": -0.072401,
+    "sharpe": -0.1868,
+    "max_drawdown": -0.941843,
+    "volatility": 0.243401,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "GLD",
+      "SLV",
+      "DBC",
+      "GSG",
+      "USO",
+      "UNG",
+      "DBA"
+    ]
+  },
+  {
+    "rank": 100,
+    "slug": "on-the-efficacy-of-shorting-corporate-bonds-as-a-tail-risk-hedging-solution",
+    "title": "On the Efficacy of Shorting Corporate Bonds as a Tail Risk Hedging Solution",
+    "template": "mean_reversion",
+    "cagr": -0.027307,
+    "sharpe": -0.4015,
+    "max_drawdown": -0.498234,
+    "volatility": 0.063868,
+    "fidelity": "no_qc_theme_proxy",
+    "assets": [
+      "LQD",
+      "HYG",
+      "AGG",
+      "BIL"
+    ]
+  }
+]

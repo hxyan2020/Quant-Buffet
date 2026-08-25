@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=intraday-market-return-predictability-based-on-the-factor-zoo
+In-house reconstruction: backtest/strategies/generated/en__intraday-market-return-predictability-based-on-the-factor-zoo.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过机器学习预测超预期股票收益
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i1go00i8xlb03jfzazxs.py
+Fidelity: signal_unavailable_etf_proxy

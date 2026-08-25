@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=公司债券收益截面中的碳风险
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ioeh01c5xlb0ypfxp8fz.py
+Fidelity: no_qc_theme_proxy

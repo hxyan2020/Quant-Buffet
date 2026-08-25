@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=收益延迟和收益提前对股票回报率的影响
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hzt200gyxlb0zfskk0ci.py
+Fidelity: no_qc_theme_proxy

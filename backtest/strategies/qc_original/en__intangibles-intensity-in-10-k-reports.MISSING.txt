@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=intangibles-intensity-in-10-k-reports
+In-house reconstruction: backtest/strategies/generated/en__intangibles-intensity-in-10-k-reports.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=公司债券中的做空因子
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7huvh00btxlb0p9q9dqn6.py
+Fidelity: no_qc_theme_proxy

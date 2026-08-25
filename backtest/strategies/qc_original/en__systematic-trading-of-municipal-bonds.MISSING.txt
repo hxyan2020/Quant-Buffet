@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=systematic-trading-of-municipal-bonds
+In-house reconstruction: backtest/strategies/generated/en__systematic-trading-of-municipal-bonds.py
+Fidelity: no_qc_theme_proxy

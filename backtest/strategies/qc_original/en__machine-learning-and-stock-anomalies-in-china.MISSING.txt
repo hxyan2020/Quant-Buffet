@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=machine-learning-and-stock-anomalies-in-china
+In-house reconstruction: backtest/strategies/generated/en__machine-learning-and-stock-anomalies-in-china.py
+Fidelity: signal_unavailable_etf_proxy

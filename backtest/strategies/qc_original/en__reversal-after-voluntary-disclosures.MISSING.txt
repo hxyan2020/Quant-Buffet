@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=reversal-after-voluntary-disclosures
+In-house reconstruction: backtest/strategies/generated/en__reversal-after-voluntary-disclosures.py
+Fidelity: no_qc_theme_proxy

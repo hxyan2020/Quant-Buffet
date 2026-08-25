@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=公司总部位置效应
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hw7500ddxlb08c5w0fw7.py
+Fidelity: no_qc_theme_proxy

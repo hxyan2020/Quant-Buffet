@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=measuring-firm-quality-using-machine-learning
+In-house reconstruction: backtest/strategies/generated/en__measuring-firm-quality-using-machine-learning.py
+Fidelity: signal_unavailable_etf_proxy

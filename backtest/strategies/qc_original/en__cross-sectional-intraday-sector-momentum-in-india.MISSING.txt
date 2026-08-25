@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=cross-sectional-intraday-sector-momentum-in-india
+In-house reconstruction: backtest/strategies/generated/en__cross-sectional-intraday-sector-momentum-in-india.py
+Fidelity: no_qc_theme_proxy

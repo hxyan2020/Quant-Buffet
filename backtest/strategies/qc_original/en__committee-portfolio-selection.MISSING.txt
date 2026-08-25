@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=committee-portfolio-selection
+In-house reconstruction: backtest/strategies/generated/en__committee-portfolio-selection.py
+Fidelity: no_qc_theme_proxy

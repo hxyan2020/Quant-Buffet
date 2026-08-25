@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=中国股市的锚定偏见因素策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7iffb0113xlb0izux7346.py
+Fidelity: no_qc_theme_proxy

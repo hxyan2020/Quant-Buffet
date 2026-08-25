@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=大宗商品期货跨类别情绪因子策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i1wj00isxlb0lg96a1ei.py
+Fidelity: no_qc_theme_proxy

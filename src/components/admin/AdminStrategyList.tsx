@@ -20,6 +20,7 @@ type StrategyRow = {
   assetClass: string | null;
   isPaywalled: boolean;
   published: boolean;
+  archived: boolean;
   hasPythonCode: boolean;
   createdAt: string;
   updatedAt: string;
@@ -60,6 +61,8 @@ export default function AdminStrategyList() {
   });
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [mixBusy, setMixBusy] = useState(false);
+  const [mixMsg, setMixMsg] = useState<string | null>(null);
 
   const monthOptions = useMemo(() => buildMonthSelectOptions(), []);
   const queryString = searchParams.toString();
@@ -106,6 +109,33 @@ export default function AdminStrategyList() {
     });
   };
 
+  async function applyPaywallMix() {
+    if (
+      !window.confirm(
+        "Mark 20% of published strategies free and the rest paid, per language. Continue?",
+      )
+    ) {
+      return;
+    }
+    setMixBusy(true);
+    setMixMsg(null);
+    try {
+      const res = await fetch("/api/admin/strategies/paywall-mix", { method: "POST" });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data?.error ?? "mix_failed");
+      const parts = (data.locales ?? []).map(
+        (row: { locale: string; free: number; paid: number; total: number }) =>
+          `${row.locale}: ${row.free} free / ${row.paid} paid of ${row.total}`,
+      );
+      setMixMsg(parts.join(" · ") || "Paywall mix applied.");
+      await load();
+    } catch {
+      setMixMsg("Could not apply the 20% free mix.");
+    } finally {
+      setMixBusy(false);
+    }
+  }
+
   async function togglePaywall(id: string, next: boolean) {
     const res = await fetch(`/api/admin/strategies/${id}`, {
       method: "PATCH",
@@ -127,10 +157,21 @@ export default function AdminStrategyList() {
         <div>
           <h1 className="qb-admin-page-title">Strategy CMS</h1>
           <p className="qb-admin-page-sub">{total} strategies (filtered)</p>
+          {mixMsg ? <p className="qb-admin-page-sub">{mixMsg}</p> : null}
         </div>
-        <Link href="/admin/strategies/new" className="qb-admin-btn-primary">
-          + Create strategy
-        </Link>
+        <div className="qb-admin-page-actions">
+          <button
+            type="button"
+            className="qb-admin-btn-secondary"
+            disabled={mixBusy}
+            onClick={() => void applyPaywallMix()}
+          >
+            {mixBusy ? "Applying 20% free…" : "Apply 20% free / 80% paid"}
+          </button>
+          <Link href="/admin/strategies/new" className="qb-admin-btn-primary">
+            + Create strategy
+          </Link>
+        </div>
       </div>
 
       <form
@@ -178,6 +219,14 @@ export default function AdminStrategyList() {
         <div className="qb-admin-filter-field">
           <label htmlFor="adm-pub">Published</label>
           <select id="adm-pub" name="published" className="qb-admin-input" defaultValue={sp.get("published") ?? ""}>
+            <option value="">All</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div className="qb-admin-filter-field">
+          <label htmlFor="adm-arch">Archived</label>
+          <select id="adm-arch" name="archived" className="qb-admin-input" defaultValue={sp.get("archived") ?? ""}>
             <option value="">All</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
@@ -310,6 +359,7 @@ export default function AdminStrategyList() {
                 <th>Title</th>
                 <th>Paywall</th>
                 <th>Published</th>
+                <th>Archived</th>
                 <th>Python</th>
                 <th>Created</th>
                 <th>Updated</th>
@@ -319,12 +369,12 @@ export default function AdminStrategyList() {
             <tbody>
               {rows.length === 0 ?
                 <tr>
-                  <td colSpan={8} className="qb-admin-empty">
+                  <td colSpan={9} className="qb-admin-empty">
                     No strategies match these filters.
                   </td>
                 </tr>
               : rows.map((row) => (
-                  <tr key={row.id}>
+                  <tr key={row.id} className={row.archived ? "qb-admin-row-archived" : undefined}>
                     <td>{row.locale === "zh" ? "CN" : "EN"}</td>
                     <td className="qb-admin-title-cell">
                       <span className="qb-admin-title-text">{row.title}</span>
@@ -343,6 +393,7 @@ export default function AdminStrategyList() {
                       </select>
                     </td>
                     <td>{row.published ? "Yes" : "No"}</td>
+                    <td>{row.archived ? "Yes" : "No"}</td>
                     <td>{row.hasPythonCode ? "Yes" : "No"}</td>
                     <td className="qb-admin-dt">{formatDt(row.createdAt)}</td>
                     <td className="qb-admin-dt">{formatDt(row.updatedAt)}</td>

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=value-in-cryptocurrencies
+In-house reconstruction: backtest/strategies/generated/en__value-in-cryptocurrencies.py
+Fidelity: no_qc_theme_proxy

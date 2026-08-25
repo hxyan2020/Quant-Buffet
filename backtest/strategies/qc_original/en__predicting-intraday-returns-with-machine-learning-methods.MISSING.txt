@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predicting-intraday-returns-with-machine-learning-methods
+In-house reconstruction: backtest/strategies/generated/en__predicting-intraday-returns-with-machine-learning-methods.py
+Fidelity: signal_unavailable_etf_proxy

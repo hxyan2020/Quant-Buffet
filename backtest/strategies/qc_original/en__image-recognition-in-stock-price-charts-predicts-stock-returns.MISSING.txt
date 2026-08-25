@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=image-recognition-in-stock-price-charts-predicts-stock-returns
+In-house reconstruction: backtest/strategies/generated/en__image-recognition-in-stock-price-charts-predicts-stock-returns.py
+Fidelity: no_qc_theme_proxy

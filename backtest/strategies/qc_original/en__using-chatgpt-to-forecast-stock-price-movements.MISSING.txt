@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=using-chatgpt-to-forecast-stock-price-movements
+In-house reconstruction: backtest/strategies/generated/en__using-chatgpt-to-forecast-stock-price-movements.py
+Fidelity: signal_unavailable_etf_proxy

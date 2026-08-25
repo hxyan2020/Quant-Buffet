@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=基于机器学习的财务报表分析
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iltb019mxlb0k91i8wej.py
+Fidelity: no_qc_theme_proxy

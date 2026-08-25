@@ -3,6 +3,7 @@ import { z } from "zod";
 
 import { listAdminStrategies, loadAdminFilterOptionSets } from "@/lib/admin-strategies";
 import { requireAdminResponse } from "@/lib/authz";
+import { detectPythonCode, strategyCodeBlob } from "@/lib/detect-python";
 import prisma from "@/lib/prisma";
 
 const createSchema = z.object({
@@ -26,6 +27,7 @@ const createSchema = z.object({
   frequency: z.string().optional(),
   isPaywalled: z.boolean().optional(),
   published: z.boolean().optional(),
+  archived: z.boolean().optional(),
   paperTitle: z.string().optional(),
   paperAuthors: z.string().optional(),
   paperInstitute: z.string().optional(),
@@ -47,6 +49,7 @@ export async function GET(request: NextRequest) {
     locale: params.get("locale") ?? undefined,
     paywall: (params.get("paywall") ?? "") as "" | "yes" | "no",
     published: (params.get("published") ?? "") as "" | "yes" | "no",
+    archived: (params.get("archived") ?? "") as "" | "yes" | "no",
     region: params.get("region") ?? undefined,
     market: params.get("market") ?? undefined,
     assetClass: params.get("assetClass") ?? undefined,
@@ -100,6 +103,7 @@ export async function POST(request: Request) {
         frequency: data.frequency,
         isPaywalled: data.isPaywalled ?? true,
         published: data.published ?? false,
+        archived: data.archived ?? false,
         hasPythonCode: detectPythonCode(
           strategyCodeBlob(data.contentHtml ?? "", data.pythonCodeHtml ?? ""),
         ),

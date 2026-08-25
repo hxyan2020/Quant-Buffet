@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=分位曲线与波动率风险溢价-vrp
+In-house reconstruction: backtest/strategies/generated/en__vrp.py
+Fidelity: no_qc_theme_proxy

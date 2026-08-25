@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=利用消费者大数据预测绩效
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hzaj00gbxlb0dj0cn0nu.py
+Fidelity: no_qc_theme_proxy

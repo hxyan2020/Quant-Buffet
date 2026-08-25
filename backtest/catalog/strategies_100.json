@@ -1,0 +1,2240 @@
+{
+  "count": 100,
+  "note": "Each entry is a Quant Buffet in-house reconstruction on liquid ETFs. Not a bit-identical QuantConnect/LEAN run. Rules mapped from strategy title/code to templates: sma_trend, dual_ma, dual_momentum, abs_momentum, momentum_rotation, equal_weight, mean_reversion, risk_parity, vol_target.",
+  "strategies": [
+    {
+      "slug": "1-month-momentum-in-international-equities",
+      "title": "1 Month Momentum in International Equities",
+      "site_annualisedReturn": "16.21%",
+      "site_sharpeRatio": "0.8",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWJ",
+        "EWQ",
+        "EWH",
+        "EIDO",
+        "EWI",
+        "EWY",
+        "EWP",
+        "EWD",
+        "EWL",
+        "EWC",
+        "EWZ",
+        "ARGT"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "adaptive-asset-allocation-v-2",
+      "title": "Adaptive Asset Allocation v.2",
+      "site_annualisedReturn": "8.02%",
+      "site_sharpeRatio": "1.05",
+      "site_maxDrawdown": "-9.69%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "VGK",
+        "EWJ",
+        "EEM",
+        "VNQ",
+        "DBC",
+        "DBA",
+        "GLD",
+        "LQD",
+        "HYG"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "alpha-momentum-in-country-and-industry-equity-indexes",
+      "title": "Alpha Momentum in Country and Industry Equity Indexes",
+      "site_annualisedReturn": "6.3%",
+      "site_sharpeRatio": "0.31",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWJ",
+        "EWQ",
+        "EWH",
+        "EIDO",
+        "EWI",
+        "EWY",
+        "EWP",
+        "EWD",
+        "EWL",
+        "EWC",
+        "EWZ",
+        "ARGT"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "betting-against-beta-factor-in-international-equities",
+      "title": "Global Country ETF Betting-Against-Beta Strategy",
+      "site_annualisedReturn": "6.8%",
+      "site_sharpeRatio": "-0.159",
+      "site_maxDrawdown": "44.7%",
+      "template": "equal_weight",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "bold-asset-allocation",
+      "title": "Bold Asset Allocation",
+      "site_annualisedReturn": "14.6%",
+      "site_sharpeRatio": "1.72",
+      "site_maxDrawdown": "-8.7%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "VGK",
+        "EWJ",
+        "VWO",
+        "VNQ",
+        "DBC",
+        "GLD",
+        "TLT",
+        "HYG",
+        "LQD"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "bond-yield-changes-and-the-cross-section-of-equity-indices",
+      "title": "Bond Yield Changes and the Cross Section of Equity Indices",
+      "site_annualisedReturn": "7.83%",
+      "site_sharpeRatio": "0.49",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "SPY",
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "double-bottom-country-trading-strategy",
+      "title": "Double Bottom Country Trading Strategy",
+      "site_annualisedReturn": "7.79%",
+      "site_sharpeRatio": "0.47",
+      "site_maxDrawdown": "-30.38%",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "generalised-risk-adjusted-momentum-in-equity-indexes",
+      "title": "Generalised Risk-Adjusted Momentum in Equity Indexes",
+      "site_annualisedReturn": "12.7%",
+      "site_sharpeRatio": "0.64",
+      "site_maxDrawdown": "-53.6%",
+      "template": "momentum_rotation",
+      "assets": [
+        "ACWI",
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 5,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "geographical-country-momentum",
+      "title": "Geographical Country Momentum",
+      "site_annualisedReturn": "12.69%",
+      "site_sharpeRatio": "0.64",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "international-volatility-arbitrage",
+      "title": "International Volatility Arbitrage",
+      "site_annualisedReturn": "16.38%",
+      "site_sharpeRatio": "1.83",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "kellers-keunigs-defensive-asset-allocation",
+      "title": "Keller\u2019s & Keunig\u2019s Defensive Asset Allocation",
+      "site_annualisedReturn": "16%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": "-10.6%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "IWM",
+        "QQQ",
+        "VGK",
+        "EWJ",
+        "VWO",
+        "VNQ",
+        "GSG",
+        "GLD",
+        "TLT",
+        "HYG",
+        "LQD"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "kellers-keunigs-vigilant-asset-allocation",
+      "title": "Keller\u2019s & Keunig\u2019s Vigilant Asset Allocation",
+      "site_annualisedReturn": "15.6%",
+      "site_sharpeRatio": "0.85",
+      "site_maxDrawdown": "-13%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "IWM",
+        "QQQ",
+        "VGK",
+        "EWJ",
+        "EEM",
+        "EFA",
+        "ACWX",
+        "IYR",
+        "GSG",
+        "GLD",
+        "SHY"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "long-term-reversal-combined-with-a-momentum-effect",
+      "title": "Long-Term Reversal Combined with a Momentum Effect",
+      "site_annualisedReturn": "15.94%",
+      "site_sharpeRatio": "0.41",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWJ",
+        "EWA",
+        "EWG",
+        "EWU",
+        "EWS",
+        "EWQ",
+        "EWH",
+        "EIDO",
+        "EWI",
+        "EWY",
+        "EWP",
+        "EWD"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 4,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "market-breadth-in-global-equities",
+      "title": "Market Breadth in Global Equities",
+      "site_annualisedReturn": "20.76%",
+      "site_sharpeRatio": "0.96",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "SPY",
+        "EWA",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWJ",
+        "EWN",
+        "EWS",
+        "EWY"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "momentum-and-trend-following-in-global-asset-allocation",
+      "title": "Momentum and Trend Following in Global Asset Allocation",
+      "site_annualisedReturn": "10.78%",
+      "site_sharpeRatio": "0.99",
+      "site_maxDrawdown": "-11.25%",
+      "template": "momentum_rotation",
+      "assets": [
+        "BIL",
+        "EWJ",
+        "EWQ",
+        "EWU",
+        "EWI",
+        "EWY",
+        "EWP",
+        "EWD",
+        "EWG",
+        "EWL",
+        "EWC",
+        "EWK"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 7,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "momentum-combined-with-value-effect-within-countries",
+      "title": "Momentum Combined with Value Effect within Countries",
+      "site_annualisedReturn": "24.16%",
+      "site_sharpeRatio": "0.82",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "ARGT",
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "ECH",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EIDO",
+        "EWI"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "momentum-factor-effect-in-country-equity-indexes",
+      "title": "Country ETF Momentum Strategy Selecting Top 5 with 10-12 Month Momentum",
+      "site_annualisedReturn": "17.7%",
+      "site_sharpeRatio": "0.12",
+      "site_maxDrawdown": "65.4%",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 5,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "multi-asset-market-breadth-momentum",
+      "title": "Multi-Asset Market Breadth Momentum",
+      "site_annualisedReturn": "10.5%",
+      "site_sharpeRatio": "1",
+      "site_maxDrawdown": "-8.8%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "QQQ",
+        "IWM",
+        "VGK",
+        "EWJ",
+        "EEM",
+        "GSG",
+        "GLD",
+        "IYR",
+        "HYG",
+        "LQD",
+        "TLT"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "oil-beta-uncertainty-and-global-stock-returns",
+      "title": "Oil Beta Uncertainty and Global Stock Returns",
+      "site_annualisedReturn": "10.17%",
+      "site_sharpeRatio": "0.66",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "URTH",
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "price-based-quantitative-strategy-for-country-valuation",
+      "title": "Price-Based Quantitative Strategy for Country Valuation",
+      "site_annualisedReturn": "2.39%",
+      "site_sharpeRatio": "0.16",
+      "site_maxDrawdown": "-38.05%",
+      "template": "equal_weight",
+      "assets": [
+        "EWU",
+        "EWG",
+        "EWQ",
+        "EWI",
+        "EWD",
+        "EWN",
+        "EWP",
+        "EWK",
+        "EWL",
+        "EWC",
+        "EWJ",
+        "EWA"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "reversal-effect-in-international-equity-etfs",
+      "title": "Country ETF Long-Short Reversal Strategy Based on 36-Month Returns with Triennial Rebalance",
+      "site_annualisedReturn": "6.4%",
+      "site_sharpeRatio": "-0.28",
+      "site_maxDrawdown": "80.3%",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWN",
+        "EWS"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 5,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "skewness-effect-in-country-equity-indexes",
+      "title": "Skewness Effect in Country Equity Indexes",
+      "site_annualisedReturn": "13.76%",
+      "site_sharpeRatio": "0.54",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWJ",
+        "EWQ",
+        "EWH",
+        "EIDO",
+        "EWI",
+        "EWY",
+        "EWP",
+        "EWD",
+        "EWL",
+        "EWC",
+        "EWZ",
+        "ARGT"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "spin-off-anomaly",
+      "title": "Spin-off Anomaly",
+      "site_annualisedReturn": "19.4%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "VNQ",
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU",
+        "XLC"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "value-effect-within-countries-v2",
+      "title": "Value Effect within Countries v2",
+      "site_annualisedReturn": "6.8%",
+      "site_sharpeRatio": "0.3",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "ARGT",
+        "EWA",
+        "EWK",
+        "EWZ",
+        "EWC",
+        "ECH",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EIDO",
+        "EWI"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "value-factor-cape-effect-within-countries",
+      "title": "Global Low-CAPE Value Strategy with Annual Rebalance",
+      "site_annualisedReturn": "14.7%",
+      "site_sharpeRatio": "0.384",
+      "site_maxDrawdown": "36.1%",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWZ",
+        "EWC",
+        "EWL",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWY",
+        "EWN"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "value-factor-cape-effect-within-countries-2",
+      "title": "Global Low-CAPE Value Strategy with Annual Rebalance",
+      "site_annualisedReturn": "14.7%",
+      "site_sharpeRatio": "0.56",
+      "site_maxDrawdown": "-17.8%",
+      "template": "momentum_rotation",
+      "assets": [
+        "EWA",
+        "EWZ",
+        "EWC",
+        "EWL",
+        "FXI",
+        "EWQ",
+        "EWG",
+        "EWH",
+        "EWI",
+        "EWJ",
+        "EWY",
+        "EWN"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "volatility-weighted-short-term-reversal-strategy-in-emerging-market-equities",
+      "title": "Volatility-Weighted Short-Term Reversal Strategy in Emerging Market Equities",
+      "site_annualisedReturn": "6.14%",
+      "site_sharpeRatio": "0.67",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "FXI",
+        "EWH",
+        "EWT",
+        "EIDO",
+        "EPHE",
+        "THD",
+        "EWS",
+        "TUR",
+        "EWZ",
+        "ARGT",
+        "ECH",
+        "EPOL"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 3,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "cape-sector-picking-strategy",
+      "title": "CAPE Sector Picking Strategy",
+      "site_annualisedReturn": "14.23%",
+      "site_sharpeRatio": "0.79",
+      "site_maxDrawdown": "-43.54%",
+      "template": "momentum_rotation",
+      "assets": [
+        "XLC",
+        "XLRE",
+        "XLV",
+        "XLI",
+        "XLY",
+        "XLP",
+        "XLB",
+        "XLK",
+        "XLU",
+        "XLE",
+        "XLF"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "cold-ipos-effect",
+      "title": "Cold IPOs Effect",
+      "site_annualisedReturn": "24.57%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "VNQ",
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "multi-asset-pairs-momentum",
+      "title": "Multi Asset Pairs Momentum",
+      "site_annualisedReturn": "5.3%",
+      "site_sharpeRatio": "0.66",
+      "site_maxDrawdown": "-22.3%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SHY",
+        "AGG",
+        "TLT",
+        "LQD",
+        "HYG",
+        "DBC",
+        "VNQ",
+        "IWM",
+        "SPY",
+        "EFA",
+        "EEM"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "optimalized-subportfolio-momentum",
+      "title": "Optimalized Subportfolio Momentum",
+      "site_annualisedReturn": "19.8%",
+      "site_sharpeRatio": "0.85",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "BIL",
+        "XLB",
+        "XLY",
+        "XLF",
+        "XLP",
+        "XLV",
+        "XLU",
+        "XLC",
+        "XLE",
+        "XLI",
+        "XLK"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "relative-value-factor-in-us",
+      "title": "Relative Value Factor in US",
+      "site_annualisedReturn": "11%",
+      "site_sharpeRatio": "1.18",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "VNQ",
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "sector-rotation-strategy-based-on-multivariate-regression-analysis",
+      "title": "Sector Rotation Strategy Based on Multivariate Regression Analysis",
+      "site_annualisedReturn": "7.04%",
+      "site_sharpeRatio": "0.55",
+      "site_maxDrawdown": "-28.9%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "SHY",
+        "XLV",
+        "XLI",
+        "XLY",
+        "XLP",
+        "XLB",
+        "XLK",
+        "XLU",
+        "XLE",
+        "XLF"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "sector-rotation-via-credit-relative-value",
+      "title": "Sector Rotation via Credit Relative Value",
+      "site_annualisedReturn": "12.4%",
+      "site_sharpeRatio": "0.49",
+      "site_maxDrawdown": "-30.1%",
+      "template": "momentum_rotation",
+      "assets": [
+        "BIL",
+        "SPY",
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "adaptive-asset-allocation",
+      "title": "Adaptive Asset Allocation",
+      "site_annualisedReturn": "15.1%",
+      "site_sharpeRatio": "1.61",
+      "site_maxDrawdown": "-8.8%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "VGK",
+        "EWJ",
+        "EEM",
+        "VNQ",
+        "RWX",
+        "IEI",
+        "IEF",
+        "DBC",
+        "GLD"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "industry-momentum-riding-industry-bubbles",
+      "title": "Industry Alpha Bubble Strategy: Monthly Long Allocation to Statistically Significant Outperforming Sectors",
+      "site_annualisedReturn": "18%",
+      "site_sharpeRatio": "0.187",
+      "site_maxDrawdown": "23.3%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "XLF",
+        "XLV",
+        "XLP",
+        "XLY",
+        "XLI",
+        "XLE",
+        "XLB",
+        "XLK",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "kellers-keunigs-protective-asset-allocation",
+      "title": "Keller\u2019s & Keunig\u2019s Protective Asset Allocation",
+      "site_annualisedReturn": "12.2%",
+      "site_sharpeRatio": "1.06",
+      "site_maxDrawdown": "-8.2%",
+      "template": "sma_trend",
+      "assets": [
+        "SHY",
+        "SPY",
+        "QQQ",
+        "IWM",
+        "VGK",
+        "EWJ",
+        "EEM",
+        "IYR",
+        "GSG",
+        "GLD"
+      ],
+      "params": {
+        "sma_days": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "long-term-reversal-combined-with-a-momentum-effect-in-industry-portfolios",
+      "title": "Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios",
+      "site_annualisedReturn": "9.9%",
+      "site_sharpeRatio": "0.3",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "XLY",
+        "XLP",
+        "XLE",
+        "XLF",
+        "XLV",
+        "XLI",
+        "XLB",
+        "XLK",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 2,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "stock-and-bond-returns-predict-currency-returns",
+      "title": "Stock and Bond Returns Predict Currency Returns",
+      "site_annualisedReturn": "8.47%",
+      "site_sharpeRatio": "2.11",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "VTI",
+        "EWA",
+        "EWC",
+        "EWG",
+        "EWJ",
+        "EWL",
+        "EWU",
+        "EPOL",
+        "EWS",
+        "TUR"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "the-u-s-dollar-and-variance-risk-premia-imbalances",
+      "title": "The U.S. Dollar and Variance Risk Premia Imbalances",
+      "site_annualisedReturn": "4.1%",
+      "site_sharpeRatio": "0.5",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "SPY",
+        "EWQ",
+        "EWG",
+        "EWI",
+        "EWN",
+        "EWA",
+        "EWC",
+        "EWJ",
+        "EWL",
+        "EWU"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "us-sector-rotation-with-five-factor-fama-french-alphas",
+      "title": "US Sector Rotation with Five-Factor Fama-French Alphas",
+      "site_annualisedReturn": "11.07%",
+      "site_sharpeRatio": "0.7",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "VNQ",
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "antonaccis-dual-momentum",
+      "title": "Antonacci\u2019s Dual Momentum",
+      "site_annualisedReturn": "14.9%",
+      "site_sharpeRatio": "1.07",
+      "site_maxDrawdown": "-10.92%",
+      "template": "dual_momentum",
+      "assets": [
+        "BIL",
+        "SPY",
+        "EFA",
+        "HYG",
+        "LQD",
+        "MBB",
+        "VNQ",
+        "TLT",
+        "GLD"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "combining-seasonality-and-momentum-in-us-equity-sectors",
+      "title": "Combining Seasonality and Momentum in US Equity Sectors",
+      "site_annualisedReturn": "12.9%",
+      "site_sharpeRatio": "0.52",
+      "site_maxDrawdown": "-29.9%",
+      "template": "momentum_rotation",
+      "assets": [
+        "XLI",
+        "XLY",
+        "XLP",
+        "XLV",
+        "XLU",
+        "XLK",
+        "XLF",
+        "XLE",
+        "VNQ"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "fx-carry-trade",
+      "title": "Carry Trade Strategy: Long Highest-Rate Currencies, Short Lowest-Rate",
+      "site_annualisedReturn": "7.30%",
+      "site_sharpeRatio": "0.57",
+      "site_maxDrawdown": "32.02%",
+      "template": "momentum_rotation",
+      "assets": [
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "risk-managed-industry-momentum",
+      "title": "Risk-Managed Industry Momentum",
+      "site_annualisedReturn": "25.64%",
+      "site_sharpeRatio": "0.72",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "XLY",
+        "XLP",
+        "XLE",
+        "XLF",
+        "XLV",
+        "XLI",
+        "XLB",
+        "XLK",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 3,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "sector-momentum-rotational-system",
+      "title": "Top 3 Sector Momentum Rotation Strategy with Monthly Rebalancing",
+      "site_annualisedReturn": "11.30%",
+      "site_sharpeRatio": "1.37",
+      "site_maxDrawdown": "29.40%",
+      "template": "momentum_rotation",
+      "assets": [
+        "XLK",
+        "XLE",
+        "XLV",
+        "XLF",
+        "XLI",
+        "XLB",
+        "XLY",
+        "XLP",
+        "XLU"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "value-and-momentum-factors-across-asset-classes",
+      "title": "Multi-Asset Momentum and Valuation Strategy Using Adjusted Yield Rankings",
+      "site_annualisedReturn": "11.9%",
+      "site_sharpeRatio": "-0.10",
+      "site_maxDrawdown": "17.3%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "MDY",
+        "IYR",
+        "EWU",
+        "EWJ",
+        "EEM",
+        "LQD",
+        "HYG",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "kellers-van-puttens-generalized-momentum-and-flexible-asset-allocation",
+      "title": "Keller\u2019s & van Putten\u2019s Generalized Momentum and Flexible Asset Allocation",
+      "site_annualisedReturn": "14.2%",
+      "site_sharpeRatio": "1.67",
+      "site_maxDrawdown": "-7.4%",
+      "template": "dual_momentum",
+      "assets": [
+        "BIL",
+        "VTI",
+        "VEA",
+        "VWO",
+        "SHY",
+        "BND",
+        "GSG",
+        "VNQ"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "volatility-investing-across-asset-classes",
+      "title": "Volatility Investing Across Asset Classes",
+      "site_annualisedReturn": "19.9%",
+      "site_sharpeRatio": "1.05",
+      "site_maxDrawdown": "58%",
+      "template": "equal_weight",
+      "assets": [
+        "SPY",
+        "IWM",
+        "EEM",
+        "EWZ",
+        "USO",
+        "GLD",
+        "SLV",
+        "IEF"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "flight-to-quality-factor-in-fixed-income",
+      "title": "Flight to Quality Factor in Fixed Income",
+      "site_annualisedReturn": "2.8%",
+      "site_sharpeRatio": "0.34",
+      "site_maxDrawdown": "-15%",
+      "template": "equal_weight",
+      "assets": [
+        "EWA",
+        "EWC",
+        "EWG",
+        "EWJ",
+        "EWU",
+        "SPY"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "predicting-bond-returns-with-equity-return",
+      "title": "Predicting Bond Returns with Equity Return",
+      "site_annualisedReturn": "3.8%",
+      "site_sharpeRatio": "0.38",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "EWA",
+        "EWC",
+        "EWG",
+        "EWU",
+        "EWJ",
+        "SPY"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "resilient-asset-allocation",
+      "title": "Resilient Asset Allocation",
+      "site_annualisedReturn": "12.3%",
+      "site_sharpeRatio": "1.38",
+      "site_maxDrawdown": "-11.8%",
+      "template": "momentum_rotation",
+      "assets": [
+        "QQQ",
+        "IEF",
+        "TLT",
+        "GLD",
+        "VWO",
+        "BND"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 2,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "short-term-reversal-in-equity-index-futures",
+      "title": "Short-Term Reversal in Equity Index Futures",
+      "site_annualisedReturn": "29.6%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "EWG",
+        "EWQ",
+        "EWI",
+        "EWP",
+        "EWN",
+        "EWK"
+      ],
+      "params": {
+        "lookback": 21,
+        "top_n": 1,
+        "rebalance": "monthly",
+        "invert": true
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "asset-class-trend-following",
+      "title": "Global 5-Asset Trend-Following Strategy Using 10-Month SMA Filter",
+      "site_annualisedReturn": "11.50%",
+      "site_sharpeRatio": "1.40",
+      "site_maxDrawdown": "- 29.4%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "EFA",
+        "IEF",
+        "VNQ",
+        "GSG"
+      ],
+      "params": {
+        "sma_days": 210,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "commodities-timing-based-on-a-monetary-conditions",
+      "title": "Commodities Timing based on a Monetary Conditions",
+      "site_annualisedReturn": "20.46%",
+      "site_sharpeRatio": "1.48",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "SPY",
+        "EFA",
+        "IEF",
+        "LQD",
+        "DBC"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "commodity-option-implied-volatility-strategy",
+      "title": "Commodity Option Implied Volatility Strategy",
+      "site_annualisedReturn": "12.66%",
+      "site_sharpeRatio": "0.69",
+      "site_maxDrawdown": null,
+      "template": "equal_weight",
+      "assets": [
+        "GLD",
+        "USO",
+        "UNG",
+        "SLV",
+        "DBA"
+      ],
+      "params": {
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "lethargic-asset-allocation",
+      "title": "Lethargic Asset Allocation",
+      "site_annualisedReturn": "10.5%",
+      "site_sharpeRatio": "1.24",
+      "site_maxDrawdown": "-15%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "GLD",
+        "IEF",
+        "QQQ",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 210,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "momentum-asset-allocation-strategy-2",
+      "title": "Top 3 ETF Momentum Strategy Selecting from SPY, EFA, BND, VNQ, GSG",
+      "site_annualisedReturn": "11.5%",
+      "site_sharpeRatio": "0.25",
+      "site_maxDrawdown": "39.8%",
+      "template": "momentum_rotation",
+      "assets": [
+        "SPY",
+        "EFA",
+        "IEF",
+        "VNQ",
+        "GSG"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "the-crisis-alpha-portfolio",
+      "title": "The Crisis Alpha Portfolio",
+      "site_annualisedReturn": "7.29%",
+      "site_sharpeRatio": "0.32",
+      "site_maxDrawdown": "-5.9%",
+      "template": "momentum_rotation",
+      "assets": [
+        "TLT",
+        "IEF",
+        "IEI",
+        "SHY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "harvesting-volatility-risk-premia-and-crisis-alpha-via-etfs",
+      "title": "Harvesting Volatility Risk Premia and Crisis Alpha via ETFs",
+      "site_annualisedReturn": "22.2%",
+      "site_sharpeRatio": "0.92",
+      "site_maxDrawdown": "-37.7%",
+      "template": "momentum_rotation",
+      "assets": [
+        "VIXY",
+        "SVXY",
+        "USO",
+        "UNG"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "implied-skewness-strategy-in-commodities",
+      "title": "Implied Skewness Strategy in Commodities",
+      "site_annualisedReturn": "17.21%",
+      "site_sharpeRatio": "0.62",
+      "site_maxDrawdown": null,
+      "template": "momentum_rotation",
+      "assets": [
+        "GLD",
+        "USO",
+        "UNG",
+        "SLV"
+      ],
+      "params": {
+        "lookback": 126,
+        "top_n": 1,
+        "rebalance": "monthly"
+      },
+      "fidelity": "etf_universe_proxy"
+    },
+    {
+      "slug": "timing-sp500-using-a-large-set-of-forecasting-variables",
+      "title": "Timing S&P500 Using a Large Set of Forecasting Variables",
+      "site_annualisedReturn": "16.6%",
+      "site_sharpeRatio": "0.76",
+      "site_maxDrawdown": "-20.3%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "BIL",
+        "GSG"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "absolute-momentum-effect-in-stocks",
+      "title": "Absolute Momentum Effect in Stocks",
+      "site_annualisedReturn": "22.28%",
+      "site_sharpeRatio": "0.76",
+      "site_maxDrawdown": null,
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "avoid-equity-bear-markets-with-a-market-timing-strategy",
+      "title": "Avoid Equity Bear Markets with a Market Timing Strategy",
+      "site_annualisedReturn": "6.59%",
+      "site_sharpeRatio": "0.56",
+      "site_maxDrawdown": "-25.13%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "combined-momentum-and-counter-trend-strategy-on-us-equity-indexes",
+      "title": "Combined Momentum and Counter Trend Strategy on US Equity Indexes",
+      "site_annualisedReturn": "12.2%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": "-11.5%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "QQQ"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "cross-asset-time-series-momentum-equities-and-crude-oil",
+      "title": "Cross-asset Time-series Momentum (Equities and Crude Oil)",
+      "site_annualisedReturn": "11.03%",
+      "site_sharpeRatio": "1.01",
+      "site_maxDrawdown": null,
+      "template": "abs_momentum",
+      "assets": [
+        "USO",
+        "SHY"
+      ],
+      "params": {
+        "lookback": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "estimating-hedge-funds-returns-out-of-sample",
+      "title": "Estimating Hedge Funds\u2019 Returns Out of Sample",
+      "site_annualisedReturn": "8%",
+      "site_sharpeRatio": "0.52",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SVXY"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "implied-volatility-spreads-and-expected-market-returns-in-sp500",
+      "title": "Implied Volatility Spreads and Expected Market Returns in S&P500",
+      "site_annualisedReturn": "11.09%",
+      "site_sharpeRatio": "0.77",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "BIL",
+        "SPY"
+      ],
+      "params": {
+        "sma_days": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "improved-cross-asset-time-series-momentum-i-xtsm",
+      "title": "Improved Cross-Asset Time-Series Momentum I-XTSM",
+      "site_annualisedReturn": "20.82%",
+      "site_sharpeRatio": "0.72",
+      "site_maxDrawdown": null,
+      "template": "abs_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "inflation-hedging-using-online-prices",
+      "title": "Inflation Hedging Using Online Prices",
+      "site_annualisedReturn": "2.6%",
+      "site_sharpeRatio": "48%",
+      "site_maxDrawdown": "-3.7%",
+      "template": "sma_trend",
+      "assets": [
+        "TIP",
+        "IEF"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "january-barometer",
+      "title": "January Return-Based Equity Timing Strategy",
+      "site_annualisedReturn": "10.38%",
+      "site_sharpeRatio": "0.179",
+      "site_maxDrawdown": "27.7%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "january-effect-in-stocks",
+      "title": "January Small-Cap Entry, Large-Cap Hold Strategy",
+      "site_annualisedReturn": "12.7%",
+      "site_sharpeRatio": "0.263",
+      "site_maxDrawdown": "55.7%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "IWM"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "market-seasonality-effect",
+      "title": "Global Equity Rotation Strategy Based on Seasonal Market Timing",
+      "site_annualisedReturn": "8.80%",
+      "site_sharpeRatio": "0.21",
+      "site_maxDrawdown": "- 36.6%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "market-timing-using-lumber-gold-ratio",
+      "title": "Market Timing Using Lumber/Gold Ratio",
+      "site_annualisedReturn": "13.9%",
+      "site_sharpeRatio": "0.84",
+      "site_maxDrawdown": "-20.8%",
+      "template": "sma_trend",
+      "assets": [
+        "IWM",
+        "IEF"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "market-timing-with-aggregate-and-idiosyncratic-stock-volatilities",
+      "title": "Market Timing with Aggregate and Idiosyncratic Stock Volatilities",
+      "site_annualisedReturn": "20.07%",
+      "site_sharpeRatio": "0.43",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 63,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "market-timing-with-merton-rule-for-earnings-yield",
+      "title": "Market Timing with Merton Rule for Earnings Yield",
+      "site_annualisedReturn": "10.02%",
+      "site_sharpeRatio": "0.97",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "TIP"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "paired-switching-2",
+      "title": "Paired Switching",
+      "site_annualisedReturn": "11.3%",
+      "site_sharpeRatio": "0.78",
+      "site_maxDrawdown": null,
+      "template": "abs_momentum",
+      "assets": [
+        "SPY",
+        "AGG"
+      ],
+      "params": {
+        "lookback": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "residual-momentum-factor",
+      "title": "Residual Alpha Momentum Strategy on Large-Cap US Stocks",
+      "site_annualisedReturn": "9.18%",
+      "site_sharpeRatio": "-0.088",
+      "site_maxDrawdown": "54.3%",
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "sharpe-sentiment-cycles",
+      "title": "Conditional Sharpe Ratio Timing for Dynamic Equity Allocation",
+      "site_annualisedReturn": "14.18%",
+      "site_sharpeRatio": "0.66",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "BIL",
+        "SPY"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "size-factor-vs-monetary-policy-regime",
+      "title": "Size Factor vs. Monetary Policy Regime",
+      "site_annualisedReturn": "6.27%",
+      "site_sharpeRatio": "0.62",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "IWM"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "stock-trading-rule-that-produces-higher-returns-with-lower-risk",
+      "title": "Stock Trading Rule that Produces Higher Returns with Lower Risk",
+      "site_annualisedReturn": "6.78%",
+      "site_sharpeRatio": "0.251",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "sma_days": 189,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "term-spread-and-term-premium-predict-us-government-bonds-returns",
+      "title": "Term Spread and Term Premium Predict US Government Bonds Returns",
+      "site_annualisedReturn": "8.08%",
+      "site_sharpeRatio": "1.08",
+      "site_maxDrawdown": "-17.8%",
+      "template": "sma_trend",
+      "assets": [
+        "IEF",
+        "BIL"
+      ],
+      "params": {
+        "sma_days": 840,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "text-based-recession-detection-strategy",
+      "title": "Text-Based Recession Detection Strategy",
+      "site_annualisedReturn": "8.78%",
+      "site_sharpeRatio": "0.65",
+      "site_maxDrawdown": "-18.15%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "timing-sp500-using-full-vs-partial-employment-2",
+      "title": "Timing S&P500 Using Full vs. Partial Employment",
+      "site_annualisedReturn": "11.38%",
+      "site_sharpeRatio": "1.03",
+      "site_maxDrawdown": "-16.22%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "IEF"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "timing-the-small-cap-effect-ver-2",
+      "title": "Timing the Small Cap Effect ver. 2",
+      "site_annualisedReturn": "9%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "IWM"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "trading-commodity-etfs-versus-equity-etfs",
+      "title": "Trading Commodity ETFs versus Equity ETFs",
+      "site_annualisedReturn": "31.1%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "DBC"
+      ],
+      "params": {
+        "sma_days": 200,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "trendfollowing-effect-within-reits",
+      "title": "Trendfollowing Effect within REITs",
+      "site_annualisedReturn": "14.38%",
+      "site_sharpeRatio": "0.97",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "VNQ",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 504,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "variance-scaled-momentum-in-emerging-markets",
+      "title": "Variance Scaled Momentum in Emerging Markets",
+      "site_annualisedReturn": "17.21%",
+      "site_sharpeRatio": "1.77",
+      "site_maxDrawdown": null,
+      "template": "vol_target",
+      "assets": [
+        "SPY",
+        "TUR"
+      ],
+      "params": {
+        "target_vol": 0.1,
+        "vol_lookback": 63,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "yield-gap-predictive-allocation-strategy-for-equity-bond-forecasting",
+      "title": "Yield Gap Regression Timing Strategy Using FED Model Signals Monthly",
+      "site_annualisedReturn": "11.70%",
+      "site_sharpeRatio": "0. 45",
+      "site_maxDrawdown": "50.30%",
+      "template": "sma_trend",
+      "assets": [
+        "SPY",
+        "SHY"
+      ],
+      "params": {
+        "sma_days": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "12-month-cycle-in-cross-section-of-stocks-returns",
+      "title": "Top 30% Market Cap Stocks Momentum Long-Short Strategy",
+      "site_annualisedReturn": "8.6%",
+      "site_sharpeRatio": "-0.285",
+      "site_maxDrawdown": "68.1%",
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "12-month-seasonal-reversals",
+      "title": "12 Month Seasonal Reversals",
+      "site_annualisedReturn": "5.54%",
+      "site_sharpeRatio": "0.19",
+      "site_maxDrawdown": null,
+      "template": "mean_reversion",
+      "assets": [
+        "SPY"
+      ],
+      "params": {
+        "lookback": 20,
+        "entry_z": -1.0,
+        "exit_z": 0.0,
+        "rebalance": "daily"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "52-weeks-high-effect-in-stocks",
+      "title": "Industry Momentum Strategy: Monthly Long Stocks in Top Industries by Price-to-52-Week High, Short Bottom Industries",
+      "site_annualisedReturn": "11.75%",
+      "site_sharpeRatio": "-0.014",
+      "site_maxDrawdown": "58.2%",
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "a-multi-strategy-approach-to-trading-foreign-exchange-futures",
+      "title": "A Multi Strategy Approach to Trading Foreign Exchange Futures",
+      "site_annualisedReturn": "9.76%",
+      "site_sharpeRatio": "0.5",
+      "site_maxDrawdown": null,
+      "template": "dual_momentum",
+      "assets": [
+        "DBC",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "abnormal-volume-effect-in-the-stock-market",
+      "title": "Abnormal Volume Effect in the Stock Market",
+      "site_annualisedReturn": "33.91%",
+      "site_sharpeRatio": null,
+      "site_maxDrawdown": null,
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "active-collar-strategy",
+      "title": "Active Collar Strategy",
+      "site_annualisedReturn": "12.52%",
+      "site_sharpeRatio": "0.75",
+      "site_maxDrawdown": "-21.5%",
+      "template": "dual_momentum",
+      "assets": [
+        "QQQ",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "adaptive-moving-averages-used-for-market-timing",
+      "title": "Adaptive Moving Averages used for Market Timing",
+      "site_annualisedReturn": "14.6%",
+      "site_sharpeRatio": "0.61",
+      "site_maxDrawdown": null,
+      "template": "sma_trend",
+      "assets": [
+        "SPY"
+      ],
+      "params": {
+        "sma_days": 252,
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "afternoon-reversal-trading-strategy",
+      "title": "Afternoon Reversal Trading Strategy",
+      "site_annualisedReturn": "9.85%",
+      "site_sharpeRatio": "1.17",
+      "site_maxDrawdown": null,
+      "template": "mean_reversion",
+      "assets": [
+        "SPY"
+      ],
+      "params": {
+        "lookback": 20,
+        "entry_z": -1.0,
+        "exit_z": 0.0,
+        "rebalance": "daily"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "announcement-adjusted-industry-relative-reversal-factor",
+      "title": "Announcement-Adjusted Industry-Relative Reversal Factor",
+      "site_annualisedReturn": "13.76%",
+      "site_sharpeRatio": "1.34",
+      "site_maxDrawdown": null,
+      "template": "mean_reversion",
+      "assets": [
+        "SPY"
+      ],
+      "params": {
+        "lookback": 20,
+        "entry_z": -1.0,
+        "exit_z": 0.0,
+        "rebalance": "daily"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "buy-side-competition-and-momentum-profits",
+      "title": "Buy-Side Competition and Momentum Profits",
+      "site_annualisedReturn": "14.27%",
+      "site_sharpeRatio": "0.58",
+      "site_maxDrawdown": null,
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    },
+    {
+      "slug": "cash-hedged-momentum",
+      "title": "Cash Hedged Momentum",
+      "site_annualisedReturn": "13.11%",
+      "site_sharpeRatio": "0.65",
+      "site_maxDrawdown": null,
+      "template": "dual_momentum",
+      "assets": [
+        "SPY",
+        "BIL"
+      ],
+      "params": {
+        "lookback": 252,
+        "cash_symbol": "BIL",
+        "rebalance": "monthly"
+      },
+      "fidelity": "reconstructed_etf_rules"
+    }
+  ]
+}

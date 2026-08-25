@@ -29,9 +29,10 @@ async function main() {
 
   await prismaClient.strategy.upsert({
     where: {
-      slug_locale: {
+      slug_locale_archived: {
         slug: "enhanced-reverse-beta-equities",
         locale: "en",
+        archived: false,
       },
     },
     update: {},
@@ -85,9 +86,10 @@ async function main() {
 
   await prismaClient.strategy.upsert({
     where: {
-      slug_locale: {
+      slug_locale_archived: {
         slug: "enhanced-reverse-beta-equities",
         locale: "zh",
+        archived: false,
       },
     },
     update: {},

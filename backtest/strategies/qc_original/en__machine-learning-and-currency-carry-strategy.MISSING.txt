@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=machine-learning-and-currency-carry-strategy
+In-house reconstruction: backtest/strategies/generated/en__machine-learning-and-currency-carry-strategy.py
+Fidelity: signal_unavailable_etf_proxy

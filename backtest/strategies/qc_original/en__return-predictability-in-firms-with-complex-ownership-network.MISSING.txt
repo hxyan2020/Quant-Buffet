@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=return-predictability-in-firms-with-complex-ownership-network
+In-house reconstruction: backtest/strategies/generated/en__return-predictability-in-firms-with-complex-ownership-network.py
+Fidelity: no_qc_theme_proxy

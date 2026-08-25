@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=profitability-context-and-the-cross-section-of-stock-returns
+In-house reconstruction: backtest/strategies/generated/en__profitability-context-and-the-cross-section-of-stock-returns.py
+Fidelity: signal_unavailable_etf_proxy

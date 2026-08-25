@@ -1,0 +1,138 @@
+# Original QuantConnect / library Python
+# locale=zh slug="基于有限投资者关注度的谷歌搜索策略"
+# Extracted from Strategy.pythonCodeHtml — NOT modified.
+
+from AlgorithmImports import *
+import numpy as np
+from typing import List, Dict
+#endregion
+class GoogleSearchStrategyBasedOnLimitedInvestorAttention(QCAlgorithm):
+def Initialize(self) -> None:
+    self.SetStartDate(2004, 1, 1)               # Google search data are since 2004
+    self.SetCash(100000)
+    
+    self.data: Dict[Symbol, List[float]] = {}   # Storing search values about each stock in list
+    self.selected: Dict[str, Symbol] = {}       # Storing stocks, which will be traded
+    self.tickers: List[str] = []                # Storing S&P100 tickers
+    self.symbols: List[Symbol] = []             # Storing symbols, to get search values about stocks
+    self.last_ASV: Dict[Symbol, float] = {}     # Storing last Abnormal Search Volume for each stock
+    
+    self.period: int = 8                        # 8 months of search values
+    self.leverage: int = 5
+    
+    # Load csv with S&P100 tickers
+    csv_string_file: str = self.Download('data.quantpedia.com/backtesting_data/sp100.csv')
+    line: List[str] = csv_string_file.split('\r\n')
+    line_split: List[str] = line[0].split(';')
+    
+    for ticker in line_split:
+        self.tickers.append(ticker)
+        
+        ticker: str = ticker
+        # Subscribe to QuantpediaGoogleSearch with csv name
+        symbol: Symbol = self.AddData(QuantpediaGoogleSearch, ticker, Resolution.Daily).Symbol
+        
+        # Add subscribed symbol to self.symbols
+        self.symbols.append(symbol)
+        # Create list for each subcribed symbol
+        self.data[symbol] = []
+    
+    symbol: Symbol = self.AddEquity('SPY', Resolution.Daily).Symbol
+    
+    self.selection_flag: bool = False
+    self.settings.daily_precise_end_time = False
+    self.Settings.MinimumOrderMarginPortfolioPercentage = 0.
+    self.UniverseSettings.Resolution = Resolution.Daily
+    self.AddUniverse(self.FundamentalSelectionFunction)
+    self.Schedule.On(self.DateRules.MonthStart(symbol), self.TimeRules.AfterMarketOpen(symbol), self.Selection)
+    
+def OnSecuritiesChanged(self, changes: SecurityChanges) -> None:
+    for security in changes.AddedSecurities:
+        security.SetFeeModel(CustomFeeModel())
+        security.SetLeverage(self.leverage)
+    
+def FundamentalSelectionFunction(self, fundamental: List[Fundamental]) -> List[Symbol]:
+    # Rebalance monthly
+    if not self.selection_flag:
+        return Universe.Unchanged
+            
+    # Select S&P 100 stocks
+    self.selected = {x.Symbol.Value: x.Symbol for x in fundamental if x.Symbol.Value in self.tickers}
+    return list(self.selected.values())
+def OnData(self, data: Slice) -> None:
+    # Store search data for each S&P100 stock
+    for symbol in self.symbols:
+        if symbol in data and data[symbol]:
+            value: float = data[symbol].Value
+            self.data[symbol].append(value)
+    
+    # Rebalance monthly
+    if not self.selection_flag:
+        return
+    self.selection_flag = False
+    
+    long: List[Symbol] = []
+    
+    GSV_symbols_last_update_date: datetime.date = QuantpediaGoogleSearch.get_last_update_date()
+    for symbol in self.symbols:
+        if self.Securities[symbol].GetLastData() and self.Time.date()  self.period: # Wait until we have more than self.period months of data
+                search_volumes: List[int] = self.data[symbol]
+                # Get largest search value
+                max_value: int = max(search_volumes)
+                
+                current_asv: float = 0.
+                
+                if max_value > 0:
+                    # Calculate last search volume
+                    last_search_volume: int = search_volumes[-1] / max_value
+                    
+                    # Get and calculate last self.period search volumes
+                    last_n_search_volume: int = np.median([x / max_value for x in search_volumes[-self.period + 1:][:-1]])
+                    
+                    # NOTE: We can't work with infinite numbers,
+                    # which will be created by log of last_search_volume and log of last_n_search_volume
+                    if last_search_volume != 0 and last_n_search_volume != 0:
+                        
+                        # Need to make log from last_search_volume and last_n_search_volume for accurate mathematical form
+                        last_search_volume: float = np.log(last_search_volume)
+                        last_n_search_volume: float = np.log(last_n_search_volume)
+                    
+                        # In mathematical form, it is: ASVt = ln [GSVt] – ln [Med (GSVt-1, …,GSVt-8)]
+                        current_asv: float = last_search_volume - last_n_search_volume
+                
+                # Check if symbol has last ASV
+                if symbol in self.last_ASV:
+                    # Go long if last week’s attention for the stock was abnormally low or remains unchanged, i.e. ASVt-1 ≤ 0.
+                    if current_asv == self.last_ASV[symbol] or self.last_ASV[symbol]  None:
+    self.selection_flag = True
+# Quantpedia data.
+# NOTE: IMPORTANT: Data order must be ascending (datewise)
+# NOTE: IMPORTANT: Name of the csv file has to be in upper case
+class QuantpediaGoogleSearch(PythonData):
+_last_update_date:Dict[Symbol, datetime.date] = {}
+@staticmethod
+def get_last_update_date() -> Dict[Symbol, datetime.date]:
+   return QuantpediaGoogleSearch._last_update_date
+def GetSource(self, config: SubscriptionDataConfig, date: datetime, isLiveMode: bool) -> SubscriptionDataSource:
+    return SubscriptionDataSource("data.quantpedia.com/backtesting_data/google_search/{0}_STOCK.csv".format(config.Symbol.Value), SubscriptionTransportMedium.RemoteFile, FileFormat.Csv)
+    
+def Reader(self, config: SubscriptionDataConfig, line: str, date: datetime, isLiveMode: bool) -> BaseData:
+    data = QuantpediaGoogleSearch()
+    data.Symbol = config.Symbol
+    
+    if not line[0].isdigit(): return None
+    split: List[str] = line.split(';')
+    
+    data.Time = datetime.strptime(split[0], "%d.%m.%Y") + timedelta(days=1)
+    data['value'] = float(split[1])
+    data.Value = float(split[1])
+    if config.Symbol not in QuantpediaGoogleSearch._last_update_date:
+        QuantpediaGoogleSearch._last_update_date[config.Symbol] = datetime(1,1,1).date()
+    if data.Time.date() > QuantpediaGoogleSearch._last_update_date[config.Symbol]:
+        QuantpediaGoogleSearch._last_update_date[config.Symbol] = data.Time.date()
+    return data
+# Custom fee model
+class CustomFeeModel(FeeModel):
+def GetOrderFee(self, parameters: OrderFeeParameters) -> OrderFee:
+    fee: float = parameters.Security.Price * parameters.Order.AbsoluteQuantity * 0.00005
+    return OrderFee(CashAmount(fee, "USD"))

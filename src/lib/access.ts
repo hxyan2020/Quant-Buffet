@@ -1,5 +1,6 @@
 import prisma from "@/lib/prisma";
 import type { QuantRole } from "@/types/quant-role";
+import { syncUserPlanAccess } from "@/lib/subscription";
 
 type LightweightUser = {
   id: string;
@@ -23,19 +24,18 @@ export function viewerCanSeeFullArticle(
 }
 
 export async function refreshSubscriberFlag(userId: string) {
-  const active = await prisma.subscription.findFirst({
-    where: { userId, status: "active" },
+  const state = await syncUserPlanAccess(userId);
+  return state.hasActivePlan;
+}
+
+/** Prefer this over JWT flag alone when gating paid content. */
+export async function userHasLibraryAccess(userId: string, locale = "en") {
+  if (!userId) return false;
+  const user = await prisma.user.findUnique({
+    where: { id: userId },
+    select: { role: true },
   });
-
-  if (active) {
-    await prisma.user.update({
-      where: { id: userId },
-      data: {
-        libraryUnlocked: true,
-      },
-    });
-    return true;
-  }
-
-  return false;
+  if (user?.role === "ADMIN") return true;
+  const state = await syncUserPlanAccess(userId, locale);
+  return state.hasActivePlan;
 }

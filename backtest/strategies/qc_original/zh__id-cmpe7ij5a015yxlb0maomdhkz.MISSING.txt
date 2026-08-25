@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=泰勒规则与外汇回报
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ij5a015yxlb0maomdhkz.py
+Fidelity: no_qc_theme_proxy

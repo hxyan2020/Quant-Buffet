@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=利用另类数据探索核心收益
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7imdh01a0xlb0k8hc9e4b.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=风格集中度与股票回报
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ik8a017hxlb070lge198.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=reversal-in-small-cryptos
+In-house reconstruction: backtest/strategies/generated/en__reversal-in-small-cryptos.py
+Fidelity: no_qc_theme_proxy

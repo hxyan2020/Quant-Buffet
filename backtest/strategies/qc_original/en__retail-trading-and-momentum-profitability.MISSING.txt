@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=retail-trading-and-momentum-profitability
+In-house reconstruction: backtest/strategies/generated/en__retail-trading-and-momentum-profitability.py
+Fidelity: no_qc_theme_proxy

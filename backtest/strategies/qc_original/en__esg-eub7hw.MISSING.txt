@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=中国股票市场中的负esg溢价策略
+In-house reconstruction: backtest/strategies/generated/en__esg-eub7hw.py
+Fidelity: signal_unavailable_etf_proxy

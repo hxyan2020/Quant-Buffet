@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=新兴市场债务中的防御因子
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7im7k019zxlb0mf1klmjn.py
+Fidelity: no_qc_theme_proxy

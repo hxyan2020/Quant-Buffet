@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=nonlinear-support-vector-machines-and-stock-picking
+In-house reconstruction: backtest/strategies/generated/en__nonlinear-support-vector-machines-and-stock-picking.py
+Fidelity: no_qc_theme_proxy

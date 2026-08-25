@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=使用机器学习模型衡量公司质量策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i2g900jdxlb0mr7mq1a5.py
+Fidelity: no_qc_theme_proxy

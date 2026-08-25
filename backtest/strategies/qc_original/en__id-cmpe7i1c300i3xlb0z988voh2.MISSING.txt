@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过因子持有量预测因子回报策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i1c300i3xlb0z988voh2.py
+Fidelity: no_qc_theme_proxy

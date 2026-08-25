@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=esg、价格动量与随机优化
+In-house reconstruction: backtest/strategies/generated/zh__esg.py
+Fidelity: signal_unavailable_etf_proxy

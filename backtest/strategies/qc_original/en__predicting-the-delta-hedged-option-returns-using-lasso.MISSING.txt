@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predicting-the-delta-hedged-option-returns-using-lasso
+In-house reconstruction: backtest/strategies/generated/en__predicting-the-delta-hedged-option-returns-using-lasso.py
+Fidelity: no_qc_theme_proxy

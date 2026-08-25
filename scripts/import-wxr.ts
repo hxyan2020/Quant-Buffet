@@ -46,6 +46,7 @@ type ParsedPost = {
   paperAuthors: string | null;
   paperInstitute: string | null;
   academicLink: string | null;
+  paperImagesJson: string;
   economicRationale: string;
   pythonCodeHtml: string;
   hasPythonCode: boolean;
@@ -216,6 +217,7 @@ function parseItem(block: string, index: number): ParsedPost | null {
     paperAuthors: parsed.paperAuthors,
     paperInstitute: parsed.paperInstitute,
     academicLink: parsed.academicLink,
+    paperImagesJson: parsed.paperImagesJson,
     economicRationale: parsed.economicRationale,
     pythonCodeHtml: parsed.pythonCodeHtml,
     hasPythonCode: parsed.hasPythonCode,
@@ -287,7 +289,7 @@ async function main() {
   for (const row of parsed) {
     try {
       const existing = await prisma.strategy.findUnique({
-        where: { slug_locale: { slug: row.slug, locale: row.locale } },
+        where: { slug_locale_archived: { slug: row.slug, locale: row.locale, archived: false } },
         select: { id: true },
       });
 
@@ -313,6 +315,7 @@ async function main() {
         paperAuthors: row.paperAuthors,
         paperInstitute: row.paperInstitute || "N/A",
         academicLink: row.academicLink,
+        paperImagesJson: row.paperImagesJson,
         economicRationale: row.economicRationale,
         pythonCodeHtml: row.pythonCodeHtml,
         hasPythonCode: row.hasPythonCode,

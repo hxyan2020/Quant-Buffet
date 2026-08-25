@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=age-and-wealth-factors-in-norwegian-stocks
+In-house reconstruction: backtest/strategies/generated/en__age-and-wealth-factors-in-norwegian-stocks.py
+Fidelity: no_qc_theme_proxy

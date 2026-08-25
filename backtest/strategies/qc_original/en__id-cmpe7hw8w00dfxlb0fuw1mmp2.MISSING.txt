@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=中国市场中的异常隔夜收益因子
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hw8w00dfxlb0fuw1mmp2.py
+Fidelity: no_qc_theme_proxy

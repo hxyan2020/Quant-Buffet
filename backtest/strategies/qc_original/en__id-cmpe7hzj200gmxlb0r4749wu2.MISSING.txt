@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=熊市贝塔因子投资策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hzj200gmxlb0r4749wu2.py
+Fidelity: no_qc_theme_proxy

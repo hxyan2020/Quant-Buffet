@@ -1,4 +1,5 @@
 import prisma from "@/lib/prisma";
+import { PUBLIC_STRATEGY_WHERE } from "@/lib/strategy-visibility";
 
 /**
  * WordPress exports often store post_name as percent-encoded UTF-8 (%e8%82%a1...).
@@ -57,10 +58,12 @@ const strategySelect = {
   paperInstitute: true,
   paperAffiliationsJson: true,
   academicLink: true,
+  paperImagesJson: true,
   economicRationale: true,
   pythonCodeHtml: true,
   sortOrder: true,
   published: true,
+  archived: true,
 } as const;
 
 /** Resolve a strategy by locale + slug from the URL (handles WP encoding + double-encoding). */
@@ -70,7 +73,7 @@ export async function findPublishedStrategy(locale: string, slugParam: string) {
   const exact = await prisma.strategy.findFirst({
     where: {
       locale,
-      published: true,
+      ...PUBLIC_STRATEGY_WHERE,
       OR: [{ slug: slugParam }, { slug: target }],
     },
     select: strategySelect,
@@ -80,7 +83,7 @@ export async function findPublishedStrategy(locale: string, slugParam: string) {
   }
 
   const candidates = await prisma.strategy.findMany({
-    where: { locale, published: true },
+    where: { locale, ...PUBLIC_STRATEGY_WHERE },
     select: strategySelect,
   });
 

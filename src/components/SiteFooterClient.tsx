@@ -1,11 +1,13 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 
 import LegalModal, { type LegalPanel } from "@/components/LegalModal";
 
 type Props = {
+  locale: string;
   termsLabel: string;
   contactLabel: string;
   termsTitle: string;
@@ -17,6 +19,7 @@ type Props = {
 };
 
 export default function SiteFooterClient({
+  locale,
   termsLabel,
   contactLabel,
   termsTitle,
@@ -27,6 +30,7 @@ export default function SiteFooterClient({
   contactEmail,
 }: Props) {
   const searchParams = useSearchParams();
+  const pathname = usePathname();
   const router = useRouter();
   const [panel, setPanel] = useState<LegalPanel>(null);
 
@@ -48,15 +52,37 @@ export default function SiteFooterClient({
     }
   }, [searchParams]);
 
+  // Prefer dedicated SEO pages; keep modal for deep-links (?legal=).
+  const onTermsPage = pathname?.includes("/terms");
+  const onContactPage = pathname?.includes("/contact");
+
   return (
     <>
       <footer className="qb-footer-float-bar" aria-label="Legal">
-        <button type="button" className="qb-footer-pill" onClick={() => openPanel("terms")}>
+        <Link
+          href={`/${locale}/terms`}
+          className="qb-footer-pill"
+          onClick={(e) => {
+            if (!onTermsPage && e.metaKey !== true && e.ctrlKey !== true) {
+              e.preventDefault();
+              openPanel("terms");
+            }
+          }}
+        >
           {termsLabel}
-        </button>
-        <button type="button" className="qb-footer-pill" onClick={() => openPanel("contact")}>
+        </Link>
+        <Link
+          href={`/${locale}/contact`}
+          className="qb-footer-pill"
+          onClick={(e) => {
+            if (!onContactPage && e.metaKey !== true && e.ctrlKey !== true) {
+              e.preventDefault();
+              openPanel("contact");
+            }
+          }}
+        >
           {contactLabel}
-        </button>
+        </Link>
       </footer>
 
       <LegalModal

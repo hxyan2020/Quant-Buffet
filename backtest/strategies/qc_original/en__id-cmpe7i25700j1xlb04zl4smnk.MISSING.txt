@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=使用期权波动率价差因子预测期权回报率策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i25700j1xlb04zl4smnk.py
+Fidelity: no_qc_theme_proxy

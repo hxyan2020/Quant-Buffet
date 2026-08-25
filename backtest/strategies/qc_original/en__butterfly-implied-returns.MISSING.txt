@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=butterfly-implied-returns
+In-house reconstruction: backtest/strategies/generated/en__butterfly-implied-returns.py
+Fidelity: signal_unavailable_etf_proxy

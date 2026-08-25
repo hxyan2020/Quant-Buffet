@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=期权交易量预测股票收益
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iikr0153xlb09mih2onw.py
+Fidelity: no_qc_theme_proxy

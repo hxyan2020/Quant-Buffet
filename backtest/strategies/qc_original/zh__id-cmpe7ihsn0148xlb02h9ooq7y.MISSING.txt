@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=子公司-母公司股票动量
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ihsn0148xlb02h9ooq7y.py
+Fidelity: no_qc_theme_proxy

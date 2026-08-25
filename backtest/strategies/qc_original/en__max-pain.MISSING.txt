@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=max-pain-策略-期权到期时股票回报的可预测性
+In-house reconstruction: backtest/strategies/generated/en__max-pain.py
+Fidelity: no_qc_theme_proxy

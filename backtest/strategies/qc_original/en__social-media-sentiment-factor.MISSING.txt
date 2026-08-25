@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=social-media-sentiment-factor
+In-house reconstruction: backtest/strategies/generated/en__social-media-sentiment-factor.py
+Fidelity: signal_unavailable_etf_proxy

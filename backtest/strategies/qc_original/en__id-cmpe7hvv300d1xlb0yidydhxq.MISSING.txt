@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=股票中的债权-股权利差
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hvv300d1xlb0yidydhxq.py
+Fidelity: no_qc_theme_proxy

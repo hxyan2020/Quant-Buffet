@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=us-climate-policy-news-and-the-cross-section-of-stocks
+In-house reconstruction: backtest/strategies/generated/en__us-climate-policy-news-and-the-cross-section-of-stocks.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=momentum-and-the-firm-fundamental-cycle
+In-house reconstruction: backtest/strategies/generated/en__momentum-and-the-firm-fundamental-cycle.py
+Fidelity: no_qc_theme_proxy

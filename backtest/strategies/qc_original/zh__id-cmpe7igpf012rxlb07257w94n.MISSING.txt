@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=股票中的一日动量效应
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7igpf012rxlb07257w94n.py
+Fidelity: no_qc_theme_proxy

@@ -10,6 +10,7 @@ export default async function SiteFooter({ locale }: { locale: string }) {
   return (
     <Suspense fallback={null}>
       <SiteFooterClient
+        locale={locale}
         termsLabel={footer("terms")}
         contactLabel={footer("contact")}
         termsTitle={legal("termsTitle")}

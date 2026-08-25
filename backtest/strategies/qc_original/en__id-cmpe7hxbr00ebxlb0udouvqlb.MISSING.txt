@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=外汇市场中的动量和（非）信息流策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hxbr00ebxlb0udouvqlb.py
+Fidelity: no_qc_theme_proxy

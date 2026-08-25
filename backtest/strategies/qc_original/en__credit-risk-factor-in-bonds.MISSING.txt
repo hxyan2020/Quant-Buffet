@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=credit-risk-factor-in-bonds
+In-house reconstruction: backtest/strategies/generated/en__credit-risk-factor-in-bonds.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过机构所做预测增强动量因子（以及价值因子）
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i1ba00i2xlb0m6oob8oc.py
+Fidelity: no_qc_theme_proxy

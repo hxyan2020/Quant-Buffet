@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=momentum-and-value-enhanced-by-institutional-prediction
+In-house reconstruction: backtest/strategies/generated/en__momentum-and-value-enhanced-by-institutional-prediction.py
+Fidelity: no_qc_theme_proxy

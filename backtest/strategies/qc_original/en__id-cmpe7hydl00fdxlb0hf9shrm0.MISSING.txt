@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=中国市场的非流动性因子
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hydl00fdxlb0hf9shrm0.py
+Fidelity: no_qc_theme_proxy

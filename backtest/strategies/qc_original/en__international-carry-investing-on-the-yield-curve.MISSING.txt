@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=international-carry-investing-on-the-yield-curve
+In-house reconstruction: backtest/strategies/generated/en__international-carry-investing-on-the-yield-curve.py
+Fidelity: no_qc_theme_proxy

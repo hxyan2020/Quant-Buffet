@@ -5,6 +5,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
 import { ClientSessionProvider } from "@/components/ClientSessionProvider";
+import LocaleHtmlLang from "@/components/LocaleHtmlLang";
 import SiteFooter from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { routing } from "@/i18n/routing";
@@ -26,6 +27,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <ClientSessionProvider>
+        <LocaleHtmlLang locale={locale} />
         <div className="qb-site">
           <SiteHeader locale={locale} />
           <main className="qb-main">{children}</main>

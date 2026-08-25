@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=10-k报告中的无形资产密集度分析
+In-house reconstruction: backtest/strategies/generated/en__10-k.py
+Fidelity: signal_unavailable_etf_proxy

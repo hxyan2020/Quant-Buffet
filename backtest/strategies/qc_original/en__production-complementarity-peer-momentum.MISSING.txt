@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=production-complementarity-peer-momentum
+In-house reconstruction: backtest/strategies/generated/en__production-complementarity-peer-momentum.py
+Fidelity: no_qc_theme_proxy

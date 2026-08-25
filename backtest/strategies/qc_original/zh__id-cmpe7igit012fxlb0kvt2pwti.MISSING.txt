@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=基于主成分分析的市场时机策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7igit012fxlb0kvt2pwti.py
+Fidelity: no_qc_theme_proxy

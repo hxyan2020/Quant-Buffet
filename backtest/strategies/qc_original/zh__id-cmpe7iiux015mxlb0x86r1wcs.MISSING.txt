@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=新兴市场债务中的套息因子
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iiux015mxlb0x86r1wcs.py
+Fidelity: no_qc_theme_proxy

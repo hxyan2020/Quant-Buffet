@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=通过声音线索预测未来收益策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7i2dr00jaxlb0mjww7ifh.py
+Fidelity: no_qc_theme_proxy

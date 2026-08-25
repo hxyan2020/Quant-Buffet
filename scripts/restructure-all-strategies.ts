@@ -138,6 +138,7 @@ async function main() {
         paperInstitute: paper.paperInstitute,
         paperAffiliationsJson: paper.paperAffiliationsJson,
         academicLink: paper.academicLink,
+        paperImagesJson: parsed.paperImagesJson,
         backtestMetrics: backtestMetricsToJson(parsed.backtestMetrics),
         annualisedReturn: parsed.backtestMetrics.annualisedReturn ?? null,
         sharpeRatio: parsed.backtestMetrics.sharpeRatio ?? null,

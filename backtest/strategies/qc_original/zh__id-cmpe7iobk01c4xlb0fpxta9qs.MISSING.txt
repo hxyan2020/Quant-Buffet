@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=利用神经网络进行股票指数与无风险资产配置
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iobk01c4xlb0fpxta9qs.py
+Fidelity: no_qc_theme_proxy

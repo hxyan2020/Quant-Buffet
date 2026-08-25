@@ -21,6 +21,8 @@ export async function SiteHeader({ locale }: Props) {
   const navLinks = [
     { href: base, label: nav("home") },
     { href: `${base}/strategy-library`, label: nav("library") },
+    { href: `${base}/learn`, label: nav("learn") },
+    { href: `${base}/docs`, label: nav("docs") },
     { href: `${base}/pricing`, label: nav("pricing") },
   ];
 

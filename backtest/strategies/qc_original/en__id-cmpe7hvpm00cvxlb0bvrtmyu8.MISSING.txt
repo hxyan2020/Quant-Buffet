@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=隐含资产波动率因子
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hvpm00cvxlb0bvrtmyu8.py
+Fidelity: no_qc_theme_proxy

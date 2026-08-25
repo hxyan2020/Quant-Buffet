@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=one-day-momentum-effect-in-stocks
+In-house reconstruction: backtest/strategies/generated/en__one-day-momentum-effect-in-stocks.py
+Fidelity: no_qc_theme_proxy

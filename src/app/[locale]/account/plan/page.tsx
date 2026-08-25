@@ -5,7 +5,7 @@ import { getTranslations } from "next-intl/server";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ stripe?: string }>;
+  searchParams: Promise<{ stripe?: string; session_id?: string }>;
 };
 
 export default async function AccountPlanPage({ params, searchParams }: PageProps) {
@@ -13,23 +13,26 @@ export default async function AccountPlanPage({ params, searchParams }: PageProp
   const dictionary = await getTranslations({ locale, namespace: "profile" });
   const session = await auth();
   const userId = session?.user?.id?.trim() ?? "";
-  const plan = await syncUserPlanAccess(userId);
+  const plan = await syncUserPlanAccess(userId, locale);
+
+  const stripeFlash =
+    query.stripe === "success" ? "success"
+    : query.stripe === "canceled" ? "canceled"
+    : null;
 
   return (
     <div className="qb-card">
       <h2 className="qb-card-title">{dictionary("plan")}</h2>
-      {query.stripe === "success" ?
-        <p className="qb-auth-success">{dictionary("stripeSuccess")}</p>
-      : null}
-      {query.stripe === "canceled" ?
-        <p className="qb-muted">{dictionary("stripeCanceled")}</p>
-      : null}
       <PlanPanel
         locale={locale}
         hasActivePlan={plan.hasActivePlan}
         expiresAtIso={plan.expiresAt?.toISOString() ?? null}
         cancelAtPeriodEnd={plan.cancelAtPeriodEnd}
         tier={plan.tier}
+        tierLabel={plan.tierLabel}
+        status={plan.status}
+        checkoutSessionId={query.session_id ?? null}
+        stripeFlash={stripeFlash}
       />
     </div>
   );

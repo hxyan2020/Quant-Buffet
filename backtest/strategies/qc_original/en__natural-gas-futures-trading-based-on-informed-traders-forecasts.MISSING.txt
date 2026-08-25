@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=natural-gas-futures-trading-based-on-informed-traders-forecasts
+In-house reconstruction: backtest/strategies/generated/en__natural-gas-futures-trading-based-on-informed-traders-forecasts.py
+Fidelity: no_qc_theme_proxy

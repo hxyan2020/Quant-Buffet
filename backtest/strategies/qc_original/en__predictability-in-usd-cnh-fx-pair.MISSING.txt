@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predictability-in-usd-cnh-fx-pair
+In-house reconstruction: backtest/strategies/generated/en__predictability-in-usd-cnh-fx-pair.py
+Fidelity: no_qc_theme_proxy

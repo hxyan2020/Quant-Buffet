@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=negative-esg-premium-in-chinese-stock-market
+In-house reconstruction: backtest/strategies/generated/en__negative-esg-premium-in-chinese-stock-market.py
+Fidelity: signal_unavailable_etf_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=predictable-price-pressure-caused-by-option-makers-and-leveraged-etfs
+In-house reconstruction: backtest/strategies/generated/en__predictable-price-pressure-caused-by-option-makers-and-leveraged-etfs.py
+Fidelity: no_qc_theme_proxy

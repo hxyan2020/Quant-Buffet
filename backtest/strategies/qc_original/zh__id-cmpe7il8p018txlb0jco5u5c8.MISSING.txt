@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=使用深度神经网络的时间序列动量策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7il8p018txlb0jco5u5c8.py
+Fidelity: no_qc_theme_proxy

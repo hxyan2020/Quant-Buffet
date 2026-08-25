@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=overreaction-to-merger-and-acquisition-announcements
+In-house reconstruction: backtest/strategies/generated/en__overreaction-to-merger-and-acquisition-announcements.py
+Fidelity: no_qc_theme_proxy

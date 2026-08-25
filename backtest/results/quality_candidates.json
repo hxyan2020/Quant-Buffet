@@ -1,0 +1,3515 @@
+[
+  {
+    "slug": "momentum-and-trend-following-in-global-asset-allocation",
+    "title": "Momentum and Trend Following in Global Asset Allocation",
+    "site_annualisedReturn": "10.78%",
+    "site_sharpeRatio": "0.99",
+    "site_maxDrawdown": "-11.25%",
+    "template": "sma_trend",
+    "assets": [
+      "BIL",
+      "EWJ",
+      "EWQ",
+      "EWU",
+      "EWI",
+      "EWY",
+      "EWP",
+      "EWD",
+      "EWG",
+      "EWL",
+      "EWC",
+      "EWK"
+    ],
+    "n_assets": 28
+  },
+  {
+    "slug": "momentum-combined-with-value-effect-within-countries",
+    "title": "Momentum Combined with Value Effect within Countries",
+    "site_annualisedReturn": "24.16%",
+    "site_sharpeRatio": "0.82",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "ARGT",
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "ECH",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EIDO",
+      "EWI"
+    ],
+    "n_assets": 26
+  },
+  {
+    "slug": "value-effect-within-countries-v2",
+    "title": "Value Effect within Countries v2",
+    "site_annualisedReturn": "6.8%",
+    "site_sharpeRatio": "0.3",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "ARGT",
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "ECH",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EIDO",
+      "EWI"
+    ],
+    "n_assets": 26
+  },
+  {
+    "slug": "oil-beta-uncertainty-and-global-stock-returns",
+    "title": "Oil Beta Uncertainty and Global Stock Returns",
+    "site_annualisedReturn": "10.17%",
+    "site_sharpeRatio": "0.66",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 22
+  },
+  {
+    "slug": "betting-against-beta-factor-in-international-equities",
+    "title": "Global Country ETF Betting-Against-Beta Strategy",
+    "site_annualisedReturn": "6.8%",
+    "site_sharpeRatio": "-0.159",
+    "site_maxDrawdown": "44.7%",
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "double-bottom-country-trading-strategy",
+    "title": "Double Bottom Country Trading Strategy",
+    "site_annualisedReturn": "7.79%",
+    "site_sharpeRatio": "0.47",
+    "site_maxDrawdown": "-30.38%",
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "geographical-country-momentum",
+    "title": "Geographical Country Momentum",
+    "site_annualisedReturn": "12.69%",
+    "site_sharpeRatio": "0.64",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "international-volatility-arbitrage",
+    "title": "International Volatility Arbitrage",
+    "site_annualisedReturn": "16.38%",
+    "site_sharpeRatio": "1.83",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "momentum-factor-effect-in-country-equity-indexes",
+    "title": "Country ETF Momentum Strategy Selecting Top 5 with 10-12 Month Momentum",
+    "site_annualisedReturn": "17.7%",
+    "site_sharpeRatio": "0.12",
+    "site_maxDrawdown": "65.4%",
+    "template": "momentum_rotation",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "reversal-effect-in-international-equity-etfs",
+    "title": "Country ETF Long-Short Reversal Strategy Based on 36-Month Returns with Triennial Rebalance",
+    "site_annualisedReturn": "6.4%",
+    "site_sharpeRatio": "-0.28",
+    "site_maxDrawdown": "80.3%",
+    "template": "momentum_rotation",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWS"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "value-factor-cape-effect-within-countries",
+    "title": "Global Low-CAPE Value Strategy with Annual Rebalance",
+    "site_annualisedReturn": "14.7%",
+    "site_sharpeRatio": "0.384",
+    "site_maxDrawdown": "36.1%",
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWZ",
+      "EWC",
+      "EWL",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWI",
+      "EWJ",
+      "EWY",
+      "EWN"
+    ],
+    "n_assets": 21
+  },
+  {
+    "slug": "military-expenditures-and-performance-of-the-stock-markets",
+    "title": "Military Expenditures and Performance of the Stock Markets",
+    "site_annualisedReturn": "2.02%",
+    "site_sharpeRatio": "0.69",
+    "site_maxDrawdown": "-4.8%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "EWU",
+      "EWG",
+      "EWQ",
+      "EWI",
+      "EWD",
+      "EWN",
+      "EWP",
+      "EWK",
+      "EWL",
+      "EWC",
+      "EWJ"
+    ],
+    "n_assets": 19
+  },
+  {
+    "slug": "long-term-reversal-combined-with-a-momentum-effect",
+    "title": "Long-Term Reversal Combined with a Momentum Effect",
+    "site_annualisedReturn": "15.94%",
+    "site_sharpeRatio": "0.41",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "EWJ",
+      "EWA",
+      "EWG",
+      "EWU",
+      "EWS",
+      "EWQ",
+      "EWH",
+      "EIDO",
+      "EWI",
+      "EWY",
+      "EWP",
+      "EWD"
+    ],
+    "n_assets": 18
+  },
+  {
+    "slug": "price-based-quantitative-strategy-for-country-valuation",
+    "title": "Price-Based Quantitative Strategy for Country Valuation",
+    "site_annualisedReturn": "2.39%",
+    "site_sharpeRatio": "0.16",
+    "site_maxDrawdown": "-38.05%",
+    "template": "equal_weight",
+    "assets": [
+      "EWU",
+      "EWG",
+      "EWQ",
+      "EWI",
+      "EWD",
+      "EWN",
+      "EWP",
+      "EWK",
+      "EWL",
+      "EWC",
+      "EWJ",
+      "EWA"
+    ],
+    "n_assets": 18
+  },
+  {
+    "slug": "bold-asset-allocation",
+    "title": "Bold Asset Allocation",
+    "site_annualisedReturn": "14.6%",
+    "site_sharpeRatio": "1.72",
+    "site_maxDrawdown": "-8.7%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "VGK",
+      "EWJ",
+      "VWO",
+      "VNQ",
+      "DBC",
+      "GLD",
+      "TLT",
+      "HYG",
+      "LQD"
+    ],
+    "n_assets": 17
+  },
+  {
+    "slug": "kellers-keunigs-vigilant-asset-allocation",
+    "title": "Keller\u2019s & Keunig\u2019s Vigilant Asset Allocation",
+    "site_annualisedReturn": "15.6%",
+    "site_sharpeRatio": "0.85",
+    "site_maxDrawdown": "-13%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "IWM",
+      "QQQ",
+      "VGK",
+      "EWJ",
+      "EEM",
+      "EFA",
+      "ACWX",
+      "IYR",
+      "GSG",
+      "GLD",
+      "SHY"
+    ],
+    "n_assets": 17
+  },
+  {
+    "slug": "adaptive-asset-allocation-v-2",
+    "title": "Adaptive Asset Allocation v.2",
+    "site_annualisedReturn": "8.02%",
+    "site_sharpeRatio": "1.05",
+    "site_maxDrawdown": "-9.69%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "VGK",
+      "EWJ",
+      "EEM",
+      "VNQ",
+      "DBC",
+      "DBA",
+      "GLD",
+      "LQD",
+      "HYG"
+    ],
+    "n_assets": 15
+  },
+  {
+    "slug": "kellers-keunigs-defensive-asset-allocation",
+    "title": "Keller\u2019s & Keunig\u2019s Defensive Asset Allocation",
+    "site_annualisedReturn": "16%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": "-10.6%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "IWM",
+      "QQQ",
+      "VGK",
+      "EWJ",
+      "VWO",
+      "VNQ",
+      "GSG",
+      "GLD",
+      "TLT",
+      "HYG",
+      "LQD"
+    ],
+    "n_assets": 15
+  },
+  {
+    "slug": "1-month-momentum-in-international-equities",
+    "title": "1 Month Momentum in International Equities",
+    "site_annualisedReturn": "16.21%",
+    "site_sharpeRatio": "0.8",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "EWJ",
+      "EWQ",
+      "EWH",
+      "EIDO",
+      "EWI",
+      "EWY",
+      "EWP",
+      "EWD",
+      "EWL",
+      "EWC",
+      "EWZ",
+      "ARGT"
+    ],
+    "n_assets": 14
+  },
+  {
+    "slug": "alpha-momentum-in-country-and-industry-equity-indexes",
+    "title": "Alpha Momentum in Country and Industry Equity Indexes",
+    "site_annualisedReturn": "6.3%",
+    "site_sharpeRatio": "0.31",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "EWJ",
+      "EWQ",
+      "EWH",
+      "EIDO",
+      "EWI",
+      "EWY",
+      "EWP",
+      "EWD",
+      "EWL",
+      "EWC",
+      "EWZ",
+      "ARGT"
+    ],
+    "n_assets": 14
+  },
+  {
+    "slug": "market-breadth-in-global-equities",
+    "title": "Market Breadth in Global Equities",
+    "site_annualisedReturn": "20.76%",
+    "site_sharpeRatio": "0.96",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWZ",
+      "EWC",
+      "FXI",
+      "EWQ",
+      "EWG",
+      "EWH",
+      "EWJ",
+      "EWN",
+      "EWS",
+      "EWY",
+      "EWL"
+    ],
+    "n_assets": 14
+  },
+  {
+    "slug": "skewness-effect-in-country-equity-indexes",
+    "title": "Skewness Effect in Country Equity Indexes",
+    "site_annualisedReturn": "13.76%",
+    "site_sharpeRatio": "0.54",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWJ",
+      "EWQ",
+      "EWH",
+      "EIDO",
+      "EWI",
+      "EWY",
+      "EWP",
+      "EWD",
+      "EWL",
+      "EWC",
+      "EWZ",
+      "ARGT"
+    ],
+    "n_assets": 14
+  },
+  {
+    "slug": "demographic-changes-predict-stock-market-returns",
+    "title": "Demographic Changes Predict Stock Market Returns",
+    "site_annualisedReturn": "8.93%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWK",
+      "EWC",
+      "EWQ",
+      "EWG",
+      "EWI",
+      "EWJ",
+      "EWN",
+      "EWP",
+      "EWD",
+      "EWL",
+      "EWU"
+    ],
+    "n_assets": 13
+  },
+  {
+    "slug": "multi-asset-market-breadth-momentum",
+    "title": "Multi-Asset Market Breadth Momentum",
+    "site_annualisedReturn": "10.5%",
+    "site_sharpeRatio": "1",
+    "site_maxDrawdown": "-8.8%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "VGK",
+      "EWJ",
+      "EEM",
+      "GSG",
+      "GLD",
+      "IYR",
+      "HYG",
+      "LQD",
+      "TLT"
+    ],
+    "n_assets": 13
+  },
+  {
+    "slug": "spin-off-anomaly",
+    "title": "Spin-off Anomaly",
+    "site_annualisedReturn": "19.4%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "VNQ",
+      "XLK",
+      "XLE",
+      "XLV",
+      "XLF",
+      "XLI",
+      "XLB",
+      "XLY",
+      "XLP",
+      "XLU",
+      "XLC",
+      "SPY"
+    ],
+    "n_assets": 12
+  },
+  {
+    "slug": "volatility-weighted-short-term-reversal-strategy-in-emerging-market-equities",
+    "title": "Volatility-Weighted Short-Term Reversal Strategy in Emerging Market Equities",
+    "site_annualisedReturn": "6.14%",
+    "site_sharpeRatio": "0.67",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "FXI",
+      "EWH",
+      "EWT",
+      "EIDO",
+      "EPHE",
+      "THD",
+      "EWS",
+      "TUR",
+      "EWZ",
+      "ARGT",
+      "ECH",
+      "EPOL"
+    ],
+    "n_assets": 12
+  },
+  {
+    "slug": "cape-sector-picking-strategy",
+    "title": "CAPE Sector Picking Strategy",
+    "site_annualisedReturn": "14.23%",
+    "site_sharpeRatio": "0.79",
+    "site_maxDrawdown": "-43.54%",
+    "template": "momentum_rotation",
+    "assets": [
+      "XLC",
+      "XLRE",
+      "XLV",
+      "XLI",
+      "XLY",
+      "XLP",
+      "XLB",
+      "XLK",
+      "XLU",
+      "XLE",
+      "XLF"
+    ],
+    "n_assets": 11
+  },
+  {
+    "slug": "cold-ipos-effect",
+    "title": "Cold IPOs Effect",
+    "site_annualisedReturn": "24.57%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "VNQ",
+      "XLK",
+      "XLE",
+      "XLV",
+      "XLF",
+      "XLI",
+      "XLB",
+      "XLY",
+      "XLP",
+      "XLU",
+      "SPY"
+    ],
+    "n_assets": 11
+  },
+  {
+    "slug": "optimalized-subportfolio-momentum",
+    "title": "Optimalized Subportfolio Momentum",
+    "site_annualisedReturn": "19.8%",
+    "site_sharpeRatio": "0.85",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "XLB",
+      "XLY",
+      "XLF",
+      "XLP",
+      "XLV",
+      "XLU",
+      "XLC",
+      "XLE",
+      "XLI",
+      "XLK",
+      "BIL"
+    ],
+    "n_assets": 11
+  },
+  {
+    "slug": "adaptive-asset-allocation",
+    "title": "Adaptive Asset Allocation",
+    "site_annualisedReturn": "15.1%",
+    "site_sharpeRatio": "1.61",
+    "site_maxDrawdown": "-8.8%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "VGK",
+      "EWJ",
+      "EEM",
+      "VNQ",
+      "RWX",
+      "IEI",
+      "IEF",
+      "DBC",
+      "GLD"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "industry-momentum-riding-industry-bubbles",
+    "title": "Industry Alpha Bubble Strategy: Monthly Long Allocation to Statistically Significant Outperforming Sectors",
+    "site_annualisedReturn": "18%",
+    "site_sharpeRatio": "0.187",
+    "site_maxDrawdown": "23.3%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "XLF",
+      "XLV",
+      "XLP",
+      "XLY",
+      "XLI",
+      "XLE",
+      "XLB",
+      "XLK",
+      "XLU"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "kellers-keunigs-protective-asset-allocation",
+    "title": "Keller\u2019s & Keunig\u2019s Protective Asset Allocation",
+    "site_annualisedReturn": "12.2%",
+    "site_sharpeRatio": "1.06",
+    "site_maxDrawdown": "-8.2%",
+    "template": "sma_trend",
+    "assets": [
+      "SHY",
+      "SPY",
+      "QQQ",
+      "IWM",
+      "VGK",
+      "EWJ",
+      "EEM",
+      "IYR",
+      "GSG",
+      "GLD"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "long-term-reversal-combined-with-a-momentum-effect-in-industry-portfolios",
+    "title": "Long-Term Reversal Combined with a Momentum Effect in Industry Portfolios",
+    "site_annualisedReturn": "9.9%",
+    "site_sharpeRatio": "0.3",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "XLY",
+      "XLP",
+      "XLE",
+      "XLF",
+      "XLV",
+      "XLI",
+      "XLB",
+      "XLK",
+      "XLU",
+      "SPY"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "stock-and-bond-returns-predict-currency-returns",
+    "title": "Stock and Bond Returns Predict Currency Returns",
+    "site_annualisedReturn": "8.47%",
+    "site_sharpeRatio": "2.11",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWC",
+      "EWG",
+      "EWJ",
+      "EWL",
+      "EWU",
+      "EPOL",
+      "EWS",
+      "TUR",
+      "VTI"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "the-u-s-dollar-and-variance-risk-premia-imbalances",
+    "title": "The U.S. Dollar and Variance Risk Premia Imbalances",
+    "site_annualisedReturn": "4.1%",
+    "site_sharpeRatio": "0.5",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "EWQ",
+      "EWG",
+      "EWI",
+      "EWN",
+      "EWA",
+      "EWC",
+      "EWJ",
+      "EWL",
+      "EWU"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "us-sector-rotation-with-five-factor-fama-french-alphas",
+    "title": "US Sector Rotation with Five-Factor Fama-French Alphas",
+    "site_annualisedReturn": "11.07%",
+    "site_sharpeRatio": "0.7",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "VNQ",
+      "XLK",
+      "XLE",
+      "XLV",
+      "XLF",
+      "XLI",
+      "XLB",
+      "XLY",
+      "XLP",
+      "XLU"
+    ],
+    "n_assets": 10
+  },
+  {
+    "slug": "antonaccis-dual-momentum",
+    "title": "Antonacci\u2019s Dual Momentum",
+    "site_annualisedReturn": "14.9%",
+    "site_sharpeRatio": "1.07",
+    "site_maxDrawdown": "-10.92%",
+    "template": "dual_momentum",
+    "assets": [
+      "BIL",
+      "SPY",
+      "EFA",
+      "HYG",
+      "LQD",
+      "MBB",
+      "VNQ",
+      "TLT",
+      "GLD"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "combining-seasonality-and-momentum-in-us-equity-sectors",
+    "title": "Combining Seasonality and Momentum in US Equity Sectors",
+    "site_annualisedReturn": "12.9%",
+    "site_sharpeRatio": "0.52",
+    "site_maxDrawdown": "-29.9%",
+    "template": "momentum_rotation",
+    "assets": [
+      "XLI",
+      "XLY",
+      "XLP",
+      "XLV",
+      "XLU",
+      "XLK",
+      "XLF",
+      "XLE",
+      "VNQ"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "fx-carry-trade",
+    "title": "Carry Trade Strategy: Long Highest-Rate Currencies, Short Lowest-Rate",
+    "site_annualisedReturn": "7.30%",
+    "site_sharpeRatio": "0.57",
+    "site_maxDrawdown": "32.02%",
+    "template": "momentum_rotation",
+    "assets": [
+      "XLK",
+      "XLE",
+      "XLV",
+      "XLF",
+      "XLI",
+      "XLB",
+      "XLY",
+      "XLP",
+      "XLU"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "risk-managed-industry-momentum",
+    "title": "Risk-Managed Industry Momentum",
+    "site_annualisedReturn": "25.64%",
+    "site_sharpeRatio": "0.72",
+    "site_maxDrawdown": null,
+    "template": "momentum_rotation",
+    "assets": [
+      "XLY",
+      "XLP",
+      "XLE",
+      "XLF",
+      "XLV",
+      "XLI",
+      "XLB",
+      "XLK",
+      "XLU"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "sector-momentum-rotational-system",
+    "title": "Top 3 Sector Momentum Rotation Strategy with Monthly Rebalancing",
+    "site_annualisedReturn": "11.30%",
+    "site_sharpeRatio": "1.37",
+    "site_maxDrawdown": "29.40%",
+    "template": "momentum_rotation",
+    "assets": [
+      "XLK",
+      "XLE",
+      "XLV",
+      "XLF",
+      "XLI",
+      "XLB",
+      "XLY",
+      "XLP",
+      "XLU"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "value-and-momentum-factors-across-asset-classes",
+    "title": "Multi-Asset Momentum and Valuation Strategy Using Adjusted Yield Rankings",
+    "site_annualisedReturn": "11.9%",
+    "site_sharpeRatio": "-0.10",
+    "site_maxDrawdown": "17.3%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "MDY",
+      "IYR",
+      "EWU",
+      "EWJ",
+      "EEM",
+      "LQD",
+      "HYG",
+      "BIL"
+    ],
+    "n_assets": 9
+  },
+  {
+    "slug": "kellers-van-puttens-generalized-momentum-and-flexible-asset-allocation",
+    "title": "Keller\u2019s & van Putten\u2019s Generalized Momentum and Flexible Asset Allocation",
+    "site_annualisedReturn": "14.2%",
+    "site_sharpeRatio": "1.67",
+    "site_maxDrawdown": "-7.4%",
+    "template": "dual_momentum",
+    "assets": [
+      "VTI",
+      "VEA",
+      "VWO",
+      "SHY",
+      "BND",
+      "GSG",
+      "VNQ",
+      "BIL"
+    ],
+    "n_assets": 8
+  },
+  {
+    "slug": "asset-class-trend-following",
+    "title": "Global 5-Asset Trend-Following Strategy Using 10-Month SMA Filter",
+    "site_annualisedReturn": "11.50%",
+    "site_sharpeRatio": "1.40",
+    "site_maxDrawdown": "- 29.4%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "EFA",
+      "IEF",
+      "VNQ",
+      "GSG",
+      "BND"
+    ],
+    "n_assets": 6
+  },
+  {
+    "slug": "flight-to-quality-factor-in-fixed-income",
+    "title": "Flight to Quality Factor in Fixed Income",
+    "site_annualisedReturn": "2.8%",
+    "site_sharpeRatio": "0.34",
+    "site_maxDrawdown": "-15%",
+    "template": "equal_weight",
+    "assets": [
+      "EWA",
+      "EWC",
+      "EWG",
+      "EWJ",
+      "EWU",
+      "SPY"
+    ],
+    "n_assets": 6
+  },
+  {
+    "slug": "momentum-asset-allocation-strategy-2",
+    "title": "Top 3 ETF Momentum Strategy Selecting from SPY, EFA, BND, VNQ, GSG",
+    "site_annualisedReturn": "11.5%",
+    "site_sharpeRatio": "0.25",
+    "site_maxDrawdown": "39.8%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "EFA",
+      "IEF",
+      "VNQ",
+      "GSG",
+      "BND"
+    ],
+    "n_assets": 6
+  },
+  {
+    "slug": "resilient-asset-allocation",
+    "title": "Resilient Asset Allocation",
+    "site_annualisedReturn": "12.3%",
+    "site_sharpeRatio": "1.38",
+    "site_maxDrawdown": "-11.8%",
+    "template": "sma_trend",
+    "assets": [
+      "QQQ",
+      "IEF",
+      "TLT",
+      "GLD",
+      "VWO",
+      "BND"
+    ],
+    "n_assets": 6
+  },
+  {
+    "slug": "short-term-reversal-in-equity-index-futures",
+    "title": "Short-Term Reversal in Equity Index Futures",
+    "site_annualisedReturn": "29.6%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "EWG",
+      "EWQ",
+      "EWI",
+      "EWP",
+      "EWN",
+      "EWK"
+    ],
+    "n_assets": 6
+  },
+  {
+    "slug": "commodities-timing-based-on-a-monetary-conditions",
+    "title": "Commodities Timing based on a Monetary Conditions",
+    "site_annualisedReturn": "20.46%",
+    "site_sharpeRatio": "1.48",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "EFA",
+      "IEF",
+      "LQD",
+      "DBC"
+    ],
+    "n_assets": 5
+  },
+  {
+    "slug": "commodity-option-implied-volatility-strategy",
+    "title": "Commodity Option Implied Volatility Strategy",
+    "site_annualisedReturn": "12.66%",
+    "site_sharpeRatio": "0.69",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "GLD",
+      "USO",
+      "UNG",
+      "SLV",
+      "DBA"
+    ],
+    "n_assets": 5
+  },
+  {
+    "slug": "lethargic-asset-allocation",
+    "title": "Lethargic Asset Allocation",
+    "site_annualisedReturn": "10.5%",
+    "site_sharpeRatio": "1.24",
+    "site_maxDrawdown": "-15%",
+    "template": "sma_trend",
+    "assets": [
+      "GLD",
+      "IEF",
+      "QQQ",
+      "SHY",
+      "SPY"
+    ],
+    "n_assets": 5
+  },
+  {
+    "slug": "the-crisis-alpha-portfolio",
+    "title": "The Crisis Alpha Portfolio",
+    "site_annualisedReturn": "7.29%",
+    "site_sharpeRatio": "0.32",
+    "site_maxDrawdown": "-5.9%",
+    "template": "momentum_rotation",
+    "assets": [
+      "TLT",
+      "IEF",
+      "IEI",
+      "SHY",
+      "BIL"
+    ],
+    "n_assets": 5
+  },
+  {
+    "slug": "timing-sp500-using-a-large-set-of-forecasting-variables",
+    "title": "Timing S&P500 Using a Large Set of Forecasting Variables",
+    "site_annualisedReturn": "16.6%",
+    "site_sharpeRatio": "0.76",
+    "site_maxDrawdown": "-20.3%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "BIL",
+      "GSG"
+    ],
+    "n_assets": 3
+  },
+  {
+    "slug": "timing-the-small-cap-effect-ver-3",
+    "title": "Timing the Small Cap Effect ver. 3",
+    "site_annualisedReturn": "5.42%",
+    "site_sharpeRatio": "0.69",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "DIA",
+      "IWM"
+    ],
+    "n_assets": 3
+  },
+  {
+    "slug": "avoid-equity-bear-markets-with-a-market-timing-strategy",
+    "title": "Avoid Equity Bear Markets with a Market Timing Strategy",
+    "site_annualisedReturn": "6.59%",
+    "site_sharpeRatio": "0.56",
+    "site_maxDrawdown": "-25.13%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "combined-momentum-and-counter-trend-strategy-on-us-equity-indexes",
+    "title": "Combined Momentum and Counter Trend Strategy on US Equity Indexes",
+    "site_annualisedReturn": "12.2%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": "-11.5%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "QQQ"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "estimating-hedge-funds-returns-out-of-sample",
+    "title": "Estimating Hedge Funds\u2019 Returns Out of Sample",
+    "site_annualisedReturn": "8%",
+    "site_sharpeRatio": "0.52",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "SVXY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "gamma-factor-premium",
+    "title": "Gamma Factor Premium",
+    "site_annualisedReturn": "34.09%",
+    "site_sharpeRatio": "1.91",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "ASHR"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "gold-to-oil-ratio-predicts-aggregate-stock-returns",
+    "title": "Gold to Oil Ratio Predicts Aggregate Stock Returns",
+    "site_annualisedReturn": "7.02%",
+    "site_sharpeRatio": "0.72",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "halloween-effect-during-the-mid-term-election-year",
+    "title": "Halloween Effect During the Mid-Term Election Year",
+    "site_annualisedReturn": "13.24%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "high-frequency-arbitrage-with-etf-twins",
+    "title": "High-Frequency Arbitrage with ETF Twins",
+    "site_annualisedReturn": "28.91%",
+    "site_sharpeRatio": "1.7",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "VOO"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "improved-cross-asset-time-series-momentum-i-xtsm",
+    "title": "Improved Cross-Asset Time-Series Momentum I-XTSM",
+    "site_annualisedReturn": "20.82%",
+    "site_sharpeRatio": "0.72",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "inflation-hedging-using-online-prices",
+    "title": "Inflation Hedging Using Online Prices",
+    "site_annualisedReturn": "2.6%",
+    "site_sharpeRatio": "48%",
+    "site_maxDrawdown": "-3.7%",
+    "template": "equal_weight",
+    "assets": [
+      "TIP",
+      "IEF"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "january-barometer",
+    "title": "January Return-Based Equity Timing Strategy",
+    "site_annualisedReturn": "10.38%",
+    "site_sharpeRatio": "0.179",
+    "site_maxDrawdown": "27.7%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "january-effect-in-stocks",
+    "title": "January Small-Cap Entry, Large-Cap Hold Strategy",
+    "site_annualisedReturn": "12.7%",
+    "site_sharpeRatio": "0.263",
+    "site_maxDrawdown": "55.7%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "IWM"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "market-seasonality-effect",
+    "title": "Global Equity Rotation Strategy Based on Seasonal Market Timing",
+    "site_annualisedReturn": "8.80%",
+    "site_sharpeRatio": "0.21",
+    "site_maxDrawdown": "- 36.6%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "market-timing-using-lumber-gold-ratio",
+    "title": "Market Timing Using Lumber/Gold Ratio",
+    "site_annualisedReturn": "13.9%",
+    "site_sharpeRatio": "0.84",
+    "site_maxDrawdown": "-20.8%",
+    "template": "sma_trend",
+    "assets": [
+      "IWM",
+      "IEF"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "market-timing-with-aggregate-and-idiosyncratic-stock-volatilities",
+    "title": "Market Timing with Aggregate and Idiosyncratic Stock Volatilities",
+    "site_annualisedReturn": "20.07%",
+    "site_sharpeRatio": "0.43",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "modified-volatility-predicts-dji-returns",
+    "title": "Modified volatility predicts DJI returns",
+    "site_annualisedReturn": "3.23%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": "0%",
+    "template": "equal_weight",
+    "assets": [
+      "DIA",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "paired-switching-2",
+    "title": "Paired Switching",
+    "site_annualisedReturn": "11.3%",
+    "site_sharpeRatio": "0.78",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY",
+      "AGG"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "ramadan-effect",
+    "title": "Ramadan Equity Rotation Strategy in Muslim-Majority Markets",
+    "site_annualisedReturn": "6.7%",
+    "site_sharpeRatio": "-0.241",
+    "site_maxDrawdown": "11%",
+    "template": "momentum_rotation",
+    "assets": [
+      "TUR",
+      "EIDO"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "rd-expenditures-and-stock-returns",
+    "title": "R&D Expenditures and Stock Returns",
+    "site_annualisedReturn": "4.67%",
+    "site_sharpeRatio": "0.34",
+    "site_maxDrawdown": "49.88%",
+    "template": "equal_weight",
+    "assets": [
+      "XLK",
+      "SPY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "residual-momentum-factor",
+    "title": "Residual Alpha Momentum Strategy on Large-Cap US Stocks",
+    "site_annualisedReturn": "9.18%",
+    "site_sharpeRatio": "-0.088",
+    "site_maxDrawdown": "54.3%",
+    "template": "dual_momentum",
+    "assets": [
+      "SPY",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "return-range-predicts-stock-returns",
+    "title": "Return Range Predicts Stock Returns",
+    "site_annualisedReturn": "61.4%",
+    "site_sharpeRatio": "1.53",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "TUR",
+      "SPY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "sector-rotation-strategy-based-on-multivariate-regression-analysis",
+    "title": "Sector Rotation Strategy Based on Multivariate Regression Analysis",
+    "site_annualisedReturn": "7.04%",
+    "site_sharpeRatio": "0.55",
+    "site_maxDrawdown": "-28.9%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "sector-rotation-via-credit-relative-value",
+    "title": "Sector Rotation via Credit Relative Value",
+    "site_annualisedReturn": "12.4%",
+    "site_sharpeRatio": "0.49",
+    "site_maxDrawdown": "-30.1%",
+    "template": "momentum_rotation",
+    "assets": [
+      "BIL",
+      "SPY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "size-factor-vs-monetary-policy-regime",
+    "title": "Size Factor vs. Monetary Policy Regime",
+    "site_annualisedReturn": "6.27%",
+    "site_sharpeRatio": "0.62",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "IWM"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "spread-trading-with-adrs",
+    "title": "Spread Trading with ADRs",
+    "site_annualisedReturn": "14%",
+    "site_sharpeRatio": "0.61",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "FXI"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "stock-trading-rule-that-produces-higher-returns-with-lower-risk",
+    "title": "Stock Trading Rule that Produces Higher Returns with Lower Risk",
+    "site_annualisedReturn": "6.78%",
+    "site_sharpeRatio": "0.251",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "term-spread-and-term-premium-predict-us-government-bonds-returns",
+    "title": "Term Spread and Term Premium Predict US Government Bonds Returns",
+    "site_annualisedReturn": "8.08%",
+    "site_sharpeRatio": "1.08",
+    "site_maxDrawdown": "-17.8%",
+    "template": "sma_trend",
+    "assets": [
+      "IEF",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "text-based-recession-detection-strategy",
+    "title": "Text-Based Recession Detection Strategy",
+    "site_annualisedReturn": "8.78%",
+    "site_sharpeRatio": "0.65",
+    "site_maxDrawdown": "-18.15%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "BIL"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "timing-carry-trade-with-central-banks-announcements",
+    "title": "Timing Carry Trade with Central Banks\u2019 Announcements",
+    "site_annualisedReturn": "4.47%",
+    "site_sharpeRatio": "0.91",
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "IEF"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "timing-sp500-using-full-vs-partial-employment-2",
+    "title": "Timing S&P500 Using Full vs. Partial Employment",
+    "site_annualisedReturn": "11.38%",
+    "site_sharpeRatio": "1.03",
+    "site_maxDrawdown": "-16.22%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "IEF"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "timing-the-small-cap-effect-ver-2",
+    "title": "Timing the Small Cap Effect ver. 2",
+    "site_annualisedReturn": "9%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY",
+      "IWM"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "trading-commodity-etfs-versus-equity-etfs",
+    "title": "Trading Commodity ETFs versus Equity ETFs",
+    "site_annualisedReturn": "31.1%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "DBC"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "trading-vix-etfs-v2",
+    "title": "Trading VIX ETFs v2",
+    "site_annualisedReturn": "69%",
+    "site_sharpeRatio": "2.11",
+    "site_maxDrawdown": "-24.5%",
+    "template": "equal_weight",
+    "assets": [
+      "VIXY",
+      "SPY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "trendfollowing-effect-within-reits",
+    "title": "Trendfollowing Effect within REITs",
+    "site_annualisedReturn": "14.38%",
+    "site_sharpeRatio": "0.97",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "VNQ",
+      "SHY"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "why-do-us-stocks-outperform-em-and-eafe-regions",
+    "title": "Why Do US Stocks Outperform EM and EAFE Regions?",
+    "site_annualisedReturn": "7.14%",
+    "site_sharpeRatio": "0.37",
+    "site_maxDrawdown": "-62.28%",
+    "template": "equal_weight",
+    "assets": [
+      "SPY",
+      "EEM"
+    ],
+    "n_assets": 2
+  },
+  {
+    "slug": "12-month-seasonal-reversals",
+    "title": "12 Month Seasonal Reversals",
+    "site_annualisedReturn": "5.54%",
+    "site_sharpeRatio": "0.19",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "3609",
+    "title": "Employee Satisfaction Factor",
+    "site_annualisedReturn": "16.07%",
+    "site_sharpeRatio": "0.92",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "abnormal-turnover-effect-in-the-stock-market",
+    "title": "Abnormal Turnover Effect in the Stock Market",
+    "site_annualisedReturn": "10.82%",
+    "site_sharpeRatio": "1.04",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "abnormal-volume-effect-in-the-stock-market",
+    "title": "Abnormal Volume Effect in the Stock Market",
+    "site_annualisedReturn": "33.91%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "absolute-delta-beta-strategy-in-chinese-equities",
+    "title": "Absolute Delta Beta Strategy in Chinese Equities",
+    "site_annualisedReturn": "8.23%",
+    "site_sharpeRatio": "0.15",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "accrual-effect-in-family-firms",
+    "title": "Accrual Effect in Family Firms",
+    "site_annualisedReturn": "18.7%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "adaptive-moving-averages-used-for-market-timing",
+    "title": "Adaptive Moving Averages used for Market Timing",
+    "site_annualisedReturn": "14.6%",
+    "site_sharpeRatio": "0.61",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "advertising-effect-within-stocks",
+    "title": "Advertising Effect within Stocks",
+    "site_annualisedReturn": "9.4%",
+    "site_sharpeRatio": "1.69",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "afternoon-reversal-trading-strategy",
+    "title": "Afternoon Reversal Trading Strategy",
+    "site_annualisedReturn": "9.85%",
+    "site_sharpeRatio": "1.17",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "alpha-cloning-following-13f-fillings",
+    "title": "Consensus Best Ideas Strategy Using 13F Filings from Active Mutual Fund Managers",
+    "site_annualisedReturn": "20.21%",
+    "site_sharpeRatio": "0.533",
+    "site_maxDrawdown": "33.9%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "analyst-days",
+    "title": "Analyst Days",
+    "site_annualisedReturn": "18.3%",
+    "site_sharpeRatio": "0.59",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "arbitraging-levered-etfs",
+    "title": "Arbitraging Levered ETFs",
+    "site_annualisedReturn": "4.92%",
+    "site_sharpeRatio": "1.92",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "asset-growth-effect",
+    "title": "Asset Growth Anomaly Strategy",
+    "site_annualisedReturn": "20.84%",
+    "site_sharpeRatio": "1.35",
+    "site_maxDrawdown": "41.30%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "betting-against-alpha",
+    "title": "Betting Against Alpha",
+    "site_annualisedReturn": "0.24%",
+    "site_sharpeRatio": "0.08",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "betting-against-beta-factor-in-stocks",
+    "title": "Betting-Against-Beta Strategy",
+    "site_annualisedReturn": "8.86%",
+    "site_sharpeRatio": "0.657",
+    "site_maxDrawdown": "62.1%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "betting-against-correlation-effect",
+    "title": "Betting Against Correlation Effect",
+    "site_annualisedReturn": "12.28%",
+    "site_sharpeRatio": "0.93",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "betting-against-correlation-in-sp500-stocks",
+    "title": "Betting Against Correlation in S&P500 Stocks",
+    "site_annualisedReturn": "7.32%",
+    "site_sharpeRatio": "0.27",
+    "site_maxDrawdown": "-83.16%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "brand-value-asset-pricing-factor",
+    "title": "Brand Value Asset Pricing Factor",
+    "site_annualisedReturn": "11.95%",
+    "site_sharpeRatio": "0.71",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "buy-side-competition-and-momentum-profits",
+    "title": "Buy-Side Competition and Momentum Profits",
+    "site_annualisedReturn": "14.27%",
+    "site_sharpeRatio": "0.58",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "cash-hedged-momentum",
+    "title": "Cash Hedged Momentum",
+    "site_annualisedReturn": "13.11%",
+    "site_sharpeRatio": "0.65",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "cash-holdings-effect-and-net-operating-assets",
+    "title": "Cash Holdings Effect and Net Operating Assets",
+    "site_annualisedReturn": "9.25%",
+    "site_sharpeRatio": "0.54",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "catching-falling-knife-stocks",
+    "title": "Catching \u201cFalling Knife\u201d Stocks",
+    "site_annualisedReturn": "23.09%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "categorization-effect-in-stocks",
+    "title": "Categorization Effect in Stocks",
+    "site_annualisedReturn": "21.36%",
+    "site_sharpeRatio": "1.05",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "ceo-interviews-effect",
+    "title": "CEO Interviews Effect",
+    "site_annualisedReturn": "32.08%",
+    "site_sharpeRatio": "2.11",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "co-skewness-enhanced-momentum",
+    "title": "Co-Skewness Enhanced Momentum",
+    "site_annualisedReturn": "23.18%",
+    "site_sharpeRatio": "1.56",
+    "site_maxDrawdown": "-30%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "combined-momentum-and-nearness-to-52-week-high",
+    "title": "Combined Momentum and Nearness to 52-week High",
+    "site_annualisedReturn": "31.3%",
+    "site_sharpeRatio": "1.01",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "combined-stock-and-cds-momentum",
+    "title": "Combined Stock and CDS Momentum",
+    "site_annualisedReturn": "21.56%",
+    "site_sharpeRatio": "0.81",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "combining-fundamental-and-transitory-component-of-value-strategy",
+    "title": "Combining Fundamental and Transitory Component of Value Strategy",
+    "site_annualisedReturn": "8.98%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "combining-fundamental-fscore-and-equity-short-term-reversals",
+    "title": "FSCORE-Enhanced Short-Term Reversal Strategy on Large-Cap Stocks",
+    "site_annualisedReturn": "12.01%",
+    "site_sharpeRatio": "0.15",
+    "site_maxDrawdown": "51.2%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "combining-smart-factors-momentum-and-market-portfolio",
+    "title": "Combining Smart Factors Momentum and Market Portfolio",
+    "site_annualisedReturn": "11.91%",
+    "site_sharpeRatio": "0.96",
+    "site_maxDrawdown": "12.26%",
+    "template": "sma_trend",
+    "assets": [
+      "IWM"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "comomentum-strategy",
+    "title": "Comomentum Strategy",
+    "site_annualisedReturn": "8.6%",
+    "site_sharpeRatio": "0.38",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "complexity-effect-in-stocks",
+    "title": "Complexity Effect in Stocks",
+    "site_annualisedReturn": "15.12%",
+    "site_sharpeRatio": "1.04",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "connected-stocks-momentum-portfolio",
+    "title": "Connected-Stocks Momentum Portfolio",
+    "site_annualisedReturn": "11.22%",
+    "site_sharpeRatio": "0.56",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "contrarian-vix-strategy",
+    "title": "Contrarian VIX strategy",
+    "site_annualisedReturn": "10.8%",
+    "site_sharpeRatio": "1.93",
+    "site_maxDrawdown": "-3.61%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "credit-informed-tactical-asset-allocation",
+    "title": "Credit-Informed Tactical Asset Allocation",
+    "site_annualisedReturn": "18.1%",
+    "site_sharpeRatio": "0.81",
+    "site_maxDrawdown": "39.3%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "cross-industry-dispersion-factor",
+    "title": "Cross Industry Dispersion Factor",
+    "site_annualisedReturn": "6.04%",
+    "site_sharpeRatio": "0.44",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "days-to-cover-strategy",
+    "title": "Days to Cover Strategy",
+    "site_annualisedReturn": "8.34%",
+    "site_sharpeRatio": "0.45",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "default-risk-filter-applied-on-momentum-effect-within-stocks",
+    "title": "Default Risk Filter Applied on Momentum Effect within Stocks",
+    "site_annualisedReturn": "25.78%",
+    "site_sharpeRatio": "0.98",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "directional-momentum",
+    "title": "Directional Momentum",
+    "site_annualisedReturn": "9.64%",
+    "site_sharpeRatio": "0.54",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "dividend-announcement-effect",
+    "title": "Dividend Announcement Effect",
+    "site_annualisedReturn": "9.27%",
+    "site_sharpeRatio": "0.78",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "dynamic-momentum-and-contrarian-trading",
+    "title": "Dynamic Momentum and Contrarian Trading",
+    "site_annualisedReturn": "21.74%",
+    "site_sharpeRatio": "0.81",
+    "site_maxDrawdown": "-39.39%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "effect-of-change-in-non-current-operating-assets",
+    "title": "Effect of Change in Non-Current Operating Assets",
+    "site_annualisedReturn": "16.1%",
+    "site_sharpeRatio": "1.67",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "enduring-momentum-in-stocks",
+    "title": "Enduring Momentum in Stocks",
+    "site_annualisedReturn": "26.31%",
+    "site_sharpeRatio": "0.69",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "enhanced-betting-against-beta-strategy-in-equities",
+    "title": "Enhanced Betting Against Beta Strategy in Equities",
+    "site_annualisedReturn": "24.15%",
+    "site_sharpeRatio": "0.73",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "enhanced-returns-of-lgbt-ceos",
+    "title": "Enhanced Returns of LGBT CEOs",
+    "site_annualisedReturn": "16.35%",
+    "site_sharpeRatio": "0.47",
+    "site_maxDrawdown": "-67.23%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "esg-factor-momentum-strategy",
+    "title": "ESG Factor Momentum Strategy",
+    "site_annualisedReturn": "2.23%",
+    "site_sharpeRatio": "0.15",
+    "site_maxDrawdown": "26.11%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "etf-creation-redemption-activity-and-return-predictability",
+    "title": "ETF Creation/Redemption Activity and Return Predictability",
+    "site_annualisedReturn": "11.96%",
+    "site_sharpeRatio": "0.6",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "expected-skewness-and-momentum-in-stocks",
+    "title": "Expected Skewness and Momentum in Stocks",
+    "site_annualisedReturn": "14.3%",
+    "site_sharpeRatio": "0.46",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "exploiting-option-information-in-the-equity-market",
+    "title": "Exploiting Option Information in the Equity Market",
+    "site_annualisedReturn": "7.61%",
+    "site_sharpeRatio": "0.54",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "filtered-short-term-reversal",
+    "title": "Filtered Short-Term Reversal",
+    "site_annualisedReturn": "9.77%",
+    "site_sharpeRatio": "0.31",
+    "site_maxDrawdown": "-26.7%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "firm-level-investor-sentiment-factor-in-us",
+    "title": "Firm-Level Investor Sentiment Factor in US",
+    "site_annualisedReturn": "6.17%",
+    "site_sharpeRatio": "0.59",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "front-running-sp-gsci-index",
+    "title": "Front-Running S&P GSCI Index",
+    "site_annualisedReturn": "11.1%",
+    "site_sharpeRatio": "0.61",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "fundamental-strength-and-the-52-week-high-anomaly",
+    "title": "Fundamental Strength and the 52-Week High Anomaly",
+    "site_annualisedReturn": "12.68%",
+    "site_sharpeRatio": "0.6",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "google-search-strategy-based-on-limited-investor-attention",
+    "title": "Google Search Strategy Based on Limited Investor Attention",
+    "site_annualisedReturn": "19.3%",
+    "site_sharpeRatio": "0.83",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "google-search-volume-combined-with-extent-of-press-news-predicts-stocks-returns",
+    "title": "Google Search Volume Combined with Extent of Press News Predicts Stocks\u2019 Returns",
+    "site_annualisedReturn": "4.12%",
+    "site_sharpeRatio": "2.38",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "halloween-effect-during-low-and-high-cape-months",
+    "title": "Halloween Effect during Low and High CAPE Months",
+    "site_annualisedReturn": "12.24%",
+    "site_sharpeRatio": "0.46",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "hazard-fear-in-commodity-markets",
+    "title": "Hazard Fear in Commodity Markets",
+    "site_annualisedReturn": "9.28%",
+    "site_sharpeRatio": "0.9",
+    "site_maxDrawdown": "-18.81%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "headquarter-location-momentum",
+    "title": "Headquarter Location Momentum",
+    "site_annualisedReturn": "5.2%",
+    "site_sharpeRatio": "0.58",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "how-satellite-launches-influence-stock-returns",
+    "title": "How Satellite Launches Influence Stock Returns",
+    "site_annualisedReturn": "17.2%",
+    "site_sharpeRatio": "0.85",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "how-to-use-lexical-density-of-company-filings",
+    "title": "How to Use Lexical Density of Company Filings",
+    "site_annualisedReturn": "8.16%",
+    "site_sharpeRatio": "0.61",
+    "site_maxDrawdown": "21.87%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "idiosyncratic-momentum-in-stocks",
+    "title": "Idiosyncratic Momentum in Stocks",
+    "site_annualisedReturn": "12.35%",
+    "site_sharpeRatio": "0.63",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "impact-of-overnight-returns-and-daytime-reversals-to-future-stock-returns",
+    "title": "Impact of Overnight Returns and Daytime Reversals to Future Stock Returns",
+    "site_annualisedReturn": "5.28%",
+    "site_sharpeRatio": "0.82",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "influence-of-liquidity-institutional-ownership-lottery-effect-on-stocks",
+    "title": "Influence of Liquidity, Institutional Ownership & Lottery Effect on Stocks",
+    "site_annualisedReturn": "10.56%",
+    "site_sharpeRatio": "1.07",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "insiders-silence",
+    "title": "Insiders\u2019 Silence",
+    "site_annualisedReturn": "11.22%",
+    "site_sharpeRatio": "0.17",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "institutional-ownership-effect",
+    "title": "Institutional Ownership Effect",
+    "site_annualisedReturn": "15%",
+    "site_sharpeRatio": "0.71",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "intraday-market-wide-ups-downs-and-returns",
+    "title": "Intraday Market-Wide Ups/Downs and Returns",
+    "site_annualisedReturn": "23.75%",
+    "site_sharpeRatio": "0.63",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "intraday-vix-betas-predict-stocks-returns",
+    "title": "Intraday VIX Betas Predict Stocks Returns",
+    "site_annualisedReturn": "9.77%",
+    "site_sharpeRatio": "0.79",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "investment-effect-in-china",
+    "title": "Investment Effect in China",
+    "site_annualisedReturn": "10.95%",
+    "site_sharpeRatio": "1.17",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "investment-factor",
+    "title": "Size and Investment Intersection Strategy",
+    "site_annualisedReturn": "3.54%",
+    "site_sharpeRatio": "0.363",
+    "site_maxDrawdown": "18.9%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "investment-momentum-strategy",
+    "title": "Investment-Momentum Strategy",
+    "site_annualisedReturn": "8.99%",
+    "site_sharpeRatio": "0.77",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "lame-duck-ceos",
+    "title": "Lame-Duck CEOs",
+    "site_annualisedReturn": "11.35%",
+    "site_sharpeRatio": "0.5",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "large-price-changes-combined-with-analyst-revisions",
+    "title": "Large Price Changes combined with Analyst Revisions",
+    "site_annualisedReturn": "11.22%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "liquidity-volatility-in-stocks",
+    "title": "Liquidity Volatility in Stocks",
+    "site_annualisedReturn": "3.86%",
+    "site_sharpeRatio": "1.04",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "long-term-debt-factor-within-stocks",
+    "title": "Long Term Debt Factor within Stocks",
+    "site_annualisedReturn": "10.5%",
+    "site_sharpeRatio": "1.62",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "long-term-pb-ratio-effect-in-stocks-combined-with-momentum",
+    "title": "Long-Term PB Ratio Effect in Stocks Combined with Momentum",
+    "site_annualisedReturn": "21.6%",
+    "site_sharpeRatio": "0.86",
+    "site_maxDrawdown": "-57.2%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "lottery-stocks-and-the-52-week-high",
+    "title": "Lottery Stocks and the 52-Week High",
+    "site_annualisedReturn": "18.58%",
+    "site_sharpeRatio": "0.76",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "low-price-effect",
+    "title": "Low-Price Effect",
+    "site_annualisedReturn": "18.3%",
+    "site_sharpeRatio": "0.74",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "low-value-factor-in-india",
+    "title": "Low Value Factor in India",
+    "site_annualisedReturn": "16.47%",
+    "site_sharpeRatio": "0.73",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "low-volatility-factor-effect-in-stocks",
+    "title": "Low Volatility Large-Cap Stock Strategy with Monthly Decile Ranking",
+    "site_annualisedReturn": "11.3%",
+    "site_sharpeRatio": "0.52",
+    "site_maxDrawdown": "45.9%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "macroeconomic-announcement-beta-reversal",
+    "title": "Macroeconomic Announcement Beta Reversal",
+    "site_annualisedReturn": "7.76%",
+    "site_sharpeRatio": "0.86",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "management-diversity-strategy",
+    "title": "Management Diversity Strategy",
+    "site_annualisedReturn": "6.55%",
+    "site_sharpeRatio": "0.89",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "market-neutral-strategy-based-on-share-buybacks",
+    "title": "Market Neutral Strategy Based on Share Buybacks",
+    "site_annualisedReturn": "9.66%",
+    "site_sharpeRatio": "1.34",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "IWM"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "market-sentiment-and-an-overnight-anomaly",
+    "title": "Market Sentiment and an Overnight Anomaly",
+    "site_annualisedReturn": "15.58%",
+    "site_sharpeRatio": "0.34",
+    "site_maxDrawdown": "11%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "market-timing-filter-applied-to-a-momentum-and-other-factor-strategies",
+    "title": "Market Timing Filter Applied to a Momentum and Other Factor Strategies",
+    "site_annualisedReturn": "21.58%",
+    "site_sharpeRatio": "0.94",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "market-timing-with-relative-sentiment",
+    "title": "Market Timing with Relative Sentiment",
+    "site_annualisedReturn": "12.11%",
+    "site_sharpeRatio": "0.94",
+    "site_maxDrawdown": "-18.22%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-and-reversal-combined-with-volatility-effect-in-stocks",
+    "title": "High-Volatility Momentum-Reversal Strategy in Large-Cap Stocks",
+    "site_annualisedReturn": "16.46%",
+    "site_sharpeRatio": "0.354",
+    "site_maxDrawdown": "41.2%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-based-on-fractional-difference-filter",
+    "title": "Momentum Based on Fractional-Difference Filter",
+    "site_annualisedReturn": "20.3%",
+    "site_sharpeRatio": "0.92",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-combined-with-insider-trading",
+    "title": "Momentum Combined with Insider Trading",
+    "site_annualisedReturn": "15.45%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-effect-in-stocks-combined-with-stop-losses",
+    "title": "Momentum Effect in Stocks Combined with Stop-Losses",
+    "site_annualisedReturn": "18.72%",
+    "site_sharpeRatio": "0.89",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-factor-effect-in-reits",
+    "title": "Lagged Momentum Rotation Strategy in US REITs",
+    "site_annualisedReturn": "9.51%",
+    "site_sharpeRatio": "0.455",
+    "site_maxDrawdown": "55.2%",
+    "template": "momentum_rotation",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-factor-effect-in-stocks",
+    "title": "US Momentum Strategy Using 12-Month Returns Excluding Most Recent Month",
+    "site_annualisedReturn": "8.32%",
+    "site_sharpeRatio": "0.39",
+    "site_maxDrawdown": "91.72%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-in-mutual-fund-returns",
+    "title": "Momentum Strategy for No-Load US Equity Mutual Funds",
+    "site_annualisedReturn": "19%",
+    "site_sharpeRatio": "0.395",
+    "site_maxDrawdown": "30.8%",
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-seasonality-and-investor-preferences",
+    "title": "Momentum Seasonality and Investor Preferences",
+    "site_annualisedReturn": "8%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "momentum-stock-picking-strategy-using-rsi-indicator",
+    "title": "Momentum Stock Picking Strategy Using RSI Indicator",
+    "site_annualisedReturn": "2.29%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "monthly-reversal-and-or-momentum-based-on-intraday-returns",
+    "title": "Monthly Reversal and/or Momentum Based on Intraday Returns",
+    "site_annualisedReturn": "5.12%",
+    "site_sharpeRatio": "0.56",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "moving-averages-distance-strategy-in-equities",
+    "title": "Moving Averages Distance Strategy in Equities",
+    "site_annualisedReturn": "8.35%",
+    "site_sharpeRatio": "0.46",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "nearness-to-52-week-low-strategy",
+    "title": "Nearness to 52-Week Low Strategy",
+    "site_annualisedReturn": "7.67%",
+    "site_sharpeRatio": "0.67",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "net-current-asset-value-effect-2",
+    "title": "Net Current Asset Value Effect",
+    "site_annualisedReturn": "31.19%",
+    "site_sharpeRatio": "0.93",
+    "site_maxDrawdown": "-74.8%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "net-emotional-volatility-index-effect",
+    "title": "Net Emotional Volatility Index Effect",
+    "site_annualisedReturn": "12.65%",
+    "site_sharpeRatio": "1.46",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "net-payout-yield-effect",
+    "title": "Net Payout Yield Strategy",
+    "site_annualisedReturn": "22.13%",
+    "site_sharpeRatio": "0.355",
+    "site_maxDrawdown": "52.6%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "opening-range-breakout-orb-strategy-in-qqq",
+    "title": "Opening Range Breakout (ORB) Strategy in QQQ",
+    "site_annualisedReturn": "31%",
+    "site_sharpeRatio": "1.12",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "QQQ"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "opening-range-breakout-within-crude-oil",
+    "title": "Opening Range Breakout within Crude Oil",
+    "site_annualisedReturn": "9.77%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "overnight-anomaly",
+    "title": "Overnight Anomaly",
+    "site_annualisedReturn": "14%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "overnight-momentum-strategy",
+    "title": "Overnight Momentum Strategy",
+    "site_annualisedReturn": "50.58%",
+    "site_sharpeRatio": "4.04",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "overnight-stock-trading",
+    "title": "Overnight Stock Trading",
+    "site_annualisedReturn": "21.28%",
+    "site_sharpeRatio": "2.62",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "patent-intensity-factor-in-equities",
+    "title": "Patent Intensity Factor in Equities",
+    "site_annualisedReturn": "6.97%",
+    "site_sharpeRatio": "0.45",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "patent-to-market-equity-factor",
+    "title": "Patent-to-Market Equity Factor",
+    "site_annualisedReturn": "5.91%",
+    "site_sharpeRatio": "0.16",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "payday-anomaly",
+    "title": "Mid-Month Payday S&P500 Strategy",
+    "site_annualisedReturn": "2.57%",
+    "site_sharpeRatio": "-0.3",
+    "site_maxDrawdown": "12.1%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "persistence-of-abnormal-trading-volume-effect",
+    "title": "Persistence of Abnormal Trading Volume Effect",
+    "site_annualisedReturn": "20.27%",
+    "site_sharpeRatio": "1.29",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "pre-holiday-effect",
+    "title": "US Pre-Holiday Equity Exposure Strategy",
+    "site_annualisedReturn": "6.39%",
+    "site_sharpeRatio": "-0.239",
+    "site_maxDrawdown": "13.5%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "price-gap-strategy-in-the-us-stock-market",
+    "title": "Price Gap Strategy in the US Stock Market",
+    "site_annualisedReturn": "5.9%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "productivity-of-cash-effect-in-the-stock-market",
+    "title": "Productivity of Cash Effect in the Stock Market",
+    "site_annualisedReturn": "13%",
+    "site_sharpeRatio": "1",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "profitability-factor-combined-with-value-factor",
+    "title": "Profitability Factor Combined with Value Factor",
+    "site_annualisedReturn": "7.7%",
+    "site_sharpeRatio": "0.38",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "quality-at-reasonable-price",
+    "title": "Quality at Reasonable Price",
+    "site_annualisedReturn": "18.6%",
+    "site_sharpeRatio": "2.81",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "quarterly-investment-spikes-predict-stock-returns",
+    "title": "Quarterly Investment Spikes Predict Stock Returns",
+    "site_annualisedReturn": "3.91%",
+    "site_sharpeRatio": "0.49",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "realized-skewness-predicts-equity-returns",
+    "title": "Realized Skewness Predicts Equity Returns",
+    "site_annualisedReturn": "9.69%",
+    "site_sharpeRatio": "0.84",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "return-cross-predictability-in-firms-with-similar-employee-satisfaction",
+    "title": "Return Cross-Predictability in Firms with Similar Employee Satisfaction",
+    "site_annualisedReturn": "12.95%",
+    "site_sharpeRatio": "0.86",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "roa-effect-within-stocks",
+    "title": "ROA Decile Spread Strategy by Market Cap",
+    "site_annualisedReturn": "12.15%",
+    "site_sharpeRatio": "-0.05",
+    "site_maxDrawdown": "47.6%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "scheduled-economic-announcements-effect-in-stocks",
+    "title": "Scheduled Economic Announcements Effect in Stocks",
+    "site_annualisedReturn": "7.2%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "sequenced-insider-trading",
+    "title": "Sequenced Insider Trading",
+    "site_annualisedReturn": "22.13%",
+    "site_sharpeRatio": "1.55",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "share-issuance-effect",
+    "title": "Share Issuance Effect",
+    "site_annualisedReturn": "10.56%",
+    "site_sharpeRatio": "0.54",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "short-term-adaptive-reversal-in-sp-500-index",
+    "title": "Short-term Adaptive Reversal in S&P 500 Index",
+    "site_annualisedReturn": "19.9%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": "-18%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "short-term-reversal-effect-in-stocks",
+    "title": "Top 100 Market Cap Weekly Reversal Strategy",
+    "site_annualisedReturn": "16.3%",
+    "site_sharpeRatio": "0.50",
+    "site_maxDrawdown": "50.4%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "shorting-companies-with-the-most-overpaid-ceos",
+    "title": "Shorting Companies With the Most Overpaid CEOs",
+    "site_annualisedReturn": "5.41%",
+    "site_sharpeRatio": "0.63",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "shorting-stocks-during-the-last-hour-of-month",
+    "title": "Shorting Stocks During the Last Hour of Month",
+    "site_annualisedReturn": "1.8%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "size-factor-small-capitalization-stocks-premium",
+    "title": "US Equity Size Factor Strategy",
+    "site_annualisedReturn": "6.11%",
+    "site_sharpeRatio": "0.17",
+    "site_maxDrawdown": "45.91%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "skewness-factor-in-chinese-equities",
+    "title": "Skewness factor in Chinese Equities",
+    "site_annualisedReturn": "22.58%",
+    "site_sharpeRatio": "0.98",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "stock-momentum-volatility-switching-strategy",
+    "title": "Stock Momentum Volatility Switching Strategy",
+    "site_annualisedReturn": "13.83%",
+    "site_sharpeRatio": "0.66",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "stocks-of-underperforming-funds-and-idiosyncratic-volatility",
+    "title": "Stocks of Underperforming Funds and Idiosyncratic Volatility",
+    "site_annualisedReturn": "20.27%",
+    "site_sharpeRatio": "1.06",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "switching-between-momentum-and-reversal-strategies-based-on-market-volatility",
+    "title": "Switching Between Momentum and Reversal Strategies Based on Market Volatility",
+    "site_annualisedReturn": "19%",
+    "site_sharpeRatio": "0.91",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "synthetic-lending-rates-predict-subsequent-market-return-2",
+    "title": "Synthetic Lending Rates Predict Subsequent Market Return",
+    "site_annualisedReturn": "15.47%",
+    "site_sharpeRatio": "0.79",
+    "site_maxDrawdown": "-28.51%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "technology-momentum",
+    "title": "Technology Momentum",
+    "site_annualisedReturn": "8.6%",
+    "site_sharpeRatio": "0.25",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-52-week-high-and-short-term-reversal-in-stock-returns",
+    "title": "The 52-Week High and Short-Term Reversal in Stock Returns",
+    "site_annualisedReturn": "19.6%",
+    "site_sharpeRatio": "0.64",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-conservative-formula",
+    "title": "The Conservative Formula",
+    "site_annualisedReturn": "15.1%",
+    "site_sharpeRatio": "0.67",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-effect-of-market-returns-on-factor-returns",
+    "title": "The Effect of Market Returns on Factor Returns",
+    "site_annualisedReturn": "14.57%",
+    "site_sharpeRatio": "1.37",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-fomc-cycle-effect",
+    "title": "The FOMC Cycle Effect",
+    "site_annualisedReturn": "12.15%",
+    "site_sharpeRatio": "0.92",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-halloween-effect-within-long-term-reversal",
+    "title": "The Halloween Effect Within Long-term Reversal",
+    "site_annualisedReturn": "7.26%",
+    "site_sharpeRatio": "0.6",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-impact-of-turnovers-on-short-term-momentum-and-reversal",
+    "title": "The Impact of Turnovers on Short-Term Momentum and Reversal",
+    "site_annualisedReturn": "9.51%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-positive-similarity-of-company-filings-and-stock-returns",
+    "title": "The Positive Similarity of Company Filings and Stock Returns",
+    "site_annualisedReturn": "5.74%",
+    "site_sharpeRatio": "0.60",
+    "site_maxDrawdown": "43.35%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "the-tax-day-trade",
+    "title": "The Tax Day Trade",
+    "site_annualisedReturn": "2.5%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "timing-betting-against-beta-bab-anomaly",
+    "title": "Timing Betting-Against-Beta (BAB) Anomaly",
+    "site_annualisedReturn": "22.35%",
+    "site_sharpeRatio": "1.32",
+    "site_maxDrawdown": "-66.14%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "timing-betting-against-beta-bab-anomaly-v-2",
+    "title": "Timing Betting-Against-Beta (BAB) Anomaly v.2",
+    "site_annualisedReturn": "12.8%",
+    "site_sharpeRatio": "1.28",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "timing-betting-against-beta-with-small-stocks",
+    "title": "Timing Betting Against Beta with Small Stocks",
+    "site_annualisedReturn": "22.42%",
+    "site_sharpeRatio": "1.13",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "timing-high-and-low-volatility-equity-factor-strategy",
+    "title": "Timing High and Low Volatility Equity Factor Strategy",
+    "site_annualisedReturn": "17.2%",
+    "site_sharpeRatio": "0.72",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "trading-based-on-levered-etfs-speculation-sentiment",
+    "title": "Trading Based on Levered ETFs Speculation Sentiment",
+    "site_annualisedReturn": "12.28%",
+    "site_sharpeRatio": "0.63",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "trading-on-the-dividend-paydate",
+    "title": "Trading on the Dividend Paydate",
+    "site_annualisedReturn": "98.8%",
+    "site_sharpeRatio": "2.04",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "trading-the-vix-futures-roll-and-volatility-premiums-with-vix-options",
+    "title": "Trading the VIX Futures Roll and Volatility Premiums with VIX Options",
+    "site_annualisedReturn": "22.5%",
+    "site_sharpeRatio": null,
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "trend-factor-within-stocks",
+    "title": "Trend Factor within Stocks",
+    "site_annualisedReturn": "10.43%",
+    "site_sharpeRatio": "1.02",
+    "site_maxDrawdown": null,
+    "template": "abs_momentum",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "trend-following-and-spillover-e\ufb00ect",
+    "title": "Trend-Following and Spillover E\ufb00ect",
+    "site_annualisedReturn": "3.2%",
+    "site_sharpeRatio": "0.67",
+    "site_maxDrawdown": "-12.3%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "turn-of-the-month-in-equity-indexes",
+    "title": "SPY Turn-of-the-Month Strategy",
+    "site_annualisedReturn": "7.2%",
+    "site_sharpeRatio": "0.013",
+    "site_maxDrawdown": "24.6%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "us-equity-tail-risk-and-currency-risk-premia",
+    "title": "US Equity Tail Risk and Currency Risk Premia",
+    "site_annualisedReturn": "4.57%",
+    "site_sharpeRatio": "0.56",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "using-intensity-of-book-to-market-to-identify-growth-premium",
+    "title": "Using Intensity of Book to Market to Identify Growth Premium",
+    "site_annualisedReturn": "4.14%",
+    "site_sharpeRatio": "0.26",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "value-book-to-market-factor",
+    "title": "US Equity Value Factor Strategy: Monthly Long High and Short Low Book-to-Price Stocks",
+    "site_annualisedReturn": "3.67%",
+    "site_sharpeRatio": "0.15",
+    "site_maxDrawdown": "52.52%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "value-effect-in-unprofitable-firms",
+    "title": "Value Effect in Unprofitable Firms",
+    "site_annualisedReturn": "14.84%",
+    "site_sharpeRatio": "0.41",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "value-factor-after-negative-market-return",
+    "title": "Value Factor After Negative Market Return",
+    "site_annualisedReturn": "3.68%",
+    "site_sharpeRatio": "1.07",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "VTI"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "value-growth-timing",
+    "title": "Value-Growth Timing",
+    "site_annualisedReturn": "6.42%",
+    "site_sharpeRatio": "0.31",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "vix-beta-factor-in-chinese-equities",
+    "title": "VIX Beta Factor in Chinese Equities",
+    "site_annualisedReturn": "27.88%",
+    "site_sharpeRatio": "1.4",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "volatility-decomposition-and-mutual-fund-returns",
+    "title": "Volatility Decomposition and Mutual Fund Returns",
+    "site_annualisedReturn": "14.52%",
+    "site_sharpeRatio": "0.49",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "volume-weighted-average-price-vwap-as-precise-trend-following-indicator-for-day-traders",
+    "title": "Volume Weighted Average Price (VWAP) as Precise Trend-Following Indicator for Day-Traders",
+    "site_annualisedReturn": "43%",
+    "site_sharpeRatio": "2.39",
+    "site_maxDrawdown": "-9.4%",
+    "template": "sma_trend",
+    "assets": [
+      "QQQ"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "weighted-frequency-of-losses",
+    "title": "Weighted Frequency of Losses",
+    "site_annualisedReturn": "11.9%",
+    "site_sharpeRatio": "0.96",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "when-short-sellers-and-corporate-insiders-agree-on-stock-pricing",
+    "title": "When Short Sellers and Corporate Insiders Agree on Stock Pricing",
+    "site_annualisedReturn": "10.6%",
+    "site_sharpeRatio": "0.53",
+    "site_maxDrawdown": null,
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  },
+  {
+    "slug": "when-to-own-stocks-and-when-to-own-gold",
+    "title": "When to Own Stocks and When to Own Gold",
+    "site_annualisedReturn": "10%",
+    "site_sharpeRatio": "0.43",
+    "site_maxDrawdown": "-28%",
+    "template": "sma_trend",
+    "assets": [
+      "SPY"
+    ],
+    "n_assets": 1
+  }
+]

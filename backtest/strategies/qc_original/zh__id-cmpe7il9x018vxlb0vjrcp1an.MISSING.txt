@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=非线性支持向量机与选股策略
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7il9x018vxlb0vjrcp1an.py
+Fidelity: no_qc_theme_proxy

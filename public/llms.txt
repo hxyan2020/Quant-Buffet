@@ -1,0 +1,20 @@
+# Quant Buffet
+
+> Bilingual (EN/zh) library of academic quantitative trading strategies with backtests, economic rationale, and QuantConnect/LEAN Python implementations.
+
+## Site
+- Home: https://www.quantbuffet.com/en
+- Strategy library: https://www.quantbuffet.com/en/strategy-library
+- Pricing: https://www.quantbuffet.com/en/pricing
+- Contact: https://www.quantbuffet.com/en/contact
+- Chinese home: https://www.quantbuffet.com/zh
+- Sitemap: https://www.quantbuffet.com/sitemap.xml
+
+## Audience
+Systematic investors, quant researchers, prop traders, and developers studying algorithmic trading ideas grounded in academic papers.
+
+## Topics
+Momentum, mean reversion, pairs trading / statistical arbitrage, currency carry, factor investing (value, low volatility), seasonality, cross-asset trend following across equities, FX, futures, ETFs, CFDs, and related instruments.
+
+## Contact
+hola@quantbuffet.com

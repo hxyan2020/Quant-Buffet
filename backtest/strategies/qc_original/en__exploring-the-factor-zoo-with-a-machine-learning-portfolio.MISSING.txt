@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=exploring-the-factor-zoo-with-a-machine-learning-portfolio
+In-house reconstruction: backtest/strategies/generated/en__exploring-the-factor-zoo-with-a-machine-learning-portfolio.py
+Fidelity: no_qc_theme_proxy

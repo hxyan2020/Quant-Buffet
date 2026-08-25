@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=customer-momentum
+In-house reconstruction: backtest/strategies/generated/en__customer-momentum.py
+Fidelity: no_qc_theme_proxy

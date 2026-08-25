@@ -1,10 +1,13 @@
 import { Suspense } from "react";
+import type { Metadata } from "next";
 
 import StrategyLibraryTable from "@/components/StrategyLibraryTable";
+import JsonLd from "@/components/JsonLd";
 import { auth } from "@/auth";
 import { getCollectedStrategyIdSet } from "@/lib/collections";
-import { listStrategies } from "@/lib/strategies";
+import { listStrategies, countPublishedByPaywall } from "@/lib/strategies";
 import { displayToken } from "@/lib/strategy-tokens";
+import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { getTranslations } from "next-intl/server";
 
 type PageProps = {
@@ -19,6 +22,18 @@ type PageProps = {
     collection?: string;
   }>;
 };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const seo = await getTranslations({ locale, namespace: "seo" });
+  return pageMetadata({
+    locale,
+    path: "/strategy-library",
+    title: seo("libraryTitle"),
+    description: seo("libraryDescription"),
+    keywords: seo("libraryKeywords").split(",").map((k) => k.trim()),
+  });
+}
 
 async function LibraryContent({
   locale,
@@ -122,15 +137,33 @@ export default async function StrategyLibrary({ params, searchParams }: PageProp
   const { locale } = await params;
   const query = await searchParams;
   const dictionary = await getTranslations({ locale, namespace: "library" });
+  const nav = await getTranslations({ locale, namespace: "nav" });
   const session = await auth();
+  const mix = await countPublishedByPaywall(locale);
+  const freePercent = mix.total ? Math.round((mix.free / mix.total) * 100) : 0;
 
   return (
     <div className="qb-page">
+      <JsonLd
+        data={breadcrumbJsonLd(
+          [
+            { name: nav("home"), path: "" },
+            { name: dictionary("title"), path: "/strategy-library" },
+          ],
+          locale,
+        )}
+      />
       <header className="qb-page-header">
         <p className="qb-page-eyebrow">Quant Buffet</p>
         <h1 className="qb-page-title">{dictionary("title")}</h1>
         <p className="qb-page-subtitle">{dictionary("subtitle")}</p>
-        <p className="qb-library-plan-note">{dictionary("planNote")}</p>
+        <p className="qb-library-plan-note">
+          {dictionary("planNote", {
+            percent: freePercent,
+            free: mix.free,
+            total: mix.total,
+          })}
+        </p>
       </header>
 
       <Suspense fallback={<p className="qb-muted">Loading strategies…</p>}>

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=机器学习与财报公告
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7iomn01cbxlb0ts2to7je.py
+Fidelity: no_qc_theme_proxy

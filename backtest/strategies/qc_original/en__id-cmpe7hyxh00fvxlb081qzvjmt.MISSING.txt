@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=增强版的反向押注贝塔与随机占优策略
+In-house reconstruction: backtest/strategies/generated/en__id-cmpe7hyxh00fvxlb081qzvjmt.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=印度股票市场中的日内动量效应
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7il6v018rxlb0zwdncctq.py
+Fidelity: no_qc_theme_proxy

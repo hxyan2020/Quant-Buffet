@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=基于zoo因子预测日内市场回报策略
+In-house reconstruction: backtest/strategies/generated/en__zoo-1p7f6m.py
+Fidelity: no_qc_theme_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=esg与固定收益投资组合整合策略
+In-house reconstruction: backtest/strategies/generated/en__esg-gofe1h.py
+Fidelity: signal_unavailable_etf_proxy

@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=statistical-arbitrage-with-cnn-and-transformer-networks
+In-house reconstruction: backtest/strategies/generated/en__statistical-arbitrage-with-cnn-and-transformer-networks.py
+Fidelity: signal_unavailable_etf_proxy

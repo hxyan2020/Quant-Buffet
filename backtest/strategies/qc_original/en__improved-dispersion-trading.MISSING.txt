@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=en slug=improved-dispersion-trading
+In-house reconstruction: backtest/strategies/generated/en__improved-dispersion-trading.py
+Fidelity: no_qc_theme_proxy

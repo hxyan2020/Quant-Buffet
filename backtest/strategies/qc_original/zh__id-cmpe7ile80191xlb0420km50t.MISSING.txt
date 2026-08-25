@@ -1,0 +1,3 @@
+No QuantConnect pythonCodeHtml in DB for locale=zh slug=股票动量领先公司债券
+In-house reconstruction: backtest/strategies/generated/zh__id-cmpe7ile80191xlb0420km50t.py
+Fidelity: no_qc_theme_proxy
