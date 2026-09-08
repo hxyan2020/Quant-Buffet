@@ -24,6 +24,7 @@ model User {
   sessions      Session[]
   subscriptions Subscription[]
   collections   StrategyCollection[]
+  backtestRuns  BacktestRun[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -126,6 +127,37 @@ model StrategyCollection {
 
   @@unique([userId, strategyId])
   @@index([userId])
+}
+
+/// One interactive backtest execution by a signed-in user (usage metering).
+model BacktestRun {
+  id               String   @id @default(cuid())
+  userId           String
+  strategySlug     String
+  strategyLocale   String   @default("en")
+  strategyTitle    String   @default("")
+  source           String   @default("live") // live | lab
+  status           String   @default("ok") // ok | error
+  errorType        String?
+  errorLine        Int?
+  /// Simulated ("dummy") fills placed by the engine during this run.
+  trades           Int      @default(0)
+  assetsJson       String   @default("[]")
+  periodStart      String?
+  periodEnd        String?
+  annualisedReturn String?
+  sharpeRatio      String?
+  maxDrawdown      String?
+  durationMs       Int      @default(0)
+  /// UTC calendar day (YYYY-MM-DD) so heatmaps can group without date math.
+  runDate          String
+  createdAt        DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, runDate])
+  @@index([userId, createdAt])
+  @@index([strategySlug])
 }
 
 model Subscription {
