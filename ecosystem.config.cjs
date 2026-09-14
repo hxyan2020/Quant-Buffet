@@ -9,6 +9,7 @@ module.exports = {
         PORT: "3088",
         HOSTNAME: "0.0.0.0",
         DATABASE_URL: "file:/var/lib/quant-buffet/dev.db",
+        PYTHON_PATH: "/opt/quant-buffet/.venv/bin/python",
       },
     },
   ],
