@@ -12,10 +12,11 @@ datasource db {
 
 model User {
   id              String @id @default(cuid())
-  email           String @unique
+  email           String? @unique
   emailVerified   DateTime?
   name            String?
   image           String?
+  phone           String? @unique
   passwordHash    String?
   role            String @default("USER")
   libraryUnlocked Boolean   @default(false)
