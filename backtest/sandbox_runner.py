@@ -374,17 +374,14 @@ def run(payload: dict) -> dict:
                 "date": t.date,
                 "symbol": t.symbol,
                 "side": t.side,
-                "shares": t.shares,
-                "price": t.price,
-                "value": t.value,
-                "commission": t.commission,
+                "shares": round(float(t.shares), 6),
+                "price": round(float(t.price), 6),
+                "value": round(float(t.value), 2),
+                "commission": round(float(t.commission), 4),
             }
 
         n_tr = len(result.trades)
-        if n_tr <= 36:
-            trades_sample = [_td(t) for t in result.trades]
-        else:
-            trades_sample = [_td(t) for t in result.trades[:10]] + [_td(t) for t in result.trades[-20:]]
+        orders = [_td(t) for t in result.trades]
 
         return {
             "ok": True,
@@ -392,10 +389,9 @@ def run(payload: dict) -> dict:
             "start": str(result.equity.index[0].date()),
             "end": str(result.equity.index[-1].date()),
             "trades": n_tr,
-            "trades_sample": trades_sample,
-            "trades_sample_note": (
-                None if n_tr <= 36 else f"Showing first 10 and last 20 of {n_tr} fills"
-            ),
+            "orders": orders,
+            "trades_sample": orders,
+            "trades_sample_note": None,
             "metrics": metrics,
             "displayMetrics": display,
             "equity": downsample(result.equity, max_points),
