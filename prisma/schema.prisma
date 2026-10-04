@@ -21,11 +21,14 @@ model User {
   role            String @default("USER")
   libraryUnlocked Boolean   @default(false)
 
+  stripeCustomerId String?
+
   accounts      Account[]
   sessions      Session[]
   subscriptions Subscription[]
   collections   StrategyCollection[]
   backtestRuns  BacktestRun[]
+  shopOrders    ShopOrder[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -104,6 +107,8 @@ model Strategy {
   published        Boolean @default(true)
   /// Retired from public library; kept intact for admin. Not deleted.
   archived         Boolean @default(false)
+  /// Last content save: human | ai
+  lastEditedBy     String  @default("human")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -177,4 +182,61 @@ model Subscription {
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
+}
+
+/// Physical / shop catalog item (distinct from library membership plans).
+model Product {
+  id              String  @id @default(cuid())
+  slug            String  @unique
+  nameEn          String
+  nameZh          String
+  descriptionEn   String  @default("")
+  descriptionZh   String  @default("")
+  specPromptEn    String  @default("")
+  specPromptZh    String  @default("")
+  unitAmount      Int
+  currency        String  @default("usd")
+  stripeProductId String?
+  stripePriceId   String?
+  isDummy         Boolean @default(false)
+  published       Boolean @default(true)
+  sortOrder       Int     @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  orders ShopOrder[]
+}
+
+/// One customer purchase of a catalog product.
+model ShopOrder {
+  id                      String    @id @default(cuid())
+  orderNumber             String    @unique
+  userId                  String
+  productId               String
+  quantity                Int       @default(1)
+  /// Customer-keyed specifications shown to admin when preparing the order.
+  preference              String
+  unitAmount              Int
+  currency                String    @default("usd")
+  status                  String    @default("pending_payment")
+  stripeCheckoutSession   String?   @unique
+  stripePaymentIntentId   String?
+  stripeCustomerId        String?
+  customerEmail           String?
+  shippingNumber          String?
+  shippingCarrier         String?
+  shippedAt               DateTime?
+  confirmationEmailSentAt DateTime?
+  shippingEmailSentAt     DateTime?
+  locale                  String    @default("en")
+  createdAt               DateTime  @default(now())
+  updatedAt               DateTime  @updatedAt
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  @@index([userId, createdAt])
+  @@index([status])
+  @@index([orderNumber])
 }
