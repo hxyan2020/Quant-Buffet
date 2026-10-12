@@ -153,7 +153,22 @@ def extract_assets(ns: dict[str, Any]) -> list[str]:
     )
 
 
-def downsample(equity: pd.Series, max_points: int = 90) -> list[dict]:
+def monthly_returns(equity: pd.Series, months: int = 24) -> list[dict]:
+    """Month-end to month-end returns from the full daily equity series."""
+    if equity.empty:
+        return []
+    series = equity.copy()
+    series.index = pd.to_datetime(series.index)
+    month_end = series.groupby(series.index.to_period("M")).last().dropna()
+    rets = month_end.pct_change().dropna()
+    tail = rets.iloc[-months:]
+    return [
+        {"label": str(period), "ret": round(float(value) * 100, 2)}
+        for period, value in tail.items()
+    ]
+
+
+def downsample(equity: pd.Series, max_points: int = 520) -> list[dict]:
     if equity.empty:
         return []
     step = max(1, len(equity) // max_points)
@@ -185,10 +200,18 @@ def fmt_num(x: Any) -> str | None:
         return None
 
 
+def emit_progress(phase: str, **fields: Any) -> None:
+    """One JSON line on stderr so stdout stays the final result."""
+    line = json.dumps({"progress": True, "phase": phase, **fields}, ensure_ascii=False)
+    sys.stderr.write(line + "\n")
+    sys.stderr.flush()
+
+
 def run(payload: dict) -> dict:
     code = sanitize_lab_code(payload.get("code") or "")
     start = payload.get("start") or "2000-01-01"
-    max_points = int(payload.get("max_points") or 90)
+    max_points = int(payload.get("max_points") or 520)
+    emit_progress("code", pct=3)
 
     try:
         validate_source(code)
@@ -335,19 +358,50 @@ def run(payload: dict) -> dict:
 
     try:
         assets = extract_assets(ns)
-        prices = load_daily_prices(assets, start=start, use_cache=True).dropna(how="all")
+
+        def _on_symbol(symbol: str, index: int, total: int) -> None:
+            pct = 5 + int(((index + 1) / max(total, 1)) * 10)
+            emit_progress("load", pct=pct, symbol=symbol, index=index, total=total)
+
+        prices = load_daily_prices(
+            assets, start=start, use_cache=True, on_symbol=_on_symbol
+        ).dropna(how="all")
         if prices.empty or len(prices) < 30:
             raise ValueError("Not enough price history for the selected assets/start date.")
 
+        emit_progress("prepare", pct=16)
         on_day, ready = ns["make_on_day"](prices)
         if ready is None or (isinstance(ready, float) and math.isnan(ready)) or pd.isna(ready):
             raise ValueError("Signal never ready — check lookbacks / ASSETS history.")
+
+        session_index = prices.index
+        ready_ts = pd.Timestamp(ready)
+        session_index = session_index[session_index >= ready_ts]
+        session_total = int(len(session_index))
+        step = max(1, session_total // 80) if session_total else 1
+        seen = {"done": 0}
+
+        def tracked(engine: PortfolioEngine, dt: pd.Timestamp) -> None:
+            on_day(engine, dt)
+            seen["done"] += 1
+            done = seen["done"]
+            if done != 1 and done != session_total and done % step != 0:
+                return
+            pct_sim = int(done * 100 / session_total) if session_total else 0
+            emit_progress(
+                "simulate",
+                pct=min(94, 18 + int(pct_sim * 0.76)),
+                done=done,
+                total=session_total,
+                date=pd.Timestamp(dt).strftime("%Y-%m-%d"),
+            )
 
         engine = PortfolioEngine(
             prices,
             EngineConfig(initial_cash=100_000, commission_bps=5.0, slippage_bps=2.0),
         )
-        result = engine.run(on_day, start=ready)
+        result = engine.run(tracked, start=ready)
+        emit_progress("metrics", pct=97)
         if result.equity.empty or len(result.equity) < 20:
             raise ValueError("Equity curve too short — strategy may never trade.")
 
@@ -382,18 +436,26 @@ def run(payload: dict) -> dict:
 
         n_tr = len(result.trades)
         orders = [_td(t) for t in result.trades]
+        stale_symbols = list(prices.attrs.get("stale_symbols") or [])
 
         return {
             "ok": True,
             "assets": assets,
             "start": str(result.equity.index[0].date()),
             "end": str(result.equity.index[-1].date()),
+            "bars": int(len(result.equity)),
+            "price_rows": int(len(prices)),
+            "price_start": str(prices.index[0].date()),
+            "price_end": str(prices.index[-1].date()),
+            "data_source": prices.attrs.get("data_source") or "Yahoo Finance adjusted close",
+            "stale": bool(stale_symbols),
             "trades": n_tr,
             "orders": orders,
             "trades_sample": orders,
             "trades_sample_note": None,
             "metrics": metrics,
             "displayMetrics": display,
+            "monthly": monthly_returns(result.equity),
             "equity": downsample(result.equity, max_points),
             "benchmark": downsample(bh, max_points),
         }
